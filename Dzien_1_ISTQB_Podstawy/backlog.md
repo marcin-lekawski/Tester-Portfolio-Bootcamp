@@ -1,6 +1,6 @@
 Backlog na dzisiejszy wieczór:
 
-1. Wyzwanie Teoretyczne (Pisanie Dokumentacji): Wejdź do folderu Dzien_1_ISTQB_Podstawy. Utwórz tam plik zadanie1_teoria.md i, opierając się na Twoich świetnych materiałach z sjsi.org (Rozdział 1 i 2), odpowiedz krótko, jak profesjonalny Junior QA, na 3 pytania:
+1. Wyzwanie Teoretyczne (Pisanie Dokumentacji): Wejdź do folderu Dzien_1_ISTQB_Podstawy. Utwórz tam plik zadanie1_teoria.md i, opierając się na Twoich świetnych materiałach z sjsi.org (Rozdział 1 i 2), odpowiedz krótko, jak profesjonalny Młodszy Tester Oprogramowania, na 3 pytania:
 
 Opisz krótko w jakim celu wykonuje się analizę na samym etapie planowania nowej funkcjonalności (zanim powstanie kod – Static Testing).
 Jak w praktyce zastosujesz podejście Shift-Left (Przesunięcie w lewo) podczas projektowania nowej wtyczki "Koszyka" i jak uzasadnisz zysk z tego biznesowi.

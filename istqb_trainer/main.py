@@ -80,7 +80,7 @@ DATA = {
 
 def display_welcome():
     console.print(Panel.fit("[bold cyan]🎓 ISTQB Foundation Level 4.0.1 - INTERAKTYWNY TRENER[/bold cyan]\n"
-                            "Wersja Kubuntu Terminal - Mentor QA Edition",
+                            "Wersja Kubuntu Terminal - Mentor Tester Edition",
                             border_style="cyan"))
 
 def learn_mode():
