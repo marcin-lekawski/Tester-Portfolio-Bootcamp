@@ -1,0 +1,1266 @@
+Egzamin przykładowy – pytania
+Zbiór C
+wersja 1.5
+(wersja PL 1.0.0.4)
+
+Sylabus ISTQB®
+Certyfikowany tester
+– poziom podstawowy
+zgodny z sylabusem w wersji 4.0
+
+International Software Testing Qualifications Board
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Spis treści
+Informacja o prawach autorskich .................................................................................................................. 4
+Odpowiedzialność za dokument ................................................................................................................... 5
+Podziękowania .............................................................................................................................................. 5
+Historia zmian ............................................................................................................................................... 6
+Historia zmian polskiej wersji ........................................................................................................................ 6
+Wstęp ............................................................................................................................................................ 7
+Cel dokumentu .......................................................................................................................................... 7
+Instrukcje................................................................................................................................................... 7
+Pytania .......................................................................................................................................................... 8
+Pytanie nr 1 (1 p.) ................................................................................................................................. 8
+Pytanie nr 2 (1 p.) ................................................................................................................................. 8
+Pytanie nr 3 (1 p.) ................................................................................................................................. 8
+Pytanie nr 4 (1 p.) ................................................................................................................................. 9
+Pytanie nr 5 (1 p.) ................................................................................................................................. 9
+Pytanie nr 6 (1 p.) ............................................................................................................................... 10
+Pytanie nr 7 (1 p.) ............................................................................................................................... 10
+Pytanie nr 8 (1 p.) ............................................................................................................................... 11
+Pytanie nr 9 (1 p.) ............................................................................................................................... 11
+Pytanie nr 10 (1 p.) ............................................................................................................................. 11
+Pytanie nr 11 (1 p.) ............................................................................................................................. 12
+Pytanie nr 12 (1 p.) ............................................................................................................................. 12
+Pytanie nr 13 (1 p.) ............................................................................................................................. 13
+Pytanie nr 14 (1 p.) ............................................................................................................................. 13
+Pytanie nr 15 (1 p.) ............................................................................................................................. 14
+Pytanie nr 16 (1 p.) ............................................................................................................................. 14
+Pytanie nr 17 (1 p.) ............................................................................................................................. 15
+Pytanie nr 18 (1 p.) ............................................................................................................................. 15
+Pytanie nr 19 (1 p.) ............................................................................................................................. 16
+Pytanie nr 20 (1 p.) ............................................................................................................................. 16
+Pytanie nr 21 (1 p.) ............................................................................................................................. 17
+Pytanie nr 22 (1 p.) ............................................................................................................................. 18
+Pytanie nr 23 (1 p.) ............................................................................................................................. 19
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 2 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 24 (1 p.) ............................................................................................................................. 20
+Pytanie nr 25 (1 p.) ............................................................................................................................. 21
+Pytanie nr 26 (1 p.) ............................................................................................................................. 21
+Pytanie nr 27 (1 p.) ............................................................................................................................. 22
+Pytanie nr 28 (1 p.) ............................................................................................................................. 22
+Pytanie nr 29 (1 p.) ............................................................................................................................. 23
+Pytanie nr 30 (1 p.) ............................................................................................................................. 23
+Pytanie nr 31 (1 p.) ............................................................................................................................. 24
+Pytanie nr 32 (1 p.) ............................................................................................................................. 25
+Pytanie nr 33 (1 p.) ............................................................................................................................. 25
+Pytanie nr 34 (1 p.) ............................................................................................................................. 26
+Pytanie nr 35 (1 p.) ............................................................................................................................. 26
+Pytanie nr 36 (1 p.) ............................................................................................................................. 27
+Pytanie nr 37 (1 p.) ............................................................................................................................. 27
+Pytanie nr 38 (1 p.) ............................................................................................................................. 28
+Pytanie nr 39 (1 p.) ............................................................................................................................. 29
+Pytanie nr 40 (1 p.) ............................................................................................................................. 29
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 3 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Informacja o prawach autorskich
+Copyright © International Software Testing Qualifications Board (zwana dalej „ISTQB ®”).
+ISTQB® jest zastrzeżonym znakiem towarowym International Software Testing Qualifications Board.
+Wszelkie prawa zastrzeżone.
+Prawa autorskie wersji polskiej zastrzeżone dla © Stowarzyszenie Jakości Systemów Informatycznych
+(SJSI). Tłumaczenie z języka angielskiego wersji beta – KONTEKST A.Wolski spółka komandytowa.
+Przegląd końcowy przeprowadził zespół w składzie: Adam Roman, Monika Petri-Starego, Lucjan Stapp
+(kierownik zespołu).
+Aktualizacja do wersji 1.3 oraz 1.4: Monika Petri-Starego, Adam Roman.
+Aktualizacja do wersji 1.5: Monika Petri-Starego, Adam Roman.
+Autorzy niniejszym przenoszą prawa autorskie na ISTQB®. Autorzy (jako obecni posiadacze praw
+autorskich) oraz ISTQB® (jako przyszły posiadacz praw autorskich) wyrazili zgodę na następujące warunki
+użytkowania:
+Kopiowanie fragmentów niniejszego dokumentu w celach niekomercyjnych jest dozwolone pod warunkiem
+wskazania źródła.
+Akredytowani dostawcy szkoleń mogą wykorzystywać niniejszy egzamin przykładowy w swoich
+szkoleniach pod warunkiem wskazania autorów i ISTQB® jako źródła egzaminu i właścicieli praw autorskich
+do niego. Zastrzega się jednak, że ewentualne materiały reklamowe dotyczące szkolenia mogą być
+publikowane dopiero po uzyskaniu oficjalnej akredytacji materiałów szkoleniowych ze strony uznawanej
+przez ISTQB® Rady Krajowej.
+Osoby fizyczne i grupy osób fizycznych mogą wykorzystywać niniejszy egzamin przykładowy w artykułach
+i książkach pod warunkiem wskazania autorów i ISTQB® jako źródła egzaminu przykładowego i właścicieli
+praw autorskich do niego.
+Korzystanie z egzaminu przykładowego do innych celów bez wcześniejszej pisemnej zgody ISTQB ® jest
+zabronione.
+Każda uznawana przez ISTQB® Rada Krajowa może dokonywać przekładu niniejszego egzaminu
+przykładowego pod warunkiem powielenia powyższych uwag dotyczących praw autorskich
+w przetłumaczonej wersji dokumentu.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 4 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Odpowiedzialność za dokument
+Odpowiedzialność za niniejszy dokument ponosi Grupa robocza ISTQB® ds. egzaminów.
+Obsługą dokumentu zajmuje się podstawowy zespół ISTQB®, w skład którego wchodzą przedstawiciele
+Grupy roboczej ds. sylabusa i Grupy roboczej ds. egzaminów.
+
+Podziękowania
+Niniejszy dokument został opracowany przez podstawowy zespół ISTQB®: Stuart Reid i Adam Roman.
+Podstawowy zespół dziękuje zespołowi recenzentów Grupy roboczej ds. egzaminów, Grupy roboczej
+ds. sylabusa i Radom Krajowym za ich sugestie i wskazówki.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 5 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Historia zmian
+Wersja
+
+Data
+
+Uwagi
+
+1.5
+
+04.07.2024 r.
+
+Zmiana pytania nr 20.
+
+1.4
+
+29.05.2024 r.
+
+Poprawki w dokumencie odpowiedzi
+
+1.3
+
+14.03.2024 r.
+
+Poprawki w pytaniu nr 20.
+
+1.2
+
+20.12.2023 r.
+
+Brak zmian, dokument zapisany do pliku PDF z przezroczystym tłem na
+obrazie.
+
+1.1
+
+6.11.2023 r.
+
+Drobna poprawka w pytaniu 4.
+
+1.0
+
+16.10.2023 r.
+
+Pierwsza wersja.
+
+Historia zmian polskiej wersji
+Wersja
+
+Data
+
+Uwagi
+
+1.0.0.4
+
+28.08.2024 r.
+
+Poprawki zgodnie z wersją 1.5 oryginału. Zmiana pytania nr 20.
+
+1.0.0.3
+
+17.06.2024 r.
+
+Poprawki zgodnie z wersją 1.4 oryginału – w dokumencie odpowiedzi.
+
+1.0.0.2
+
+06.06.2024 r.
+
+Poprawki zgodnie z wersją 1.3 oryginału. Poprawki w pyt. nr 5, 15, 29.
+
+1.0.0.1
+
+12.12.2023 r.
+
+Poprawka w pyt. 4 (sformułowanie na końcu: Wybierz DWIE odpowiedzi)
+
+1.0.0.0
+
+01.12.2023 r.
+
+Publikacja wersji 1.0.0.0
+
+0.3
+
+15.11.2023 r.
+
+Przegląd i wprowadzanie zmian – Zespół SJSI
+
+0.2
+
+12.11.2023 r.
+
+Przegląd tłumaczenia – Zespół SJSI
+
+0.1
+
+31.10.2023 r.
+
+Tłumaczenie wersji beta: KONTEKST A.Wolski spółka komandytowa
+
+12.10.2023 r.
+
+Udostępnienie przez ISTQB® wersji końcowej
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 6 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Wstęp
+Cel dokumentu
+Przykładowe pytania i odpowiedzi wraz z uzasadnieniami przedstawione w niniejszym egzaminie
+przykładowym zostały opracowane przez zespół ekspertów merytorycznych i doświadczonych autorów
+pytań w celu:
+●
+●
+
+udzielenia Radom Krajowym ISTQB® i komisjom egzaminacyjnym pomocy w wykonywaniu
+czynności związanych z opracowywaniem pytań;
+udostępnienia dostawcom szkoleń i kandydatom przykładowych pytań egzaminacyjnych.
+
+Pytania te nie mogą być wykorzystywane w przedstawionej formie w żadnym oficjalnym egzaminie.
+Rzeczywiste egzaminy mogą zawierać szeroką gamę pytań, a niniejszy egzamin przykładowy nie ma na
+celu przedstawienia wszystkich możliwych wariantów, jeśli chodzi o typ, styl czy długość pytań. Ponadto
+należy pamiętać, że niniejszy egzamin przykładowy może być trudniejszy lub łatwiejszy od egzaminu
+oficjalnego.
+
+Instrukcje
+Niniejszy dokument zawiera:
+●
+
+●
+
+pytania1, w tym następujące elementy związane z każdym pytaniem:
+- ewentualny scenariusz rozwijający podstawową część pytania;
+- wartość w punktach;
+- zestaw możliwych odpowiedzi;
+pytania dodatkowe, w tym następujące elementy związane z każdym pytaniem [dotyczy niektórych
+egzaminów przykładowych*]:
+- ewentualny scenariusz rozwijający podstawową część pytania;
+- wartość w punktach;
+- zestaw możliwych odpowiedzi.
+
+Odpowiedzi wraz z uzasadnieniami znajdują się w odrębnym dokumencie.
+
+1 W niniejszym egzaminie przykładowym pytania posortowano według celów nauczania, ale nie należy oczekiwać, że
+
+taki układ pytań zostanie przyjęty w rzeczywistym egzaminie.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 7 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytania
+Pytanie nr 1 (1 p.)
+Która z poniższych odpowiedzi opisuje typowy cel testów?
+a) Walidacja, czy udokumentowane wymagania są spełnione.
+b) Powodowanie awarii i znajdowanie defektów.
+c) Inicjowanie błędów i identyfikowanie podstawowych przyczyn.
+d) Weryfikacja spełnienia oczekiwań użytkowników przez przedmiot testów.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 2 (1 p.)
+Które z poniższych stwierdzeń NAJLEPIEJ opisuje różnicę między testowaniem i debugowaniem?
+a) Testowanie polega na wywoływaniu awarii, a debugowanie na ich usuwaniu.
+b) Testowanie ma charakter negatywny, a debugowanie pozytywny.
+c) Testowanie polega na stwierdzeniu występowania defektów, natomiast w ramach debugowania
+defekty są usuwane.
+d) Testowanie pozwala znaleźć przyczynę defektów, a debugowanie – usunąć przyczynę defektów.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 3 (1 p.)
+Jedna z zasad testowania mówi, że przekonanie o braku defektów jest błędem. Która z następujących
+odpowiedzi przedstawia przykład zastosowania tej zasady w praktyce?
+a) Wyjaśnienie, że testowanie nie może wykazać braku defektów.
+b) Wsparcie użytkowników końcowych w wykonywaniu testowania akceptacyjnego.
+c) Zadbanie o brak defektów implementacji w dostarczonym systemie.
+d) Zmodyfikowanie testów, które nie powodują awarii, tak aby pozostała pewna liczba defektów.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 8 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 4 (1 p.)
+Wskaż DWIE czynności testowe z poniższej listy, w których z NAJWIĘKSZYM prawdopodobieństwem
+zostanie zastosowana analiza wartości brzegowych i podział na klasy równoważności.
+a) Implementacja testów.
+b) Projektowanie testów.
+c) Wykonywanie testów.
+d) Monitorowanie testów.
+e) Analiza testów.
+
+Wybierz DWIE odpowiedzi.
+
+Pytanie nr 5 (1 p.)
+Mamy następujące testalia:
+1. Elementy pokrycia.
+2. Żądania zmiany.
+3. Harmonogram wykonywania testów.
+4. Warunki testowe uszeregowane według priorytetów.
+oraz następujące czynności testowe:
+A. Analiza testów.
+B. Projektowanie testów.
+C. Implementacja testów.
+D. Ukończenie testów.
+W której z poniższych odpowiedzi NAJLEPIEJ powiązano testalia z czynnościami, w ramach których
+zostały utworzone?
+a) 1B,
+
+2D,
+
+3C,
+
+4A
+
+b) 1B,
+
+2D,
+
+3A,
+
+4C
+
+c) 1D,
+
+2C,
+
+3A,
+
+4B
+
+d) 1D,
+
+2C,
+
+3B,
+
+4A
+
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 9 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 6 (1 p.)
+Które z poniższych stwierdzeń dotyczących ról występujących w testowaniu należy uznać za
+NAJBARDZIEJ POPRAWNE?
+a) W przypadku zwinnego wytwarzania oprogramowania za wykonywanie zadań związanych
+z zarządzaniem testami odpowiedzialny jest przede wszystkim zespół zwinny, a za zadania
+związane z wykonywaniem testów odpowiada głównie jedna osoba spoza zespołu.
+b) Osoba występująca w roli związanej z testowaniem ponosi ogólną odpowiedzialność za
+monitorowanie testów i nadzór nad testami, podczas gdy osoba występująca w roli związanej
+z zarządzaniem testami ponosi ogólną odpowiedzialność za planowanie i ukończenie testów.
+c) W przypadku zwinnego wytwarzania oprogramowania zadania związane z zarządzaniem testami
+obejmujące swoim zasięgiem kilka zespołów są wykonywane przez kierownika testów spoza
+zespołu tworzącego oprogramowanie, ale niektóre z zadań związanych z zarządzaniem testami
+może wykonywać zespół zwinny.
+d) Osoba występująca w roli związanej z zarządzaniem testami ponosi ogólną odpowiedzialność za
+analizę i projektowanie testów, podczas gdy osoba występująca w roli związanej z testowaniem
+ponosi ogólną odpowiedzialność za implementację i wykonywanie testów.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 7 (1 p.)
+Które z poniższych stwierdzeń opisuje zaletę podejścia „cały zespół”?
+a) Tworzenie zespołów bez testerów.
+b) Zwiększenie dynamiki pracy zespołowej.
+c) Specjalizacja członków zespołu.
+d) Tworzenie większych zespołów.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 10 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 8 (1 p.)
+Które z poniższych stwierdzeń dotyczących niezależności testowania jest POPRAWNE?
+a) Ze względu na różne techniczne punkty widzenia niezależni testerzy mogą wykryć innego rodzaju
+defekty niż programiści, jednak niezależność testerów może być przyczyną ich konfliktów
+z programistami.
+b) Programiści znają własny kod i dlatego potrafią znaleźć w nim jedynie niewielką liczbę defektów,
+jednak takie defekty mogą zostać również wykryte przez testerów dzięki podobnemu doświadczeniu
+w dziedzinie oprogramowania.
+c) Niezależność testowania wymaga zaangażowania testerów spoza zespołu programistów,
+a w idealnym przypadku spoza organizacji, chociaż tacy testerzy mogą mieć trudności ze
+zrozumieniem dziedziny zastosowania.
+d) Testerzy spoza zespołu programistów są bardziej niezależni od testerów będących członkami
+zespołu, ale testerzy z zespołu mogą być w większym stopniu obarczani winą za nieterminowe
+przekazanie produktu do eksploatacji.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 9 (1 p.)
+Które z poniższych stwierdzeń opisuje dobrą praktykę testowania mającą zastosowanie do wszystkich cykli
+wytwarzania oprogramowania?
+a) Do każdego poziomu testów powinien być przypisany odpowiedni poziom wytwarzania.
+b) Do każdego celu testów powinien być przypisany odpowiedni cel wytwarzania.
+c) Do każdej czynności związanej z testowaniem oprogramowania powinna być przypisana
+odpowiadająca jej czynność wykonywana przez użytkownika.
+d) Do każdej czynności związanej z wytwarzaniem oprogramowania powinna być przypisana
+odpowiadająca jej czynność testowa.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 10 (1 p.)
+Która z następujących odpowiedzi przedstawia przykład podejścia „najpierw test” do wytwarzania
+oprogramowania?
+a) Wytwarzanie sterowane testami modułowymi.
+b) Wytwarzanie sterowane testami integracyjnymi.
+c) Wytwarzanie sterowane testami systemowymi.
+d) Wytwarzanie sterowane testami akceptacyjnymi.
+Wybierz JEDNĄ odpowiedź.
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 11 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 11 (1 p.)
+Które z poniższych stwierdzeń przedstawia NAJLEPSZY opis podejścia „przesunięcie w lewo”?
+a) Po uzgodnieniu przez programistów czynności manualne znajdujące się po lewej stronie procesu
+testowego podlegają automatyzacji zgodnie z zasadą „wczesne testowanie oszczędza czas
+i pieniądze”.
+b) Jeśli jest to opłacalne, wykonanie czynności testowych przesuwa się do wcześniejszych faz cyklu
+wytwarzania oprogramowania w celu zmniejszenia łącznych kosztów zapewnienia jakości poprzez
+ograniczenie liczby defektów wykrywanych na dalszych etapach cyklu wytwarzania.
+c) Jeśli testerzy dysponują wolnym czasem, powinni zająć się automatyzacją testów regresji,
+zaczynając od testów modułowych i testów integracji modułów.
+d) Jeśli jest taka możliwość, testerzy szkolą się w wykonywaniu swoich zadań na wczesnych etapach
+wytwarzania oprogramowania, tak aby w późniejszych etapach można było zautomatyzować więcej
+czynności testowych.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 12 (1 p.)
+Który z poniższych efektów z NAJMNIEJSZYM prawdopodobieństwem wystąpi po przeprowadzeniu
+retrospektywy?
+a) Podniesienie jakości kolejnych przedmiotów testów dzięki określeniu usprawnień w praktykach
+programistycznych.
+b) Wzrost efektywności testowania dzięki skróceniu czasu konfigurowania środowisk testowych
+z zastosowaniem automatyzacji.
+c) Lepsze zrozumienie przez użytkowników końcowych procesów wytwarzania i testowania.
+d) Udoskonalenie skryptów testów automatycznych dzięki informacjom zwrotnym od programistów.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 12 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 13 (1 p.)
+Który z poniższych poziomów testów zostanie z NAJWIĘKSZYM prawdopodobieństwem uwzględniony,
+jeśli testowanie skupia się na walidacji i nie jest realizowane przez testerów?
+a) Testowanie modułowe.
+b) Testowanie integracji modułów.
+c) Testowanie integracji systemów.
+d) Testowanie akceptacyjne.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 14 (1 p.)
+Oprogramowanie systemu nawigacji zostało poprawione, ponieważ proponowało trasy naruszające
+przepisy ruchu drogowego, np. jazdę pod prąd ulicami jednokierunkowymi. Która z poniższych odpowiedzi
+NAJLEPIEJ opisuje testy, które należy przeprowadzić?
+a) Tylko testowanie potwierdzające.
+b) Testowanie potwierdzające, a następnie testowanie regresji.
+c) Tylko testowanie regresji.
+d) Testowanie regresji, a następnie testowanie potwierdzające.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 13 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 15 (1 p.)
+Mamy daną listę przykładowych defektów:
+1.
+
+W związku z dużą złożonością projektu występuje niezgodność dwóch różnych elementów
+specyfikacji projektowej.
+
+2.
+
+Czas odpowiedzi jest zbyt długi i użytkownicy tracą cierpliwość.
+
+3.
+
+Ścieżka w kodzie nie może zostać osiągnięta w trakcie wykonywania.
+
+4.
+
+Zmienna została zadeklarowana, ale nie jest używana w programie.
+
+5.
+
+Ilość pamięci, której wymaga program do wygenerowania raportu, jest zbyt duża.
+
+W której z poniższych odpowiedzi NAJBARDZIEJ POPRAWNIE wyszczególniono przykładowe defekty,
+które można znaleźć za pomocą testowania statycznego (a nie za pomocą testowania dynamicznego)?
+a) 2, 5
+b) 3, 5
+c) 1, 2, 4
+d) 1, 3, 4
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 16 (1 p.)
+Która z poniższych jest korzyścią wynikającą z wczesnego i częstego otrzymywania informacji zwrotnych
+przez interesariuszy?
+a) Zmiany w wymaganiach są lepiej rozumiane i wcześniej wprowadzane.
+b) Zapewnienie, że interesariusze biznesowi rozumieją wymagania użytkownika.
+c) Możliwość wprowadzania przez właścicieli produktów zmian w wymaganiach w dowolnym
+momencie.
+d) Poinformowanie użytkowników końcowych przed wydaniem produktu o wymaganiach, które nie
+zostaną zaimplementowane.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 14 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 17 (1 p.)
+Rozpatrzmy następujące typy przeglądów:
+1. Przegląd techniczny.
+2. Przegląd nieformalny.
+3. Inspekcja.
+4. Przejrzenie.
+oraz ich następujące opisy:
+A. Wśród celów są osiągnięcie konsensusu, wygenerowanie nowych pomysłów i zmotywowanie
+autorów do udoskonalania przyszłych produktów pracy.
+B. Służy takim celom jak edukowanie przeglądających, osiągnięcie konsensusu, wygenerowanie
+nowych pomysłów i wykrycie potencjalnych defektów.
+C. Głównym celem jest wykrycie potencjalnych
+wykorzystywanych do doskonalenia procesu.
+
+defektów.
+
+Obejmuje
+
+zbieranie
+
+metryk
+
+D. Głównym celem jest wykrycie potencjalnych defektów. Uzyskanych informacji nie trzeba formalnie
+dokumentować.
+W której z poniższych odpowiedzi NAJLEPIEJ powiązano typy przeglądów i ich opisy?
+a) 1A,
+
+2B,
+
+3C,
+
+4D
+
+b) 1A,
+
+2D,
+
+3C,
+
+4B
+
+c) 1B,
+
+2C,
+
+3D,
+
+4A
+
+d) 1C,
+
+2D,
+
+3A,
+
+4B
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 18 (1 p.)
+Która z poniższych odpowiedzi opisuje czynnik wpływający na powodzenie przeglądu?
+a) Zapewnienie udziału przedstawicieli kierownictwa w roli przeglądających.
+b) Podział dużych produktów pracy na mniejsze fragmenty.
+c) Dodanie oceny uczestników przeglądu do listy celów.
+d) Zaplanowanie przeglądów w taki sposób, aby obejmowały tylko jeden dokument.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 15 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 19 (1 p.)
+Jaka jest GŁÓWNA różnica między czarnoskrzynkowymi technikami testowania i technikami testowania
+opartymi na doświadczeniu?
+a) Przedmiot testów.
+b) Poziom testów, na którym stosowana jest technika testowania.
+c) Podstawa testów.
+d) Cykl wytwarzania oprogramowania, w którym może zostać zastosowana dana technika testowania.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 20 (1 p.)
+Testujesz moduł sprawdzania kodu PIN, który akceptuje poprawne kody PIN, a odrzuca niepoprawne kody
+PIN. Kod PIN jest ciągiem cyfr. Poprawna wartość składa się z czterech cyfr, a w ciągu muszą wystąpić co
+najmniej dwie różne cyfry.
+Które z poniższych zestawów wejściowych danych testowych pokrywają wszystkie klasy równoważności
+dla tego scenariusza?
+a) 112, 1111, 1234, 123456
+b) 1, 123, 1111, 1234
+c) 12, 112, 1112, 11112
+d) 1, 111, 1111, 11111.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 16 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 21 (1 p.)
+Programista dostał zadanie zaimplementowania następującej reguły biznesowej:
+WEJŚCIE: wartość (liczba całkowita)
+JEŻELI (wartość ≤ 100 OR wartość ≥ 200) TO
+napisz „wartość niepoprawna”
+W PRZECIWNYM PRZYPADKU
+napisz „wartość OK”
+Projektujesz przypadki testowe, korzystając z dwupunktowej analizy wartości brzegowych.
+Który z poniższych zestawów danych wejściowych pozwala uzyskać największe pokrycie?
+a) 100,
+
+150,
+
+200,
+
+201
+
+b) 99,
+
+100,
+
+200,
+
+201
+
+c) 98,
+
+99,
+
+100,
+
+101
+
+d) 101,
+
+150,
+
+199,
+
+200
+
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 17 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 22 (1 p.)
+Bierzesz udział w projekcie tworzenia systemu przeznaczonego do analizy wyników egzaminów na prawo
+jazdy. Poproszono Cię o zaprojektowanie przypadków testowych na podstawie poniższej tablicy
+decyzyjnej.
+R1
+
+R2
+
+R3
+
+W1: Pierwsze podejście do egzaminu?
+
+-
+
+-
+
+F
+
+W2: Zdany egzamin teoretyczny?
+
+P
+
+F
+
+-
+
+W3: Zdany egzamin praktyczny?
+
+P
+
+-
+
+F
+
+Czy wydać prawo jazdy?
+
+X
+
+Czy wymagane są dodatkowe jazdy?
+Czy wymagane jest ponowne podejście
+do egzaminu?
+
+X
+X
+
+Które dane testowe pozwolą wykazać, że w tablicy decyzyjnej znajdują się sprzeczne reguły?
+a) W1 = P, W2 = P, W3 = F
+b) W1 = P, W2 = F, W3 = P
+c) W1 = P, W2 = P, W3 = P oraz W1 = F, W2 = P, W3 = P
+d) W1 = F, W2 = F, W3 = F
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 18 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 23 (1 p.)
+Projektujesz przypadki testowe na podstawie poniższego diagramu przejść pomiędzy stanami:
+START
+
+Jaka jest MINIMALNA liczba przypadków testowych niezbędna do uzyskania 100% pokrycia poprawnych
+przejść?
+a) 3
+b) 2
+c) 5
+d) 6
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 19 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 24 (1 p.)
+Chcesz zastosować testowanie gałęzi do przetestowania kodu reprezentowanego przez poniższy graf
+przepływu sterowania.
+
+Ile elementów pokrycia należy przetestować?
+a) 2
+b) 4
+c) 8
+d) 7
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 20 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 25 (1 p.)
+W jaki sposób testowanie białoskrzynkowe może wspomóc testowanie czarnoskrzynkowe?
+a) Miary pokrycia stosowane w technikach białoskrzynkowych mogą ułatwić testerom ocenę testów
+czarnoskrzynkowych pod kątem pokrycia kodu przez te testy czarnoskrzynkowe.
+b) Analiza pokrycia w testach białoskrzynkowych może ułatwić testerom zidentyfikowanie
+nieosiągalnych fragmentów kodu źródłowego.
+c) Testowanie gałęzi obejmuje czarnoskrzynkowe techniki testowania, więc uzyskanie pełnego
+pokrycia gałęzi pozwala uzyskać pełne pokrycie w dowolnej technice czarnoskrzynkowej.
+d) Białoskrzynkowe
+techniki
+testowania
+czarnoskrzynkowych technik testowania.
+
+pozwalają
+
+określić
+
+elementy
+
+pokrycia
+
+dla
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 26 (1 p.)
+Rozpatrzmy następującą listę:
+
+●
+●
+●
+●
+
+Brak akceptacji poprawnych danych wejściowych.
+Akceptacja niepoprawnych danych wejściowych.
+Niepoprawny format danych wyjściowych.
+Dzielenie przez zero.
+
+Którą technikę NAJPRAWDOPODOBNIEJ stosuje tester korzystający z tej listy podczas przeprowadzania
+testów?
+a) Testowanie eksploracyjne.
+b) Atak usterek.
+c) Testowanie w oparciu o listę kontrolną.
+d) Analiza wartości brzegowych.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 21 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 27 (1 p.)
+Która z poniższych odpowiedzi NAJLEPIEJ opisuje powody potencjalnego zwiększenia pokrycia dzięki
+testowaniu w oparciu o listę kontrolną?
+a) Elementy listy kontrolnej mogą zostać zdefiniowane na wystarczająco niskim poziomie
+szczegółowości, więc testerzy mogą zaimplementować i wykonywać szczegółowe przypadki
+testowe oparte na takich elementach.
+b) Listy kontrolne mogą zostać zautomatyzowane, więc przy każdym uruchomieniu testów
+automatycznych uwzględniających elementy listy kontrolnej zwiększa się stopień pokrycia.
+c) Każdy element listy kontrolnej powinien być testowany odrębnie i niezależnie od innych, tak aby
+poszczególne elementy pokrywały inne obszary oprogramowania.
+d) Dwaj testerzy projektujący i wykonujący testy na podstawie tych samych elementów ogólnej listy
+kontrolnej często przeprowadzą testowanie w nieco inny sposób.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 28 (1 p.)
+Która z poniższych odpowiedzi przedstawia NAJLEPSZY przykład kryterium akceptacji zorientowanego na
+scenariusze?
+a) Aplikacja musi umożliwiać użytkownikowi usunięcie, na jego żądanie, jego konta i wszystkich
+danych powiązanych z tym kontem.
+b) Kiedy klient dodaje towar do koszyka i przechodzi do płatności, powinien być poproszony
+o zalogowanie się lub utworzenie konta, jeśli do tej pory tego nie zrobił.
+c) IF (contain(product(23).Name, cart.products())) THEN return FALSE
+d) Serwis internetowy musi być zgodny ze standardami dostępności systemów teleinformatycznych
+(ICT Accessibility 508 standards), by zapewnić dostęp do serwisu dla użytkowników będących
+osobami niepełnosprawnymi.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 22 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 29 (1 p.)
+Stosujesz w projekcie metodę wytwarzania sterowanego testami akceptacyjnymi i projektujesz przypadki
+testowe oparte na następującej historyjce użytkownika:
+Jako zwykły użytkownik lub specjalny użytkownik chcę mieć możliwość użycia swojej elektronicznej karty
+dostępowej, aby uzyskać dostęp do konkretnych pięter budynku.
+Kryteria akceptacji (odbioru):
+KA1: Zwykli użytkownicy mają dostęp do pięter 1-3.
+KA2: Piętro 4 jest dostępne jedynie dla specjalnych użytkowników.
+KA3: Specjalni użytkownicy mają wszystkie prawa dostępu zwykłych użytkowników.
+Który z poniższych przypadków testowych pozwoli NAJLEPIEJ przetestować kryterium KA3?
+a) Sprawdzenie, czy zwykły użytkownik ma dostęp do pięter 1, 2 i 3
+b) Sprawdzenie, czy zwykły użytkownik nie ma dostępu do piętra 4
+c) Sprawdzenie, czy specjalny użytkownik ma dostęp do piętra 5
+d) Sprawdzenie, czy specjalny użytkownik ma dostęp do piętra 1, 2 i 3.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 30 (1 p.)
+Która z poniższych odpowiedzi NIE opisuje celu planu testów?
+a) Zdefiniowanie danych testowych i oczekiwanych rezultatów testów modułowych i testów integracji
+modułów.
+b) Zdefiniowanie jako kryteriów wyjścia dla poziomu testów modułowych zasady „musi zostać
+osiągnięte 100% pokrycia instrukcji i 100% pokrycia gałęzi”.
+c) Określenie listy pól, które powinny się znaleźć w raporcie o postępie testów oraz ustalenie postaci
+tego raportu.
+d) Wyjaśnienie, dlaczego testowanie nie obejmie testów integracji systemów, mimo że strategia
+testów wymaga przeprowadzenia testów na tym poziomie.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 23 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 31 (1 p.)
+Na początku każdej iteracji zespół szacuje pracochłonność (w osobodniach) niezbędną do zrealizowania
+tej iteracji. Przyjmijmy, że E(n) oznacza szacowaną pracochłonność iteracji n, natomiast A(n) oznacza
+faktyczną pracochłonność iteracji n. Począwszy od trzeciej iteracji zespół używa następującego modelu
+szacowania opartego na ekstrapolacji:
+
+𝐸(𝑛) =
+
+3 ∗ 𝐴(𝑛 − 1) + 𝐴(𝑛 − 2)
+4
+
+Na wykresie przedstawiono szacowaną i faktyczną pracochłonność w czterech pierwszych iteracjach.
+Szacowana i faktyczna pracochłonność (w osobodniach)
+
+Iteracja 1
+
+Iteracja 2
+
+Iteracja 3
+
+Szacowana
+
+Iteracja 4
+
+Faktyczna
+
+Ile wynosi szacowana pracochłonność iteracji 5?
+a) 10,5 osobodnia
+b) 8,25 osobodnia
+c) 6,5 osobodnia
+d) 9,4 osobodnia
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 24 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 32 (1 p.)
+Przygotowujesz harmonogram wykonania testów obejmujących siedem przypadków testowych – od PT 1
+do PT 7.
+Na poniższym diagramie podano priorytety tych przypadków testowych (1 = najwyższy priorytet,
+3 = najniższy priorytet).
+Na diagramie pokazano również za pomocą strzałek zależności pomiędzy przypadkami testowymi. Na
+przykład strzałka prowadząca od PT 4 do PT 5 oznacza, że przypadek PT 5 może zostać wykonany jedynie
+po uprzednim wykonaniu PT 4.
+
+Który z poniższych przypadków testowych powinien zostać wykonany jako szósty?
+a) PT 3
+b) PT 5
+c) PT 6
+d) PT 2
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 33 (1 p.)
+Które z poniższych spostrzeżeń zostało odzwierciedlone w modelu piramidy testów?
+a) Testy mogą mieć różne priorytety.
+b) Testy mogą mieć różne poziomy szczegółowości.
+c) Testy mogą wymagać różnych kryteriów pokrycia.
+d) Testy mogą być zależne od innych testów.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 25 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 34 (1 p.)
+Jaki istnieje związek między kwadrantami testowymi, poziomami testów i typami testów?
+a) Kwadranty testowe reprezentują konkretne kombinacje poziomów testów i typów testów, definiując
+ich miejsce w cyklu wytwarzania oprogramowania.
+b) Kwadranty testowe opisują poziom szczegółowości różnych typów testów wykonywanych na
+każdym poziomie testów.
+c) Kwadranty testowe odzwierciedlają powiązanie
+z odpowiednimi poziomami testów.
+
+typów
+
+testów,
+
+które
+
+można wykonać,
+
+d) Kwadranty testowe grupują poziomy testów i typy testów według różnych kryteriów,
+ukierunkowując je na potrzeby konkretnych interesariuszy.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 35 (1 p.)
+Która z poniższych odpowiedzi przedstawia przykład wpływu analizy ryzyka produktowego na staranność
+i zakres testowania?
+a) Ciągłe monitorowanie ryzyka pozwala zidentyfikować pojawiające się ryzyka najszybciej jak to
+możliwe.
+b) Identyfikacja ryzyka pozwala zastosować działania łagodzące ryzyko i obniżyć poziom ryzyka.
+c) Ocena poziomu ryzyka ułatwia określenie szczegółowości testowania.
+d) Analiza ryzyka pozwala zdefiniować elementy pokrycia.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 26 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 36 (1 p.)
+Która z następujących czynności w procesie testowania w NAJWIĘKSZYM stopniu korzysta z raportów
+o postępie testów?
+a) Projektowanie testów.
+b) Ukończenie testów.
+c) Analiza testów.
+d) Planowanie testów.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 37 (1 p.)
+Które z poniższych stwierdzeń NIE opisuje przykładu wspomagania testowania przez zarządzanie
+konfiguracją?
+a) Wszystkie elementy zatwierdzane w repozytorium są jednoznacznie identyfikowane i objęte
+kontrolą wersji.
+b) Wszystkie zmiany elementów środowiska testowego podlegają śledzeniu.
+c) Wszystkie specyfikacje wymagań są przywoływane w sposób jednoznaczny w planach testów.
+d) Wszystkie zdefiniowane defekty mają przypisany status.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 27 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 38 (1 p.)
+Rozpatrzmy następujący raport o defekcie dotyczący aplikacji sklepu internetowego:
+
+Aplikacja: WebShop wer. 0.99
+Defekt: Nie działa przycisk logowania.
+Kroki umożliwiające odtworzenie defektu:
+Przejdź do serwisu internetowego.
+Kliknij przycisk logowania.
+Oczekiwany rezultat: Użytkownik powinien zostać przekierowany na stronę logowania.
+Rzeczywisty rezultat: Przycisk logowania nie reaguje po kliknięciu.
+Krytyczność: Wysoka
+Priorytet: Pilny
+
+Jakie są NAJWAŻNIEJSZE informacje, których brakuje w tym raporcie?
+a) Imię i nazwisko testera i data raportu.
+b) Elementy środowiska testowego i ich numery wersji.
+c) Identyfikacja przedmiotu testów.
+d) Wpływ z punktu widzenia interesariuszy.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 28 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór C
+Egzamin przykładowy — pytania
+
+Pytanie nr 39 (1 p.)
+Wskaż kategorię narzędzi, które ułatwiają uporządkowanie przypadków testowych i wykrytych defektów
+oraz zarządzanie konfiguracją.
+a) Narzędzia do wykonywania testów i pomiaru pokrycia
+b) Narzędzia do projektowania i implementacji testów.
+c) Narzędzia do zarządzania defektami.
+d) Narzędzia do zarządzania testowaniem.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 40 (1 p.)
+Która z poniższych odpowiedzi NAJLEPIEJ opisuje korzyści związane z automatyzacją testowania?
+a) Możliwość generowania przypadków testowych bez dostępu do podstawy testów.
+b) Uzyskanie większego pokrycia dzięki bardziej obiektywnej ocenie.
+c) Zwiększenie czasu wykonywania testów dzięki większej mocy obliczeniowej.
+d) Zapobieganie błędom ludzkim poprzez zwiększenie spójności i powtarzalności.
+Wybierz JEDNĄ odpowiedź.
+
+Wersja 1.5
+© International Software Testing Qualifications Board
+
+Strona 29 z 29
+
+28.08.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+

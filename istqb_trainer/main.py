@@ -38,16 +38,30 @@ DATA = {
                 "q": "Główny cel testowania statycznego (Static Testing) to:",
                 "choices": ["Uruchomienie aplikacji w celu znalezienia błędów", "Wykrycie defektów zanim powstanie kod (np. przez przegląd wymagań)", "Zautomatyzowanie klikania w GUI", "Zbadanie bazy danych produkcyjnej"],
                 "ans": "Wykrycie defektów zanim powstanie kod (np. przez przegląd wymagań)"
+            },
+            {
+                "q": "Która z poniższych odpowiedzi opisuje poprawny cel testów?",
+                "choices": ["Udowodnienie że w systemie podlegającym testowaniu nie występują żadne nie usunięte defekty", "Udowodnienie, że po wprowadzeniu sustemu do eksploatacji nie będą występowały żadne awarie", "Obniżenie poziomu ryzyka związanego z przedmiotem testów i zwiększenie zaufania do jego jakości", " Sprawdzenie czy nie pozostały żadne nieprzetestowane dane kombinacji wejściowych"],
+                "ans": "Obniżenie poziomu ryzyka związanego z przedmiotem testów i zwiększenie zaufania do jego jakości"
+            },
+             {
+                "q": "Ktore z poniższych stwierdzeń zawiera przykład czynności testowych, które przyczyniają sie do powodzenia projektu?",
+                "choices": ["Zaangarzowanie testerów w różne działania podejmowane w ramach cyklu wytwarzania oprogramowania (SDLC) pomaga wykryć defekty w produktach pracy.", "Testerzy starają sie nie przeszkadzać programistom na etapie pisania kodu, aby umożliwić im pisanie kodo o wyższej jakości.", "Współpraca testerów z urzytkowinikami pozwala podnieść jakośc raportów o defektach podczas testowania integracji modółów i testowania systemowego", "Certyfikowani testerzy projektują znacznie lepsze przypadki testowe, niż testrzy którzy nie posiadają certyfikatu"],
+                "ans": "Zaangarzowanie testerów w różne działania podejmowane w ramach cyklu wytwarzania oprogramowania (SDLC) pomaga wykryć defekty w produktach pracy."
             }
         ]
     },
     "2": {
         "title": "Testowanie w Cyklu Życia Oprogramowania (Rozdział 2)",
         "theory": (
-            "2.1. Oprogramowanie rozwija się w modelach: Sekwencyjnych (V-Model, Waterfall) lub Iteracyjnych (Agile, Scrum).\n"
-            "2.2. W Agile testowanie dzieje się na każdym etapie (Continuous Testing) i włącza się testerów bardzo wcześnie (Shift-Left).\n"
-            "2.3. Testowanie potwierdzające (Re-testing): Sprawdzanie, czy konkretny zgłoszony błąd został na pewno usunięty.\n"
-            "2.4. Testowanie regresyjne (Regression testing): Sprawdzanie, czy nowa zmiana lub błąd nie popsuły innej części systemu, która wcześniej działała."
+            "📖 TEORIA: Testowanie w Cyklu Życia Oprogramowania (Rozdział 2)\n\n"
+            "🔸 DOBRE PRAKTYKI (2.1): Każda faza tworzenia ma odpowiadającą jej fazę testowania. "
+            "Podejście 'Shift-Left' zakłada wczesne angażowanie testerów (np. w przegląd wymagań), "
+            "by zapobiegać błędom zanim powstanie kod. Usprawnianie na bieżąco wspierają 'Retrospektywy'.\n\n"
+            "🔸 POZIOMY TESTÓW (2.2): Modułowe (izolowane komponenty) -> Integracyjne (komunikacja) -> Systemowe (cały system) -> Akceptacyjne (czy produkt spełnia potrzeby biznesu).\n\n"
+            "🔸 POTWIERDZAJĄCE vs REGRESYJNE: Powierdzające (Re-testing) sprawdza, czy defekt u góry został naprawiony. "
+            "Regresyjne sprawdza, czy kod wprowadzający ową poprawkę nie zepsuł innej części systemu.\n\n"
+            "🔸 TESTOWANIE PIELĘGNACYJNE (2.3): Przeprowadzane po wdrożeniu oprogramowania, skupia się na modyfikacjach, migracjach i łatkach."
         ),
         "questions": [
             {

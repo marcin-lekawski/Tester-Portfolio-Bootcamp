@@ -1,0 +1,715 @@
+Certyfikowany tester
+Sylabus poziomu podstawowego wer. 4.0
+Struktura i zasady tworzenia egzaminów
+wersja 1.0
+(wersja PL 1.0.0.0)
+
+International Software Testing Qualifications Board
+Stowarzyszenie Jakości Systemów Informatycznych
+
+Struktura i zasady tworzenia egzaminów
+
+Informacja o prawach autorskich
+Wszelkie prawa dla wersji angielskiej zastrzeżone dla © International Software Testing
+Qualifications Board (dalej nazywana ISTQB®).
+Prawa autorskie wersji polskiej zastrzeżone © Stowarzyszenie Jakości Systemów
+Informatycznych (SJSI).
+Autorzy pragną podziękować członkom Grupy Roboczej ds. Egzaminów i Grupy Roboczej
+Poziomu Podstawowego za uwagi i sugestie.
+Autorzy niniejszym przenoszą prawa autorskie na International Software Testing Qualifications
+Board (ISTQB®).
+Autorzy (jako obecni posiadacze praw autorskich), ISTQB® (jako przyszły właściciel praw
+autorskich) tłumacze oraz SJSI zgodzili się na następujące warunki użytkowania:
+•
+
+Każdy uznany przez ISTQB® egzaminator będzie mógł wykorzystać informacje zawarte
+w tym dokumencie podczas pisania pytań egzaminacyjnych na poziomie
+podstawowym i przeprowadzania egzaminów na poziomie podstawowym.
+
+Tłumaczenie z języka angielskiego przygotował zespół: Adam Roman, Monika Petri-Starego,
+Lucjan Stapp (kierownik zespołu).
+
+wersja 1.0
+© International Software Testing Qualifications Board
+
+Strona 2 z 9
+
+07.07.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Struktura i zasady tworzenia egzaminów
+
+Spis treści
+Informacja o prawach autorskich ................................................................................................. 2
+1.
+
+Ogólne................................................................................................................................. 4
+1.1.
+
+Ważność ...................................................................................................................... 4
+
+1.2.
+
+Cel................................................................................................................................ 4
+
+1.3.
+
+Zakres .......................................................................................................................... 4
+
+1.4.
+
+Referencje .................................................................................................................... 4
+
+1.5.
+
+Odpowiedzialność za dokument.................................................................................... 4
+
+1.6.
+
+Historia dokumentu (wersja polska) .............................................................................. 4
+
+2.
+
+Definicje............................................................................................................................... 5
+
+3.
+
+Reguły egzaminu Certyfikowany Tester — Poziom Podstawowy ......................................... 5
+
+4.
+
+3.1.
+
+Egzaminy na poziomie Certyfikowany Tester — Poziom Podstawowy ........................... 5
+
+3.2.
+
+Ogólna struktura egzaminu ........................................................................................... 5
+
+3.3.
+
+Szczegółowe zasady .................................................................................................... 6
+
+Struktura egzaminu Certyfikowany Tester — Poziom Podstawowy ...................................... 7
+
+wersja 1.0
+© International Software Testing Qualifications Board
+
+Strona 3 z 9
+
+07.07.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Struktura i zasady tworzenia egzaminów
+
+1. Ogólne
+1.1. Ważność
+Dokument ten odnosi się wyłącznie do egzaminów Certyfikowany Tester — Poziom Podstawowy
+wersja 4.0. Wszystkie egzaminy Certyfikowany Tester — Poziom Podstawowy wersja 4.0
+przeprowadzane po 19 kwietnia 2024 roku (jeśli egzaminy są w języku angielskim) lub po 19
+listopada 2024 roku (jeśli egzaminy są prowadzone w języku innym niż angielski) muszą być
+zgodne ze strukturą i zasadami opisanymi w niniejszym dokumencie, niezależnie od języka
+i mediów.
+
+1.2. Cel
+Niniejszy dokument opisuje strukturę i zasady dotyczące przygotowywania i przeprowadzania
+egzaminów związanych z sylabusem Certyfikowany Tester — Poziom Podstawowy wersja 4.0.
+
+1.3. Zakres
+Niniejszy dokument obejmuje:
+a) liczbę pytań obowiązującą podczas egzaminu;
+b) czas trwania egzaminu;
+c) podział pytań wg tematów (rozdziałów);
+d) podział pytań wg celów nauczania (LearningObjectives LO).
+
+1.4. Referencje
+•
+•
+
+[QWRR_3.0] ISTQB® — Zasady i zalecenia dotyczące pisania pytań (Question
+Writing Rules & Recommendations), wersja 3.01
+[CTFL_4.0] ISTQB® Sylabus Certyfikowany Tester — Poziom Podstawowy wersja 4.0
+
+1.5. Odpowiedzialność za dokument
+Ogólna odpowiedzialność za ten dokument spoczywa na Grupie Roboczej ds. Egzaminów
+(Examination Working Group) ISTQB®.
+
+1.6. Historia dokumentu (wersja polska)
+Data
+2023-07-07
+2023-06-23
+2023-06-21
+
+Wersja
+1.0.0.0
+0.5
+0.1
+
+Uwagi
+Zespół SJSI
+Przegląd
+Tłumaczenie z j. angielskiego
+
+1 Dokument dostępny tylko w języku angielskim
+
+wersja 1.0
+© International Software Testing Qualifications Board
+
+Strona 4 z 9
+
+07.07.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Struktura i zasady tworzenia egzaminów
+
+2. Definicje
+CTFL: akronim dla Certyfikowany Tester — Poziom Podstawowy.
+CEL NAUCZANIA (ang. Learning Objective, LO): cele nauczania opisują korzyści
+z poznawczych kompetencji do osiągnięcia w odniesieniu do danej treści.
+MC: wielokrotny wybór (ang. Multiple-Choice): forma oceny, w której respondenci proszeni są
+o wybór najlepszej możliwej – zgodnie z odpowiednim sylabusem – jednej (lub kilku)
+odpowiedzi z podanych na liście opcji.
+
+3. Reguły egzaminu Certyfikowany Tester — Poziom Podstawowy
+3.1. Egzaminy na poziomie Certyfikowany Tester — Poziom Podstawowy
+3.1.1. Egzaminy na poziomie Certyfikowany Tester – Poziom Podstawowy są oparte na
+
+sylabusie Certyfikowany Tester – Poziom Podstawowy [CTFL_4.0]. Odpowiedź
+na pytanie egzaminacyjne może wymagać
+wykorzystania materiału
+z więcej niż jednej sekcji sylabusa.
+3.1.2. Wszystkie cele nauczania zawarte w sylabusie (o poziomach poznawczych od K1
+
+do K3) podlegają egzaminowaniu.
+3.1.3. Wszystkie definicje słów kluczowych w sylabusie podlegają egzaminowaniu (na
+
+poziomie K1).
+
+3.2. Ogólna struktura egzaminu
+3.2.1. Każdy egzamin na certyfikat „Certyfikowany Tester – Poziom Podstawowy” składa
+
+się z zestawu pytań jednokrotnego lub wielokrotnego wyboru w oparciu o cele
+nauczania dla tego konkretnego sylabusa. Poziom pokrycia i rozkład pytań został
+oparty na celach nauczania, ich poziomach K oraz na poziomie ich ważności
+według oceny ISTQB®. Szczegółowe informacje na temat rozkładu pytań
+w poszczególnych rozdziałach wg LO oraz odpowiadającej im liczbie pytań
+egzaminacyjnych i poziomach K znajdują się poniżej, w sekcji 4.
+3.2.2. Ogólnie rzecz ujmując, oczekuje się, że czas na przeczytanie, analizę i odpowiedź
+
+na pytania na poziomach K1 i K2 nie powinien przekroczyć 1 minuty, a na
+poziomie K3 powinien zająć maksymalnie 3 minuty. Autor egzaminu powinien
+jednak pamiętać, że jest to jedynie wskazówka odnośnie przeciętnego czasu
+udzielenia odpowiedzi na pytanie egzaminacyjnej na danym poziomie K i że
+prawdopodobnie niektóre pytania będą wymagały więcej, a inne mniej czasu na
+udzielenie odpowiedzi.
+3.2.3. Egzamin składa się z 40 pytań jednokrotnego lub wielokrotnego wyboru. Każda
+
+poprawna odpowiedź ma wartość jednego punktu. Maksymalna możliwa ocena
+za każdy egzamin to 40 punktów.
+3.2.4. Czas przeznaczony na każdy egzamin to dokładnie 60 minut. Jeśli język ojczysty
+
+kandydata nie jest językiem egzaminacyjnym,
+dodatkowe 25% czasu (75 minut).
+wersja 1.0
+© International Software Testing Qualifications Board
+
+Strona 5 z 9
+
+kandydatowi
+
+przysługuje
+
+07.07.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Struktura i zasady tworzenia egzaminów
+
+3.2.5. Do zaliczenia wymagane jest uzyskanie co najmniej 65% (26 punktów):
+
+Moduł
+
+Liczba
+pytań
+
+Liczba punktów
+do uzyskania
+
+Do zaliczenia
+potrzeba (65%)
+
+Czas
+egzaminu
+(w minutach)
+
+Czas egzaminu
++25%
+(w minutach)
+
+Certyfikowany
+Tester Poziom
+Podstawowy
+
+40
+
+40
+
+26
+
+60
+
+75
+
+3.2.6. Ogólny podział pytań według poziomu K jest następujący:
+
+Poziom K
+
+Liczba pytań
+
+Czas na pytanie
+
+K1
+K2
+K3
+Razem
+
+8
+24
+8
+40
+
+1
+1
+3
+
+Średni czas dla
+poziomu K
+8
+24
+24
+56
+
+3.3. Szczegółowe zasady
+3.3.1. Zasady i zalecenia dotyczące pisania pytań jednokrotnego i wielokrotnego wyboru
+
+można znaleźć w dokumencie ISTQB® — Zasady i zalecenia dotyczące pisania
+pytań [QWRR_3.0].
+3.3.2. Wszystkie pytania powinny sprawdzać co najmniej jeden cel nauczania (LO)
+
+z sylabusa Certyfikowany Tester — Poziom Podstawowy lub sprawdzać
+znajomość terminów ze Słownika terminów testowych ISTQB®. Pytania mogą
+zawierać terminy i pojęcia, które istnieją w sekcjach poziomu K1, ponieważ
+oczekuje się od kanydatów ich znajomości.
+W przypadku, gdy pytania dotyczą więcej niż jednego LO, powinny one
+odwoływać się przede wszystkim do celu nauczania o najwyższej wartości
+poziomu K.
+
+3.4. Rozkład pytań
+3.4.1. Szczegółowy opis struktury egzaminu
+
+Certyfikowany Tester — Poziom
+Podstawowy znajduje się w poniższej tabeli, w sekcji 4. Każdy z egzaminów
+wymaga obowiązkowych pytań sprawdzających określone cele nauczania,
+a także określonej liczby pytań w oparciu o „wybierane" cele nauczania.
+
+wersja 1.0
+© International Software Testing Qualifications Board
+
+Strona 6 z 9
+
+07.07.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Struktura i zasady tworzenia egzaminów
+
+4. Struktura egzaminu Certyfikowany Tester — Poziom Podstawowy
+Rozkład pytań
+w rozdziale 1
+FL-1.1.1
+FL-1.2.2
+FL-1.5.2
+FL-1.1.2
+FL-1.2.1
+FL-1.2.3
+FL-1.3.1
+FL-1.4.1
+FL-1.4.2
+FL-1.4.3
+FL-1.4.4
+FL-1.4.5
+FL-1.5.1
+FL-1.5.3
+Rozkład pytań
+w rozdziale 2
+FL-2.1.2
+FL-2.1.3
+FL-2.2.1
+FL-2.2.2
+FL-2.2.3
+FL-2.3.1
+FL-2.1.1
+FL-2.1.6
+FL-2.1.4
+FL-2.1.5
+Rozkład pytań
+w rozdziale 3
+FL-3.1.1
+FL-3.2.1
+FL-3.2.3
+FL-3.2.5
+FL-3.1.2
+FL-3.1.3
+FL-3.2.2
+FL-3.2.4
+
+wersja 1.0
+
+Poziom K
+
+Liczba pytań na
+cel nauczania
+(LO)
+
+Sugerowana
+punktacja
+
+K1
+
+1*
+
+1
+
+K1
+
+1
+
+1
+
+K2
+
+1*
+
+1
+
+K2
+
+1
+
+1
+
+K2
+
+3*
+
+1
+
+K2
+
+1*
+
+1
+
+K1
+K1
+
+Liczba pytań na
+cel nauczania
+(LO)
+1
+1
+
+K2
+
+1*
+
+1
+
+K2
+
+1*
+
+1
+
+K2
+
+1*
+
+1
+
+K2
+
+1*
+
+1
+
+Poziom K
+
+Liczba pytań na
+cel nauczania
+(LO)
+
+Sugerowana
+punktacja
+
+K1
+
+2*
+
+1
+
+K2
+
+1*
+
+1
+
+K2
+
+1*
+
+1
+
+Poziom K
+
+Strona 10 z 10
+
+© International Software Testing Qualifications Board
+
+W sumie 8 pytań
+wymaganych dla
+rozdziału 1.
+K1 = 2
+K2 = 6
+K3 = 0
+Liczba punktów dla tego
+rozdziału = 8
+
+Sugerowana
+punktacja
+1
+1
+W sumie 8 pytań
+wymaganych dla rozdziału
+2.
+K1 = 2
+K2 = 4
+K3 = 0
+Liczba punktów dla tego
+rozdziału = 6
+
+W sumie 4 pytania
+wymagane dla rozdziału 3
+K1 = 2
+K2 = 2
+K3 = 0
+Liczba punktów dla tego
+rozdziału = 4
+
+07.07.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Struktura i zasady tworzenia egzaminów
+
+Rozkład pytań
+w rozdziale 4
+FL-4.1.1
+FL-4.3.1
+FL-4.3.2
+FL-4.3.3
+FL-4.4.1
+FL-4.4.2
+FL-4.4.3
+FL-4.5.1
+FL-4.5.2
+FL-4.2.1
+FL-4.2.2
+FL-4.2.3
+FL-4.2.4
+FL-4.5.3
+Rozkład pytań
+w rozdziale 5
+FL-5.1.2
+FL-5.1.6
+FL-5.2.1
+FL-5.3.1
+FL-5.1.1
+FL-5.1.3
+FL-5.1.7
+FL-5.2.2
+FL-5.2.3
+FL-5.2.4
+FL-5.3.2
+FL-5.3.3
+FL-5.4.1
+FL-5.1.4
+FL-5.1.5
+FL-5.5.1
+
+wersja 1.0
+
+K2
+
+Liczba pytań na
+cel nauczania
+(LO)
+1
+
+K2
+
+2*
+
+Poziom K
+
+Sugerowana
+punktacja
+1
+1
+
+K2
+
+2*
+
+1
+
+K2
+
+1*
+
+1
+
+K3
+
+5
+
+1
+
+Poziom K
+
+Liczba pytań na
+cel nauczania
+(LO)
+
+Sugerowana
+punktacja
+
+K1
+
+1*
+
+1
+
+K2
+
+1*
+
+1
+
+K2
+
+1
+
+1
+
+K2
+
+1*
+
+1
+
+K2
+
+1*
+
+1
+
+K2
+
+1
+
+1
+
+K3
+
+3
+
+1
+
+Strona 10 z 10
+
+© International Software Testing Qualifications Board
+
+W sumie 11 pytań
+wymaganych dla rozdziału
+4.
+K1 = 0
+K2 = 6
+K3 = 5
+Liczba punktów dla tego
+rozdziału = 11
+
+W sumie 9 pytań
+wymaganych dla rozdziału
+5.
+K1 = 1
+K2 = 5
+K3 = 3
+Liczba punktów dla tego
+rozdziału = 9
+
+07.07.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Struktura i zasady tworzenia egzaminów
+
+Rozkład pytań
+w rozdziale 6
+
+Poziom K
+
+Liczba pytań na
+cel nauczania
+(LO)
+
+Sugerowana
+punktacja
+
+FL-6.1.1
+
+K2
+
+1
+
+1
+
+FL-6.2.1
+
+K1
+
+1
+
+1
+
+Certyfikowany Tester – Poziom Podstawowy
+PODSUMOWANIE
+
+wersja 1.0
+
+Strona 10 z 10
+
+© International Software Testing Qualifications Board
+
+60 minut
+
+W sumie 2 pytania
+wymagane dla rozdziału 6.
+K1 = 1
+K2 = 1
+K3 = 0
+Liczba punktów dla tego
+rozdziału = 2
+
+w sumie 40 pytań
+
+07.07.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+

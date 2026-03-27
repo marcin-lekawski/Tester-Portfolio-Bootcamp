@@ -1,0 +1,288 @@
+Certyfikowany tester
+Poziom podstawowy
+wersja 4.0
+Informacja o czasie trwania szkolenia
+
+International Software Testing Qualifications Board
+
+Certyfikowany tester – poziom podstawowy
+Informacja o czasie trwania kursu
+
+Informacje o prawach autorskich
+Niniejszy dokument można kopiować w całości lub sporządzać z niego wyciągi pod warunkiem podania
+źródła.
+
+Informacja o czasie trwania szkolenia
+Certyfikowany tester – poziom podstawowy
+Syllabus ISTQB© Certyfikowany tester – poziom podstawowy został pierwotnie opracowany
+w celu opisania trzydniowego (minimalny czas trwania) kursu szkoleniowego. Obecna wersja
+sylabusa jest zorganizowana w sposób, który nadal umożliwia organizatorom szkoleń
+przeprowadzenie trzydniowego (minimalny czas trwania) kursu szkoleniowego. Całkowity
+(minimalny) czas trwania kursu wynosi 18 godzin i 55 minut.
+Nie ma wymogu ISTQB© dla dostawców szkoleń, który wykluczałby prowadzenie czterodniowego
+kursu lub trzydniowego kursu z egzaminem w czwartym dniu. Jednak sylabus jest tak
+skonstruowany, aby opisać minimalną zawartość kursu, którą można omówić w ciągu trzech dni.
+Na przykład pierwszego dnia może odbyć się 6 godzin i 30 minut godzin szkolenia, drugiego dnia
+6 godzin i 25 minut godzin szkolenia, a trzeciego dnia 6 godzin szkolenia. Trzeci dzień może
+zakończyć się godzinnym egzaminem.
+Szkolenie składa się z sześciu głównych rozdziałów. Nagłówek każdego rozdziału określa
+minimalny czas trwania szkolenia dla danego rozdziału. Wymagania czasowe nie są podane
+poniżej poziomu rozdziału. W przypadku akredytowanych kursów szkoleniowych program
+nauczania wymaga co najmniej 18 godzin i 55 minut zajęć (1135 minut), podzielonych na sześć
+rozdziałów w następujący sposób:
+•
+
+Rozdział 1: Podstawy testowania – 180 minut,
+
+•
+
+Rozdział 2: Testowanie w cyklu wytwarzania oprogramowania – 130 minut,
+
+•
+
+Rozdział 3: Testowanie statyczne – 80 minut,
+
+•
+
+Rozdział 4: Analiza i projektowanie testów – 390 minut,
+
+•
+
+Rozdział 5: Zarządzanie czynnościami testowymi – 335 minut,
+
+•
+
+Rozdział 6: Narzędzia testowe – 20 minut.
+
+ISTQB© stosuje następujące ogólne wytyczne dotyczące przydzielania określonej ilości czasu
+szkolenia w celu osiągnięcia celów nauczania na każdym poziomie K:
+•
+
+cel nauczania na poziomie K1: 5 minut,
+
+•
+
+cel nauczania na poziomie K2: 15 minut,
+
+•
+
+cel nauczania na poziomie K3: 60 minut.
+
+Dodatkowy czas na realizację celu nauczania K2 w porównaniu z celem nauczania K1 wynika z:
+•
+
+większej złożoności materiałów dydaktycznych na poziomie K2 w porównaniu z poziomem
+K1 oraz
+
+wersja 1.0
+© International Software Testing Qualifications Board
+
+Strona 2 z 4
+
+07.07.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester – poziom podstawowy
+Informacja o czasie trwania kursu
+
+•
+
+wymogu, aby akredytowane szkolenie obejmowało realistyczny przykład oprogramowania
+ilustrujący koncepcję opisaną w każdym celu nauczania na poziomie K2.
+
+Dodatkowy czas na realizację celu nauczania K3 w porównaniu z celem nauczania K2 wynika z:
+•
+
+większej złożoności materiałów dydaktycznych na poziomie K3 w porównaniu z poziomem
+K2 oraz
+
+•
+
+wymogu, aby akredytowane szkolenie obejmowało nie tylko realistyczny przykład
+oprogramowania ilustrujący koncepcję opisaną przez każdy cel nauczania K3, ale także
+realistyczne ćwiczenie, które należy przeprowadzić i rozwiązać w trakcie szkolenia.
+
+Te i inne istotne zasady można znaleźć w wytycznych akredytacyjnych CTFL w. 4.0 i procesie
+akredytacji ISTQB©.
+Korzystając z tych wytycznych autorzy sylabusa ISTQB© Poziomu podstawowego w wersji 4.0
+dla każdego rozdziału obliczyli czas i dostosowali go, jeśli uznali to za stosowne. Czas jest
+następujący [poszczególne kolumny w tabelach to: poziom K, liczba celów nauczania na danym
+poziomie K w danym rozdziale, całkowity czas na realizację wszystkich celów nauczania na
+danym poziomie K – przyp. tłum.].
+Rozdział 1. Podstawy testowania
+K1
+
+3
+
+15 minut
+
+K2
+
+11
+
+165 minut
+
+K3
+
+0
+
+0 minut
+
+Razem
+
+Rozdział 1
+
+180 minut
+
+Rozdział 2. Testowanie w cyklu wytwarzania oprogramowania
+K1
+
+2
+
+10 minut
+
+K2
+
+8
+
+120 minut
+
+K3
+
+0
+
+0 minut
+
+Razem
+
+Rozdział 2
+
+130 minut
+
+Rozdział 3. Testowanie statyczne
+K1
+
+4
+
+20 minut
+
+K2
+
+4
+
+60 minut
+
+K3
+
+0
+
+0 minut
+
+Razem
+
+Rozdział 3
+
+80 minut
+
+wersja 1.0
+© International Software Testing Qualifications Board
+
+Strona 3 z 4
+
+07.07.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester – poziom podstawowy
+Informacja o czasie trwania kursu
+
+Rozdział 4. Analiza i projektowanie testów
+K1
+
+0
+
+0 minut
+
+K2
+
+9
+
+135 minut
+
+K3
+
+5
+
+300 minut
+
+Razem
+
+Rozdział 4
+
+390 minut
+(nie 435 jak wynika z reguł)
+
+Uzasadnienie: podział na klasy równoważności i analiza wartości brzegowych (sekcje 4.2.1
+i 4.2.2 sylabusa) mogą być omówione razem. Analiza wartości brzegowych opiera się na podziale
+na klasy równoważności, więc nie ma potrzeby poświęcania 1 godziny na wyjaśnienie tej techniki.
+Obie techniki można omówić razem w ciągu 90 minut.
+Testowanie instrukcji i gałęzi (sekcje 4.3.1 i 4.3.2 sylabusa) można omówić razem przy użyciu
+koncepcji grafu przepływu sterowania i można to zrobić w 15 minut.
+Rozdział 5. Zarządzanie czynnościami testowymi
+K1
+
+4
+
+20 minut
+
+K2
+
+9
+
+135 minut
+
+K3
+
+3
+
+180 minut
+
+Razem
+
+Rozdział 5
+
+335 minut
+
+Rozdział 6. Narzędzia testowe
+K1
+
+1
+
+5 minut
+
+K2
+
+1
+
+15 minut
+
+K3
+
+0
+
+0 minut
+
+Razem
+
+Rozdział 6
+
+20 minut
+
+wersja 1.0
+© International Software Testing Qualifications Board
+
+Strona 4 z 4
+
+07.07.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+

@@ -1,0 +1,2209 @@
+Egzamin przykładowy — pytania
+Zbiór A
+wersja 1.6
+(wersja PL 1.0.0.3)
+
+Sylabus ISTQB®
+Certyfikowany tester
+— poziom podstawowy
+zgodny z sylabusem w wersji 4.0
+
+International Software Testing Qualifications Board
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+17.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Informacja o prawach autorskich
+Copyright © International Software Testing Qualifications Board (zwana dalej „ISTQB®”).
+ISTQB® jest zastrzeżonym znakiem towarowym International Software Testing Qualifications Board.
+Wszelkie prawa zastrzeżone.
+Prawa autorskie wersji
+Informatycznych (SJSI).
+
+polskiej
+
+zastrzeżone
+
+dla
+
+© Stowarzyszenie
+
+Jakości
+
+Systemów
+
+Tłumaczenie z języka angielskiego wersji beta – KONTEKST A.Wolski spółka komandytowa.
+Przegląd końcowy przeprowadził zespół w składzie: Adam Roman, Monika Petri-Starego, Lucjan
+Stapp (kierownik zespołu).
+Aktualizacja do wersji 1.4: Monika Petri-Starego, Adam Roman.
+Aktualizacja do wersji 1.5: Monika Petri-Starego.
+Aktualizacja do wersji 1.6: Monika Petri-Starego, Adam Roman.
+Autorzy niniejszym przenoszą prawa autorskie na ISTQB®. Autorzy (jako obecni posiadacze praw
+autorskich) oraz ISTQB® (jako przyszły posiadacz praw autorskich) wyrazili zgodę na następujące
+warunki użytkowania:
+Kopiowanie fragmentów niniejszego dokumentu w celach niekomercyjnych jest dozwolone pod
+warunkiem wskazania źródła.
+Akredytowani dostawcy szkoleń mogą wykorzystywać niniejszy egzamin przykładowy w swoich
+szkoleniach pod warunkiem wskazania autorów i ISTQB® jako źródła egzaminu i właścicieli praw
+autorskich do niego. Zastrzega się jednak, że ewentualne materiały reklamowe dotyczące szkolenia
+mogą być publikowane dopiero po uzyskaniu oficjalnej akredytacji materiałów szkoleniowych ze
+strony uznawanej przez ISTQB® Rady Krajowej.
+Osoby fizyczne i grupy osób fizycznych mogą wykorzystywać niniejszy egzamin przykładowy
+w artykułach i książkach pod warunkiem wskazania autorów i ISTQB® jako źródła egzaminu
+przykładowego i właścicieli praw autorskich do niego.
+Korzystanie z egzaminu przykładowego do innych celów bez wcześniejszej pisemnej zgody ISTQB®
+jest zabronione.
+Każda uznawana przez ISTQB® Rada Krajowa może dokonywać przekładu niniejszego egzaminu
+przykładowego pod warunkiem powielenia powyższych uwag dotyczących praw autorskich
+w przetłumaczonej wersji dokumentu.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 2 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Odpowiedzialność za dokument
+Odpowiedzialność za niniejszy dokument ponosi Grupa robocza ISTQB® ds. egzaminów.
+Obsługą dokumentu zajmuje się podstawowy zespół ISTQB®, w skład którego wchodzą
+przedstawiciele Grupy roboczej ds. sylabusa i Grupy roboczej ds. egzaminów.
+
+Podziękowania
+Niniejszy dokument został opracowany przez podstawowy zespół ISTQB® w składzie: Laura Albert,
+Wim de Coutere, Arnika Hryszko, Gary Mogyorodi (recenzent techniczny), Meile Posthuma,
+Gandhinee Rajkomar, Stuart Reid, Jean-François Riverin, Adam Roman, Lucjan Stapp, Stephanie
+Ulrich, Yaron Tsubery i Eshraka Zakaria.
+Członkowie zespołu podstawowego składają podziękowania zespołowi recenzentów w składzie:
+Amanda Alderman, Alexander Alexandrov, Jürgen Beniermann, Rex Black, Young Jae Choi, Nicola
+De Rosa, Klaudia Dussa-Zieger, Klaus Erlenbach, Joëlle Genois, Tamás Gergely, Dot Graham,
+Matthew Gregg, Gabriele Haller, Chinthaka Indikadahena, John Kurowski, Ine Lutterman, Isabelle
+Martin, Patricia McQuaid, Dénes Medzihradszky, Blair Mo, Gary Mogyorodi, Jörn Münzel, Markus
+Niehammer, Ingvar Nordström, Fran O’Hara, Raul Onisor, Dénes Orosz, Arnd Pehl, Horst
+Pohlmann, Nishan Portoyan, Ale Rebon Portillo, Stuart Reid, Ralf Reissing, Liang Ren, JeanFrancois Riverin, Lloyd Roden, Tomas Rosenqvist, Murian Song, Szilard Szell, Giancarlo Tomasig,
+Joanne Tremblay, François Vaillancourt, Daniel van der Zwan, André Verschelling i Paul Weymouth
+za sugestie i wskazówki.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 3 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Historia zmian
+Zastosowany szablon dokumentu „Egzamin przykładowy
+— pytania”:
+
+Wersja 2.9
+
+Data: 10 sierpnia 2022 r.
+
+Wersja
+
+Data
+
+Uwagi
+
+1.6
+1.5
+1.4
+1.3
+1.2
+
+27.05.2024 r.
+12.04.2024 r.
+19.12.2023 r.
+21.11.2023 r.
+06.11.2023 r.
+
+1.1
+1.0
+
+16.10.2023 r.
+21.04.2023 r.
+
+Poprawki w pytaniach: 5, 6, 16, A7, A21.
+Drobna poprawka w pytaniu nr 36.
+Drobna poprawka w pytaniu nr 29.
+Brak zmian, zapis w wersji PDF z przezroczystym tłem na obrazkach.
+Poprawki w pytaniach nr: 12, A7. Drobne poprawki w pytaniach nr: 5,
+A8, A11, A12, A23. Poprawki w pytaniach typu Roman question w
+celu zachowania zgodności z regułami tworzenia pytań tego typu.
+Poprawki w pytaniach nr: 5, 20, A7
+Wersja do publikacji
+
+Historia zmian dla polskiej wersji sylabusa
+Wersja
+
+Data
+
+Uwagi
+
+1.0.0.3
+
+14.06.2024 r.
+
+Poprawki w pytaniach 5, 6 c) i e), A7, A21.
+
+1.0.0.2
+
+15.05.2024 r.
+
+Poprawka zgodna z w.1.5 oryginału, poprawka w pytaniu nr 36.
+
+1.0.0.1
+
+23.04.2024 r.
+
+Poprawki zgodnie z wersjami 1.1, 1.2, 1.3 i 1.4 oryginału, poprawka w
+pytaniu nr 22.
+
+1.0.0.0
+
+07.07.2023 r.
+
+Publikacja wersji 1.0.0.0
+
+0.3
+
+01.06.2023 r.
+
+Przegląd i wprowadzanie zmian – Zespół SJSI
+
+0.2
+
+21.05.2023 r.
+
+Przegląd tłumaczenia – Zespół SJSI
+
+09.05.2023 r.
+
+Udostępnienie przez ISTQB® wersji końcowej
+
+28.04.2023 r.
+
+Tłumaczenie wersji beta: KONTEKST A.Wolski spółka komandytowa
+
+0.1
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 4 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Spis treści
+Wstęp ............................................................................................................................................. 7
+Cel dokumentu ............................................................................................................................ 7
+Instrukcje ..................................................................................................................................... 7
+Pytania............................................................................................................................................ 8
+Pytanie nr 1 (1 p.) ...................................................................................................................................... 8
+Pytanie nr 2 (1 p.) ...................................................................................................................................... 8
+Pytanie nr 3 (1 p.) ...................................................................................................................................... 8
+Pytanie nr 4 (1 p.) ...................................................................................................................................... 9
+Pytanie nr 5 (1 p.) ...................................................................................................................................... 9
+Pytanie nr 6 (1 p.) ...................................................................................................................................... 9
+Pytanie nr 7 (1 p.) .................................................................................................................................... 10
+Pytanie nr 8 (1 p.) .................................................................................................................................... 10
+Pytanie nr 9 (1 p.) .................................................................................................................................... 10
+Pytanie nr 10 (1 p.) .................................................................................................................................. 11
+Pytanie nr 11 (1 p.) .................................................................................................................................. 11
+Pytanie nr 12 (1 p.) .................................................................................................................................. 11
+Pytanie nr 13 (1 p.) .................................................................................................................................. 12
+Pytanie nr 14 (1 p.) .................................................................................................................................. 12
+Pytanie nr 15 (1 p.) .................................................................................................................................. 13
+Pytanie nr 16 (1 p.) .................................................................................................................................. 13
+Pytanie nr 17 (1 p.) .................................................................................................................................. 13
+Pytanie nr 18 (1 p.) .................................................................................................................................. 14
+Pytanie nr 19 (1 p.) .................................................................................................................................. 14
+Pytanie nr 20 (1 p.) .................................................................................................................................. 15
+Pytanie nr 21 (1 p.) .................................................................................................................................. 16
+Pytanie nr 22 (1 p.) .................................................................................................................................. 17
+Pytanie nr 23 (1 p.) .................................................................................................................................. 18
+Pytanie nr 24 (1 p.) .................................................................................................................................. 18
+Pytanie nr 25 (1 p.) .................................................................................................................................. 19
+Pytanie nr 26 (1 p.) .................................................................................................................................. 19
+Pytanie nr 27 (1 p.) .................................................................................................................................. 19
+Pytanie nr 28 (1 p.) .................................................................................................................................. 20
+Pytanie nr 29 (1 p.) .................................................................................................................................. 20
+Pytanie nr 30 (1 p.) .................................................................................................................................. 21
+Pytanie nr 31 (1 p.) .................................................................................................................................. 21
+Pytanie nr 32 (1 p.) .................................................................................................................................. 21
+Pytanie nr 33 (1 p.) .................................................................................................................................. 22
+Pytanie nr 34 (1 p.) .................................................................................................................................. 23
+Pytanie nr 35 (1 p.) .................................................................................................................................. 24
+Pytanie nr 36 (1 p.) .................................................................................................................................. 24
+Pytanie nr 37 (1 p.) .................................................................................................................................. 24
+Pytanie nr 38 (1 p.) .................................................................................................................................. 25
+Pytanie nr 39 (1 p.) .................................................................................................................................. 25
+Pytanie nr 40 (1 p.) .................................................................................................................................. 26
+
+Załącznik: Pytania dodatkowe ....................................................................................................... 27
+Pytanie nr A1 (1 p.) .................................................................................................................................. 27
+Pytanie nr A2 (1 p.) .................................................................................................................................. 27
+Pytanie nr A3 (1 p.) .................................................................................................................................. 28
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 5 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A4 (1 p.) .................................................................................................................................. 28
+Pytanie nr A5 (1 p.) .................................................................................................................................. 29
+Pytanie nr A6 (1 p.) .................................................................................................................................. 29
+Pytanie nr A7 (1 p.) .................................................................................................................................. 30
+Pytanie nr A8 (1 p.) .................................................................................................................................. 30
+Pytanie nr A9 (1 p.) .................................................................................................................................. 31
+Pytanie nr A10 (1 p.) ................................................................................................................................ 32
+Pytanie nr A11 (1 p.) ................................................................................................................................ 32
+Pytanie nr A12 (1 p.) ................................................................................................................................ 33
+Pytanie nr A13 (1 p.) ................................................................................................................................ 33
+Pytanie nr A14 (1 p.) ................................................................................................................................ 34
+Pytanie nr A15 (1 p.) ................................................................................................................................ 34
+Pytanie nr A16 (1 p.) ................................................................................................................................ 35
+Pytanie nr A17 (1 p.) ................................................................................................................................ 35
+Pytanie nr A18 (1 p.) ................................................................................................................................ 35
+Pytanie nr A19 (1 p.) ................................................................................................................................ 36
+Pytanie nr A20 (1 p.) ................................................................................................................................ 36
+Pytanie nr A21 (1 p.) ................................................................................................................................ 37
+Pytanie nr A22 (1 p.) ................................................................................................................................ 37
+Pytanie nr A23 (1 p.) ................................................................................................................................ 38
+Pytanie nr A24 (1 p.) ................................................................................................................................ 38
+Pytanie nr A25 (1 p.) ................................................................................................................................ 39
+Pytanie nr A26 (1 p.) ................................................................................................................................ 39
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 6 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Wstęp
+Cel dokumentu
+Przykładowe pytania i odpowiedzi wraz z uzasadnieniami przedstawione w niniejszym egzaminie
+przykładowym zostały opracowane przez zespół ekspertów merytorycznych i doświadczonych
+autorów pytań w celu:
+●
+●
+
+udzielenia Radom Krajowym ISTQB® i komisjom egzaminacyjnym pomocy w wykonywaniu
+czynności związanych z opracowywaniem pytań;
+udostępnienia dostawcom szkoleń i kandydatom przykładowych pytań egzaminacyjnych.
+
+Pytania te nie mogą być wykorzystywane w przedstawionej formie w żadnym oficjalnym
+egzaminie.
+Rzeczywiste egzaminy mogą zawierać szeroką gamę pytań, a niniejszy egzamin przykładowy nie
+ma na celu przedstawienia wszystkich możliwych wariantów, jeśli chodzi o typ, styl czy długość
+pytań. Ponadto należy pamiętać, że niniejszy egzamin przykładowy może być trudniejszy lub
+łatwiejszy od egzaminu oficjalnego.
+
+Instrukcje
+Niniejszy dokument zawiera:
+●
+
+●
+
+pytania1, w tym następujące elementy związane z każdym pytaniem:
+- ewentualny scenariusz rozwijający podstawową część pytania;
+- wartość w punktach;
+- zestaw możliwych odpowiedzi;
+pytania dodatkowe, w tym następujące elementy związane z każdym pytaniem [dotyczy
+niektórych egzaminów przykładowych*]:
+- ewentualny scenariusz rozwijający podstawową część pytania;
+- wartość w punktach;
+- zestaw możliwych odpowiedzi.
+
+* Pierwsze 40 pytań (wraz z odpowiedziami) uporządkowano zgodnie ze strukturą i regułami
+dotyczącymi egzaminów, w związku z czym należy je potraktować jako zasadniczą część egzaminu
+przykładowego. Blok zatytułowany „Pytania dodatkowe” zawiera pytania dodatkowe (wraz
+z odpowiedziami), które nie wchodzą w skład egzaminu przykładowego, ale mogą pomóc
+uczestnikowi szkolenia w pogłębieniu wiedzy w dziedzinach związanych z tematem egzaminu.
+Odpowiedzi wraz z uzasadnieniami znajdują się w odrębnym dokumencie.
+
+W niniejszym egzaminie przykładowym pytania posortowano według celów nauczania, ale nie należy
+oczekiwać, że taki układ pytań zostanie przyjęty w rzeczywistym egzaminie.
+1
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 7 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytania
+Pytanie nr 1 (1 p.)
+Która z poniższych odpowiedzi opisuje poprawny cel testów?
+a) Udowodnienie, że w systemie podlegającym testowaniu nie występują żadne nieusunięte
+defekty.
+b) Udowodnienie, że po wprowadzeniu systemu do eksploatacji nie będą występowały żadne
+awarie.
+c) Obniżenie poziomu ryzyka związanego z przedmiotem testów i zwiększenie zaufania do jego
+jakości.
+d) Sprawdzenie, czy nie pozostały żadne nieprzetestowane kombinacje danych wejściowych.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 2 (1 p.)
+Które z poniższych stwierdzeń zawiera przykład czynności testowych, które przyczyniają się do
+powodzenia projektu?
+a) Zaangażowanie testerów w różne działania podejmowane w ramach cyklu wytwarzania
+oprogramowania (SDLC) pomaga wykryć defekty w produktach pracy.
+b) Testerzy starają się nie przeszkadzać programistom na etapie pisania kodu, aby umożliwić
+im tworzenie kodu o wyższej jakości.
+c) Współpraca testerów z użytkownikami pozwala podnieść jakość raportów o defektach
+podczas testowania integracji modułów i testowania systemowego.
+d) Certyfikowani testerzy projektują znacznie lepsze przypadki testowe niż testerzy, którzy nie
+posiadają certyfikatu.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 3 (1 p.)
+Rozpoczynasz pracę jako tester w zespole opracowującym nowy system metodą przyrostową.
+Zauważasz, że od kilku iteracji nie wprowadzono żadnych zmian w przypadkach testowych
+używanych do testowania regresji, a także nie zidentyfikowano żadnych nowych defektów
+związanych z regresją. Twój kierownik jest zadowolony — w przeciwieństwie do ciebie. Która
+zasada testowania uzasadnia twój sceptycyzm?
+a)
+b)
+c)
+d)
+
+Testy ulegają zużyciu.
+Przekonanie o braku defektów jest błędem.
+Defekty mogą się kumulować.
+Testowanie gruntowne jest niemożliwe.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 8 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 4 (1 p.)
+Pracujesz w zespole, który tworzy aplikację mobilną do zamawiania posiłków. Zespół postanowił, że
+w bieżącej iteracji ma zostać zaimplementowana funkcjonalność obsługi płatności.
+Która z wymienionych czynności jest elementem analizy testów?
+a) Oszacowanie, że testowanie integracji z usługą płatniczą potrwa 8 osobodni.
+b) Podjęcie decyzji, że zespół powinien przetestować, czy istnieje możliwość prawidłowego
+podziału płatności między kilku użytkowników.
+c) Zastosowanie metody analizy wartości brzegowych w celu opracowania danych testowych
+na potrzeby przypadków testowych, które sprawdzają prawidłowość przetwarzania płatności
+w minimalnej dozwolonej kwocie.
+d) Przeanalizowanie rozbieżności między rzeczywistym a oczekiwanym rezultatem po
+wykonaniu przypadku testowego sprawdzającego przetwarzanie płatności kartą kredytową,
+a następnie zgłoszenie defektu.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 5 (1 p.)
+Które z poniższych czynników (i–v) mają ISTOTNY wpływ na podejście do testów?
+i.
+ii.
+iii.
+iv.
+v.
+a)
+b)
+c)
+d)
+
+Cykl życia wytwarzania oprogramowania (SDLC).
+Liczba defektów wykrytych w poprzednich projektach.
+Zidentyfikowane ryzyka produktowe.
+Nowe wymagania wynikające z przepisów wymuszające formalne testowanie
+białoskrzynkowe.
+Konfiguracja środowiska testowego.
+
+i oraz ii mają istotny wpływ.
+i, iii oraz iv mają istotny wpływ.
+ii, iv oraz v mają istotny wpływ.
+iii oraz v mają istotny wpływ.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 6 (1 p.)
+Wskaż DWA z wymienionych poniżej zadań, które są przypisane GŁÓWNIE do roli związanej
+z testowaniem.
+a)
+b)
+c)
+d)
+e)
+
+Konfigurowanie środowiska testowego.
+Prowadzenie backlogu produktu.
+Projektowanie rozwiązań dla nowych wymagań.
+Tworzenie planu testów.
+Analizowanie podstawy testów.
+
+Wybierz DWIE odpowiedzi.
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 9 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 7 (1 p.)
+Które z poniższych umiejętności (i–v) są NAJBARDZIEJ ISTOTNYMI umiejętnościami w pracy
+testera?
+i.
+ii.
+
+iii.
+iv.
+v.
+a)
+b)
+c)
+d)
+
+Posiadanie wiedzy merytorycznej.
+Tworzenie wizji produktu.
+Umiejętność sprawnej pracy w zespole.
+Planowanie i organizowanie pracy zespołu.
+Krytyczne myślenie.
+
+Umiejętności ii oraz iv.
+Umiejętności i, iii oraz v.
+Umiejętności i, ii oraz v.
+Umiejętności iii oraz iv.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 8 (1 p.)
+W jaki sposób podejście „cały zespół” uwidacznia się w kontaktach testerów z przedstawicielami
+jednostek biznesowych?
+a) Przedstawiciele jednostek biznesowych decydują o podejściu do automatyzacji testów.
+b) Testerzy pomagają przedstawicielom jednostek biznesowych w określaniu strategii testów.
+c) Przedstawiciele jednostek biznesowych nie są objęci podejściem opartym na zaangażowaniu
+całego zespołu (podejście „cały zespół”).
+d) Testerzy pomagają przedstawicielom jednostek biznesowych w tworzeniu odpowiednich
+testów akceptacyjnych.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 9 (1 p.)
+Zastanów się nad następującą zasadą: „Do każdej czynności związanej z wytwarzaniem
+oprogramowania (SDLC) powinna być przypisana odpowiadająca jej czynność testowa”. W których
+modelach cyklu wytwarzania oprogramowania (SDLC) obowiązuje ta zasada?
+a) Tylko w sekwencyjnych modelach wytwarzania oprogramowania.
+b) Tylko w iteracyjnych modelach wytwarzania oprogramowania.
+c) Tylko w iteracyjnych i przyrostowych modelach wytwarzania oprogramowania.
+d) W sekwencyjnych, przyrostowych i iteracyjnych modelach wytwarzania oprogramowania.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 10 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 10 (1 p.)
+Które z poniższych stwierdzeń NAJLEPIEJ opisuje wytwarzanie sterowane testami akceptacyjnymi
+(ATTD)?
+a) W modelu ATDD kryteria akceptacji są zwykle tworzone w formacie Given/When/Then
+(Mając/Kiedy/Wtedy).
+b) W modelu ATDD przypadki testowe są zwykle tworzone na etapie testowania modułowego
+i są ukierunkowane na kod.
+c) W modelu ATDD testy są tworzone na podstawie kryteriów akceptacji i określają sposób
+tworzenia związanego z nimi oprogramowania.
+d) W modelu ATDD testy są tworzone na podstawie pożądanego zachowania oprogramowania,
+co ułatwia członkom zespołu ich zrozumienie.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 11 (1 p.)
+Które z poniższych stwierdzeń NIE jest przykładem przesunięcia w lewo (ang. shift left)?
+a) Dokonywanie przeglądu wymagań użytkowników przed ich formalnym zaakceptowaniem
+przez interesariuszy.
+b) Pisanie testu modułowego przed napisaniem odpowiadającego mu kodu.
+c) Wykonywanie testu wydajności modułu w trakcie testowania modułowego.
+d) Pisanie skryptu testowego przed ustanowieniem procesu zarządzania konfiguracją.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 12 (1 p.)
+Którego z poniższych argumentów należałoby użyć, aby przekonać kierownika do organizowania
+retrospektyw na zakończenie każdego cyklu przekazywania oprogramowania do eksploatacji?
+a) Retrospektywy są obecnie bardzo popularne, dlatego klienci byliby zadowoleni, gdybyśmy
+uwzględnili je w naszych procesach.
+b) Organizowanie retrospektyw przyniesie organizacji wymierne oszczędności, ponieważ
+przedstawiciele użytkowników nie przekazują natychmiastowych informacji zwrotnych na
+temat produktu.
+c) Słabe punkty procesów zidentyfikowane podczas retrospektywy można przeanalizować,
+a następnie wykorzystać do opracowania listy działań, które będą podejmowane w ramach
+prowadzonego przez organizację programu ciągłego doskonalenia procesów.
+d) Retrospektywy realizują pięć wartości (do których należą między innymi odwaga i szacunek),
+które są kluczowe dla utrzymania procesu ciągłego doskonalenia w organizacji.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 11 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 13 (1 p.)
+Które typy awarii (1–4) NAJLEPIEJ odpowiadają poszczególnym poziomom testów (A–D)?
+1. Awarie związane z zachowaniem systemu, polegające na niezgodności z potrzebami
+biznesowymi użytkownika.
+2. Awarie dotyczące komunikacji między modułami.
+3. Awarie dotyczące logiki danego modułu.
+4. Awarie związane z nieprawidłowo zaimplementowanymi regułami biznesowymi.
+A. Testowanie modułowe.
+B. Testowanie integracji modułów.
+C. Testowanie systemowe.
+D. Testowanie akceptacyjne.
+a)
+b)
+c)
+d)
+
+1D, 2B, 3A, 4C
+1D, 2B, 3C, 4A
+1B, 2A, 3D, 4C
+1C, 2B, 3A, 4D
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 14 (1 p.)
+Testujesz historyjkę użytkownika, z którą są związane trzy kryteria akceptacji: KA1, KA2 i KA3.
+Kryterium KA1 jest pokryte przez przypadek testowy PT1, kryterium KA2 przez przypadek PT2,
+a kryterium KA3 przez przypadek PT3. Z historii wykonywania testów wynika, że wykonano trzy
+przebiegi testów w trzech kolejnych wersjach oprogramowania:
+Przebieg 1
+
+Przebieg 2
+
+Przebieg 3
+
+PT1
+
+(1) Niezaliczony
+
+(4) Zaliczony
+
+(7) Zaliczony
+
+PT2
+
+(2) Zaliczony
+
+(5) Niezaliczony
+
+(8) Zaliczony
+
+PT3
+
+(3) Niezaliczony
+
+(6) Niezaliczony
+
+(9) Zaliczony
+
+Testy są powtarzane dopiero po otrzymaniu informacji, że wszystkie defekty wykryte w ramach
+poprzednich przebiegów testów zostały usunięte i że dostępna jest nowa wersja oprogramowania.
+Które z powyższych testów są wykonywane jako testy regresji?
+a)
+b)
+c)
+d)
+
+Tylko 4, 7, 8 i 9.
+Tylko 5 i 7.
+Tylko 4, 6, 8 i 9.
+Tylko 5 i 6.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 12 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 15 (1 p.)
+Które z poniższych stwierdzeń NIE opisuje korzyści wynikających z testowania statycznego?
+a) Obniżenie kosztów zarządzania defektami z uwagi na łatwość wykrywania defektów na
+późniejszych etapach cyklu wytwarzania oprogramowania.
+b) Niższe koszty usuwania defektów wykrytych podczas testowania statycznego w porównaniu
+z usuwaniem defektów wykrytych podczas testowania dynamicznego.
+c) Wykrywanie defektów w kodzie, które mogłyby nie zostać wykryte w przypadku wykonania
+wyłącznie testowania dynamicznego.
+d) Wykrywanie luk i niespójności w wymaganiach.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 16 (1 p.)
+Które z poniższych jest korzyścią wynikającą z wczesnego i częstego otrzymywania informacji
+zwrotnych?
+a)
+b)
+c)
+d)
+
+Usprawnienie procesu testowego na potrzeby przyszłych projektów.
+Zmuszanie klientów do ustalania priorytetów wymagań na podstawie uzgodnionych ryzyk.
+Jest to jedyny sposób mierzenia jakości zmian.
+Unikanie nieporozumień w kwestii wymagań.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 17 (1 p.)
+Przeglądy przeprowadzane w organizacji mają następujące atrybuty:
+●
+●
+●
+●
+●
+
+Wyznaczono osobę pełniącą rolę protokolanta.
+Głównym celem jest dokonywanie oceny jakości.
+Spotkanie związane z przeglądem prowadzi autor produktu pracy.
+Uczestnicy przygotowują się indywidualnie.
+Sporządzany jest raport z przeglądu.
+
+Który z poniższych typów przeglądu jest NAJPRAWDOPODOBNIEJ stosowany?
+a)
+b)
+c)
+d)
+
+Przegląd nieformalny.
+Przejrzenie.
+Przegląd techniczny.
+Inspekcja.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 13 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 18 (1 p.)
+Który z wymienionych elementów NIE jest czynnikiem przyczyniającym się do powodzenia
+przeglądu?
+a) Przeznaczenie przez uczestników odpowiedniej ilości czasu na przeprowadzenie przeglądu.
+b) Podzielenie dużych produktów pracy na mniejsze części w celu zmniejszenia wymaganych
+nakładów pracy.
+c) Uczestnicy powinni unikać zachowań, które mogłyby wskazywać na znudzenie, irytację bądź
+wrogie nastawienie wobec innych uczestników.
+d) Przyjmowanie do wiadomości, potwierdzanie i rozpatrywanie wykrytych awarii w obiektywny
+sposób.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 19 (1 p.)
+Która z poniższych cech charakteryzuje techniki testowania oparte na doświadczeniu?
+a) Przypadki testowe są tworzone na podstawie szczegółowych informacji projektowych.
+b) Do mierzenia pokrycia używane są elementy testowane w kodzie implementującym
+interfejsy.
+c) Stosowane techniki bazują w dużej mierze na wiedzy testera dotyczącej oprogramowania
+i dziedziny biznesowej.
+d) Za pomocą przypadków testowych identyfikowane są odchylenia od wymagań.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 14 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 20 (1 p.)
+Testujesz uproszczony formularz wyszukiwania mieszkań, w którym występują tylko dwa kryteria
+wyszukiwania:
+●
+●
+
+kondygnacja (trzy możliwe opcje: parter; pierwsze piętro; drugie lub wyższe piętro);
+typ ogródka (trzy możliwe opcje: brak ogródka; mały ogródek; duży ogródek).
+
+Ogródki są dostępne tylko w przypadku mieszkań na parterze. Formularz zawiera wbudowany
+mechanizm walidacji, który nie pozwala użyć kryteriów wyszukiwania niezgodnych z powyższą
+zasadą.
+Każdy test ma dwie wartości wejściowe: kondygnacja i typ ogródka. Aby pokryć w swoich testach
+każdą kondygnację i każdy typ ogródka, chcesz zastosować podział na klasy równoważności.
+Jaka jest minimalna liczba przypadków testowych potrzebna do uzyskania stuprocentowego
+pokrycia klas równoważności?
+a)
+b)
+c)
+d)
+
+3
+4
+5
+6
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 15 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 21 (1 p.)
+Testujesz system, który oblicza ocenę końcową z przedmiotu dla danego ucznia.
+Ocena końcowa jest ustalana na podstawie wyniku końcowego zgodnie z następującymi zasadami:
+●
+●
+●
+●
+●
+●
+
+0–50 punktów: ocena niedostateczna;
+51–60 punktów: ocena dopuszczająca;
+61–70 punktów: ocena dostateczna;
+71–80 punktów: ocena dobra;
+81–90 punktów: ocena bardzo dobra;
+91–100 punktów: ocena celująca.
+
+Twój zespół przygotował następujący zbiór przypadków testowych:
+Wynik
+końcowy
+
+Ocena
+końcowa
+
+PT1
+
+91
+
+celująca
+
+PT2
+
+50
+
+niedostateczna
+
+PT3
+
+81
+
+bardzo dobra
+
+PT4
+
+60
+
+dopuszczająca
+
+PT5
+
+70
+
+dostateczna
+
+PT6
+
+80
+
+dobra
+
+Jakie pokrycie wartości brzegowych dla wyniku końcowego w metodzie dwupunktowej analizy
+wartości brzegowych osiąga zbiór przypadków testowych PT1-PT6?
+a)
+b)
+c)
+d)
+
+50%
+60%
+33,3%
+100%
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 16 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 22 (1 p.)
+Twoja ulubiona wypożyczalnia rowerów właśnie wprowadziła nowy system zarządzania relacjami
+z klientami i poprosiła cię (jako jednego z najbardziej lojalnych klientów) o jego przetestowanie.
+W systemie zaimplementowano następujące funkcjonalności:
+●
+●
+●
+
+Rower może wypożyczyć każdy, ale uczestnicy programu lojalnościowego otrzymują 20%
+rabatu.
+Niezwrócenie roweru w terminie oznacza brak rabatu.
+W ramach 15-go wypożyczenia uczestnik programu lojalnościowego otrzymuje prezent
+w postaci koszulki.
+
+Tablica decyzyjna opisująca zaimplementowane funkcjonalności wygląda następująco:
+Warunki
+
+R1
+
+R2
+
+R3
+
+R4
+
+R5
+
+R6
+
+R7
+
+R8
+
+Udział w programie lojalnościowym
+
+P
+
+P
+
+P
+
+P
+
+F
+
+F
+
+F
+
+F
+
+Niezwrócenie roweru w terminie
+
+P
+
+F
+
+P
+
+F
+
+P
+
+F
+
+F
+
+P
+
+15. wypożyczenie
+
+F
+
+F
+
+P
+
+P
+
+F
+
+F
+
+P
+
+P
+
+Akcje
+Rabat 20%
+Darmowa koszulka
+
+X
+
+X
+X
+
+X
+
+X
+
+Opierając się WYŁĄCZNIE na opisie funkcjonalności systemu zarządzania relacjami z klientami
+wskaż, która z podanych reguł opisuje sytuację niemożliwą.
+a)
+b)
+c)
+d)
+
+R4
+R2
+R6
+R8
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 17 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 23 (1 p.)
+Testujesz system, którego cykl działania opisano na przedstawionym poniżej diagramie przejść
+pomiędzy stanami. System rozpoczyna pracę w stanie INICJOWANIE, a kończy pracę w stanie
+WYŁ.
+
+Jaka jest MINIMALNA liczba przypadków testowych niezbędna do uzyskania pokrycia poprawnych
+przejść?
+a)
+b)
+c)
+d)
+
+4
+2
+7
+3
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 24 (1 p.)
+Twój zestaw testowy osiągnął stuprocentowe pokrycie instrukcji kodu. Co to oznacza w praktyce?
+a) Każda instrukcja w kodzie zawierająca defekt została wykonana przynajmniej raz.
+b) Dowolny zestaw testowy zawierający więcej przypadków testowych niż twój zestaw również
+osiągnie stuprocentowe pokrycie instrukcji kodu.
+c) Każda ścieżka w kodzie musiała zostać wykonana co najmniej raz.
+d) Każda kombinacja wartości wejściowych musiała zostać przetestowana co najmniej raz.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 18 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 25 (1 p.)
+Które z poniższych stwierdzeń NIE jest zgodne z prawdą w odniesieniu do testowania
+białoskrzynkowego?
+a) Podczas testowania białoskrzynkowego uwzględniana jest cała implementacja
+oprogramowania.
+b) Metryki pokrycia stosowane w testowaniu białoskrzynkowym pomagają wskazać dodatkowe
+testy umożliwiające zwiększenie pokrycia kodu.
+c) Białoskrzynkowe techniki testowania można stosować w testowaniu statycznym.
+d) Testowanie białoskrzynkowe pozwala rozpoznać luki w implementacji wymagań.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 26 (1 p.)
+Które z poniższych stwierdzeń NAJLEPIEJ opisuje koncepcję zgadywania błędów?
+a) Zgadywanie błędów polega na wykorzystaniu wiedzy i doświadczenia w zakresie dotychczas
+wykrytych defektów oraz typowych pomyłek popełnianych przez programistów.
+b) Zgadywanie błędów polega na wykorzystaniu własnego doświadczenia w wytwarzaniu
+oprogramowania i wiedzy na temat pomyłek popełnionych podczas pracy na stanowisku
+programisty.
+c) Zgadywanie błędów wymaga wyobrażenia sobie, że jest się użytkownikiem przedmiotu
+testów, i zgadywania, jakie pomyłki mógłby popełnić korzystający z niego użytkownik.
+d) Zgadywanie błędów wymaga szybkiego powielenia zadania związanego z wytwarzaniem
+oprogramowania w celu zidentyfikowania rodzajów pomyłek, jakie mógłby popełnić
+programista.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 27 (1 p.)
+W projekcie, w którym uczestniczysz, doszło do opóźnienia w pracach nad zupełnie nową aplikacją,
+przez co wykonywanie testów również rozpoczęło się zbyt późno. Masz jednak bardzo szczegółową
+wiedzę merytoryczną i dobre umiejętności analityczne. Chociaż zespół nie otrzymał jeszcze pełnej
+listy wymagań, kierownictwo domaga się przedstawienia wstępnych wyników testów.
+Jaka technika testowania NAJLEPIEJ sprawdzi się w takiej sytuacji?
+a)
+b)
+c)
+d)
+
+Testowanie w oparciu o listę kontrolną.
+Zgadywanie błędów.
+Testowanie eksploracyjne.
+Testowanie gałęzi.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 19 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 28 (1 p.)
+Które z poniższych stwierdzeń NAJLEPIEJ opisuje sposób, w jaki można udokumentować kryteria
+akceptacji?
+a) Przeprowadzenie retrospektywy w celu ustalenia rzeczywistych potrzeb interesariuszy
+dotyczących danej historyjki użytkownika.
+b) Opisanie przykładowego warunku testowego związanego z daną historyjką użytkownika
+w formacie Given/When/Then (Mając/Kiedy/Wtedy).
+c) Słowne przekazanie informacji w celu zmniejszenia ryzyka błędnego zrozumienia kryteriów
+akceptacji przez inne osoby.
+d) Udokumentowanie ryzyk związanych z daną historyjką użytkownika w planie testów, co
+ułatwi wykonanie testowania opartego na ryzyku w odniesieniu do tej historyjki.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 29 (1 p.)
+Rozważmy następującą historyjkę użytkownika:
+Jako redaktor
+chcę weryfikować treść przed jej opublikowaniem,
+aby upewnić się, że nie występują w niej błędy gramatyczne.
+Kryteria akceptacji związane z tą historyjką są następujące:
+●
+●
+●
+●
+●
+●
+
+Użytkownik może zalogować się do systemu zarządzania treścią przy użyciu konta
+z przypisaną rolą „redaktora”.
+Redaktor może wyświetlać istniejące strony z treścią.
+Redaktor może edytować treść stron.
+Redaktor może dodawać komentarze w formie adiustacji.
+Redaktor może zapisywać zmiany.
+Redaktor może zlecać osobie pełniącej rolę „właściciela treści” dokonywanie aktualizacji
+treści.
+
+Która z poniższych opcji jest NAJLEPSZYM przykładem zastosowania modelu wytwarzania
+sterowanego testami akceptacyjnymi (ATDD) w celu przetestowania tej historyjki użytkownika?
+a)
+b)
+c)
+d)
+
+Przetestowanie, czy redaktor może zapisać dokument po zredagowaniu treści strony.
+Przetestowanie, czy właściciel treści może zalogować się i zaktualizować treść.
+Przetestowanie, czy redaktor może wyznaczyć termin publikacji zredagowanej treści.
+Przetestowanie, czy redaktor może zlecić innemu redaktorowi dokonanie aktualizacji treści.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 20 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 30 (1 p.)
+Jaki jest wkład testerów w planowanie iteracji i wydań?
+a) Testerzy ustalają priorytety opracowywanych historyjek użytkownika.
+b) Testerzy koncentrują się wyłącznie na aspektach funkcjonalnych systemu będącego
+przedmiotem testów.
+c) Testerzy uczestniczą w procesie szczegółowej identyfikacji i oceny ryzyka w odniesieniu do
+historyjek użytkownika.
+d) Testerzy gwarantują przekazanie do eksploatacji wysokiej jakości oprogramowanie poprzez
+projektowanie testów na wczesnym etapie — w ramach planowania wydań.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 31 (1 p.)
+Które DWIE z poniższych opcji stanowią kryteria wyjścia w przypadku testowania systemu?
+a)
+b)
+c)
+d)
+e)
+
+Gotowość środowiska testowego.
+Możliwość zalogowania się przez testera do przedmiotu testów.
+Osiągnięcie szacowanej gęstości defektów.
+Przekształcenie wymagań do formatu Given/When/Then (Mając/Kiedy/Wtedy).
+Zautomatyzowanie testów regresji.
+
+Wybierz DWIE odpowiedzi.
+
+Pytanie nr 32 (1 p.)
+Twój zespół szacuje pracochłonność testowania nowej funkcjonalności obarczonej dużym ryzykiem,
+korzystając w tym celu z techniki szacowania trójpunktowego. Przygotowano następujące
+oszacowania:
+●
+●
+●
+
+najbardziej optymistyczne: 2 osobogodziny;
+najbardziej prawdopodobne: 11 osobogodzin;
+najbardziej pesymistyczne: 14 osobogodzin.
+
+Jaka jest ostateczna szacowana wartość?
+a)
+b)
+c)
+d)
+
+9 osobogodzin.
+14 osobogodzin.
+11 osobogodzin.
+10 osobogodzin.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 21 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 33 (1 p.)
+Testujesz aplikację mobilną, która umożliwia użytkownikom znajdowanie pobliskich restauracji na
+podstawie rodzaju serwowanej kuchni. Rozpatrz poniższą listę przypadków testowych, priorytetów
+(gdzie mniejsza liczba oznacza wyższy priorytet) oraz zależności:
+Numer
+przypadku
+testowego
+
+Pokrywany warunek testowy
+
+Priorytet
+
+Zależność logiczna
+
+PT 001
+
+Wybór rodzaju kuchni
+
+3
+
+brak
+
+PT 002
+
+Wybór restauracji
+
+2
+
+PT 001
+
+PT 003
+
+Uzyskanie wskazówek dojazdu
+
+1
+
+PT 002
+
+PT 004
+
+Zatelefonowanie do restauracji
+
+2
+
+PT 002
+
+PT 005
+
+Dokonanie rezerwacji
+
+3
+
+PT 002
+
+Który z poniższych przypadków testowych powinien zostać wykonany jako trzeci?
+a)
+b)
+c)
+d)
+
+PT 003
+PT 005
+PT 002
+PT 001
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 22 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 34 (1 p.)
+Rozważ następujące kategorie testów (1–4) i kwadranty testowe w testowaniu zwinnym (A–D):
+1.
+2.
+3.
+4.
+
+Testowanie użyteczności.
+Testowanie modułowe.
+Testowanie funkcjonalne.
+Testowanie niezawodności.
+
+A. Kwadrant testowania zwinnego Q1: cel technologiczny, wspieranie zespołu
+tworzącego oprogramowanie.
+B. Kwadrant testowania zwinnego Q2: cel biznesowy, wspieranie zespołu tworzącego
+oprogramowanie.
+C. Kwadrant testowania zwinnego Q3: cel biznesowy, krytyka produktu.
+D. Kwadrant testowania zwinnego Q4: cel technologiczny, krytyka produktu.
+W jaki sposób należy przypisać podane kategorie testów do poszczególnych kwadrantów testowych
+w testowaniu zwinnym?
+a)
+b)
+c)
+d)
+
+1C, 2A, 3B, 4D
+1D, 2A, 3C, 4B
+1C, 2B, 3D, 4A
+1D, 2B, 3C, 4A
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 23 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 35 (1 p.)
+Podczas analizy ryzyka zidentyfikowano i oceniono następujące ryzyko:
+●
+●
+●
+
+Ryzyko: Czas odpowiedzi podczas generowania raportu jest zbyt długi.
+Prawdopodobieństwo wystąpienia ryzyka: średnie; wpływ ryzyka: duży.
+Reakcja na ryzyko:
+o Niezależny zespół testowy wykonuje testowanie wydajnościowe w ramach
+testowania systemowego.
+o Wybrana grupa użytkowników wykonuje testy akceptacyjne alfa i beta przed
+przekazaniem oprogramowania do eksploatacji.
+
+Jak nazywa się działanie zaproponowane w odpowiedzi na zidentyfikowane podczas analizy
+ryzyko?
+a)
+b)
+c)
+d)
+
+Akceptacja ryzyka.
+Planowanie awaryjne.
+Łagodzenie ryzyka.
+Przeniesienie ryzyka.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 36 (1 p.)
+Który produkt pracy może być wykorzystywany przez zwinny zespół do pokazania ilości pracy, która
+została wykonana i ilości pracy pozostałej do wykonania w danej iteracji?
+a) Kryteria akceptacji.
+b) Raport o defekcie.
+c) Sumaryczny raport z testów.
+d) Wykres spalania.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 37 (1 p.)
+Musisz zaktualizować jeden ze skryptów testów automatycznych, aby dostosować go do nowego
+wymagania. Który proces pozwala zarejestrować w repozytorium testów utworzenie nowej wersji
+skryptu testowego?
+a)
+b)
+c)
+d)
+
+Zarządzanie śledzeniem powiązań.
+Testowanie pielęgnacyjne.
+Zarządzanie konfiguracją.
+Inżynieria wymagań.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 24 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 38 (1 p.)
+Otrzymujesz od programistów następujący raport o defekcie wraz z informacją, że anomalii opisanej
+w raporcie z testów nie da się odtworzyć.
+Aplikacja zawiesza się
+3 maja 2022 r. – Jan Kowalski – Odrzucono
+Aplikacja zawiesza się po wprowadzeniu ciągu „Dane wejściowe do testów: $ä” w polu Nazwa na
+ekranie tworzenia nowego użytkownika. Próbowałem się wylogować, a następnie ponownie
+zalogować na konto test_admin01, ale problem nadal występuje. Próbowałem również korzystać
+z innych kont administratora, ale pojawił się ten sam problem. Nie jest wyświetlany żaden komunikat
+o błędzie, a dziennik (w załączniku) zawiera informację o błędzie krytycznym. Zgodnie
+z przypadkiem testowym PT-1305 aplikacja powinna zaakceptować podane dane wejściowe
+i utworzyć użytkownika. Proszę o pilne wprowadzenie poprawek, ponieważ funkcjonalność ta jest
+związana z wymaganiem W-0012, które jest nowym wymaganiem biznesowym o znaczeniu
+krytycznym.
+Jakie kluczowe informacje, które byłyby przydatne dla programistów, NIE zostały uwzględnione
+w powyższym raporcie o defekcie?
+a)
+b)
+c)
+d)
+
+Oczekiwany rezultat i rzeczywisty rezultat.
+Odwołania i status defektu.
+Środowisko testowe i element testowy.
+Priorytet i krytyczność.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr 39 (1 p.)
+W ramach której z podanych czynności testowych jest przydatne narzędzie do przygotowywania
+danych testowych?
+a)
+b)
+c)
+d)
+
+Monitorowanie testów i nadzór nad testami.
+Analiza i projektowanie testów.
+Implementacja i wykonywanie testów.
+Ukończenie testów.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 25 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr 40 (1 p.)
+Która z poniższych odpowiedzi poprawnie wskazuje potencjalne ryzyko związane z automatyzacją
+testów?
+a) Automatyzacja może spowodować wprowadzenie nieznanych regresji w środowisku
+produkcyjnym.
+b) Nakłady pracy przeznaczone na utrzymanie testaliów mogą być niewystarczające.
+c) Narzędzia do testowania i związane z nimi testalia mogą nie cieszyć się wystarczającym
+zaufaniem.
+d) Automatyzacja może spowodować skrócenie czasu przeznaczonego na testowanie
+manualne.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 26 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Załącznik: Pytania dodatkowe
+Pytanie nr A1 (1 p.)
+Twoim zadaniem jest przeanalizowanie i usunięcie przyczyn awarii w nowym systemie, który ma
+zostać przekazany do eksploatacji.
+Którą z wymienionych czynności wykonujesz?
+a)
+b)
+c)
+d)
+
+Debugowanie.
+Testowanie oprogramowania.
+Pozyskiwanie wymagań.
+Zarządzanie defektami.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr A2 (1 p.)
+W wielu organizacjach, które wytwarzają oprogramowanie, dział odpowiedzialny za testowanie jest
+nazywany działem zapewnienia jakości. Czy to zdanie jest poprawne, a jeśli nie, to dlaczego?
+a) Zdanie jest poprawne. Testowanie i zapewnienie jakości to dwa różne określenia na ten sam
+proces.
+b) Zdanie jest poprawne. Określenia te mogą być używane wymiennie, ponieważ działania
+wykonywane w ramach testowania i działania wykonywane w ramach zapewnienia jakości
+koncentrują się na tych samych problemach związanych z jakością.
+c) Zdanie jest niepoprawne. Testowanie jest szerszym procesem, który obejmuje wszystkie
+działania związane z jakością, a zapewnienie jakości koncentruje się na procesach
+związanych z jakością.
+d) Zdanie jest niepoprawne. Zapewnienie jakości koncentruje się na procesach związanych
+z jakością, a testowanie — na wykazaniu, że dany moduł lub system jest zdatny do użytku
+zgodnie z przeznaczeniem, oraz na wykryciu ewentualnych defektów.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 27 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A3 (1 p.)
+Telefon dzwoniący w sąsiednim pomieszczeniu chwilowo rozproszył programistę, przez co
+niewłaściwie zaprogramował on logikę sprawdzającą górną wartość brzegową jednej ze zmiennych
+wejściowych. Później, w trakcie testowania systemowego, tester zauważył, że system akceptuje
+nieprawidłowe wartości wejściowe wpisywane w polu wprowadzania danych.
+Nieprawidłowo zakodowana logika sprawdzania górnej wartości brzegowej to:
+a)
+b)
+c)
+d)
+
+Podstawowa przyczyna.
+Awaria.
+Pomyłka.
+Defekt.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr A4 (1 p.)
+Przeanalizuj podany poniżej fragment testaliów:
+Karta opisu testu nr 04.018
+
+Czas trwania sesji: 1 godzina
+
+Badany obiekt:
+
+Strona rejestracji
+
+Badanie za
+pomocą:
+
+Różnych zestawów niepoprawnych danych wejściowych
+
+Wykrywane
+defekty:
+
+Defekty związane z akceptacją rejestracji w przypadku podania
+nieprawidłowych danych wejściowych
+
+W ramach której czynności testowej powstały powyższe testalia?
+a)
+b)
+c)
+d)
+
+Planowanie testów.
+Monitorowanie testów i nadzór nad testami.
+Analiza testów.
+Projektowanie testów.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 28 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A5 (1 p.)
+Które z poniższych stwierdzeń jest NAJLEPSZYM przykładem na to, jak śledzenie powiązań
+pomaga w testowaniu?
+a) Przeprowadzenie analizy wpływu zmiany pozwala uzyskać informacje na temat ukończenia
+testów.
+b) Przeanalizowanie powiązań między przypadkami testowymi a wynikami testów pozwala
+uzyskać informacje na temat szacowanego poziomu ryzyka rezydualnego (resztkowego).
+c) Przeprowadzenie analizy wpływu zmiany pomaga w wyborze właściwych przypadków
+testowych na potrzeby testowania regresji.
+d) Przeanalizowanie powiązań między podstawą testów, przedmiotami testów a przypadkami
+testowymi ułatwia wybór danych testowych umożliwiających osiągnięcie zakładanego
+pokrycia przedmiotu testów.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr A6 (1 p.)
+Które z poniższych stwierdzeń NAJLEPIEJ wyjaśnia korzyści wynikające z niezależności
+testowania?
+a) Korzystanie z niezależnego zespołu testowego umożliwia kierownictwu projektu
+przeniesienie odpowiedzialności za jakość finalnego produktu na ten zespół.
+b) Jeśli organizacja może sobie pozwolić na skorzystanie z zewnętrznego zespołu testowego,
+rozwiązanie takie może przynieść konkretne korzyści, ponieważ zewnętrzny zespół nie
+ulegnie łatwo presji związanej z obawami kierownictwa projektu dotyczącymi sposobu
+realizacji oraz koniecznością przestrzegania ścisłych terminów realizacji.
+c) Niezależny zespół testowy może pracować niezależnie od programistów. Dzięki temu zmiany
+wymagań związanych z projektem nie rozpraszają uwagi testerów, a komunikacja
+z programistami ogranicza się do raportowania o defektach za pośrednictwem systemu
+zarządzania defektami.
+d) Interpretacja specyfikacji, w których występują niejasności i niespójności, wymaga przyjęcia
+określonych założeń, a niezależni testerzy mogą zakwestionować powyższe założenia
+i interpretację dokonaną przez programistę.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 29 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A7 (1 p.)
+Pracujesz jako tester w zespole, który stosuje model V. Która z poniższych aktywności MOŻE być
+wykonywana na wczesnym etapie SDLC?
+a)
+b)
+c)
+d)
+e)
+
+Testowanie dynamiczne.
+Testowanie statyczne.
+Planowanie testów.
+Wykonywanie testów akceptacyjnych.
+Testowanie pielęgnowalności.
+
+Wybierz DWIE odpowiedzi
+
+.
+
+Pytanie nr A8 (1 p.)
+Które z poniższych stwierdzeń opisują zalety metodyki DevOps?
+i.
+ii.
+iii.
+iv.
+v.
+
+a)
+b)
+c)
+d)
+
+Przyspieszenie wprowadzania produktów do eksploatacji i na rynek.
+Zwiększenie zapotrzebowania na powtarzalne testowanie manualne.
+Zapewnienie stałej dostępności wykonywalnego oprogramowania.
+Zmniejszenie liczby testów regresji związanych z refaktoryzacją kodu.
+Niskie koszty konfigurowania struktury (ang. framework) do testów automatycznych
+z uwagi na automatyzację całego procesu.
+
+i, ii oraz iv.
+iii oraz v.
+i oraz iii.
+ii, iv oraz v.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 30 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A9 (1 p.)
+Jesteś testerem w projekcie, w ramach którego na zlecenie jednego z klientów powstaje aplikacja
+mobilna do zamawiania posiłków. Klient przesłał listę wymagań. Jedno z nich, oznaczone wysokim
+priorytetem, brzmi następująco:
+„Zamówienie musi zostać przetworzone w czasie krótszym niż 10 sekund w 95% przypadków”.
+W związku z tym utworzyłeś/utworzyłaś zbiór przypadków testowych obejmujących: złożenie
+losowej liczby zamówień, zmierzenie czasu przetwarzania oraz sprawdzenie wyników testów pod
+kątem zgodności z wymaganiami.
+Jaki typ testów wykonałeś/wykonałaś?
+a) Testy funkcjonalne, ponieważ przypadki testowe pokrywają wymaganie biznesowe
+użytkownika dotyczące systemu.
+b) Testy niefunkcjonalne, ponieważ mierzona była wydajność systemu.
+c) Testy funkcjonalne, ponieważ przypadki testowe przewidują interakcję z interfejsem
+użytkownika.
+d) Testy strukturalne, ponieważ do zmierzenia czasu przetwarzania zamówień niezbędna jest
+znajomość struktury wewnętrznej programu.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 31 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A10 (1 p.)
+Strategia testów obowiązująca w twojej organizacji zaleca przetestowanie migracji danych
+w przypadku podjęcia decyzji o wycofaniu systemu z eksploatacji. W ramach jakiego typu testów
+zostanie to NAJPRAWDOPODOBNIEJ wykonane?
+a)
+b)
+c)
+d)
+
+Testowanie pielęgnacyjne.
+Testowanie regresji.
+Testowanie modułowe.
+Testowanie integracyjne.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr A11 (1 p.)
+Poniżej przedstawiono listę produktów pracy, które powstały w ramach cyklu wytwarzania
+oprogramowania.
+i.
+ii.
+iii.
+iv.
+v.
+
+Wymagania biznesowe.
+Harmonogram.
+Budżet testów.
+Kod wykonywalny innych firm.
+Historyjki użytkownika i związane z nimi kryteria akceptacji.
+
+Które z nich można objąć przeglądem?
+a)
+b)
+c)
+d)
+
+i oraz iv.
+i, ii, iii oraz iv.
+i, ii, iii oraz v.
+iii, iv oraz v.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 32 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A12 (1 p.)
+Które z poniższych stwierdzeń (i–v) są prawdziwe w odniesieniu do testowania statycznego?
+i.
+ii.
+iii.
+iv.
+v.
+
+a)
+b)
+c)
+d)
+
+Ten typ testowania pozwala łatwiej zidentyfikować nieprawidłowe zewnętrzne
+zachowania systemu.
+Ten typ testowania pozwala łatwiej wykryć odstępstwa od standardu kodowania.
+Ten typ testowania umożliwia identyfikowanie awarii spowodowanych przez defekty
+podczas uruchamiania oprogramowania.
+Celem tego testowania jest jak najwcześniejsze zidentyfikowanie defektów.
+Ten typ testowania pozwala łatwiej znaleźć i skorygować braki w pokryciu
+krytycznych wymagań w zakresie zabezpieczeń.
+
+i, iv oraz v.
+i, iii oraz iv.
+ii oraz iii.
+ii, iv oraz v.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr A13 (1 p.)
+Które z poniższych stwierdzeń dotyczących przeglądów formalnych jest PRAWDZIWE?
+a) Niektóre przeglądy nie wymagają wyznaczenia więcej niż jednej roli.
+b) Proces przeglądu składa się z kilku czynności.
+c) Dokumentacja będąca przedmiotem przeglądu nie jest przekazywana uczestnikom przed
+rozpoczęciem spotkania związanego z przeglądem (z wyjątkiem produktu pracy
+w przypadku określonych typów przeglądów).
+d) Defekty wykryte podczas przeglądu nie są zgłaszane, ponieważ nie zostały wykryte
+w ramach testowania dynamicznego.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 33 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A14 (1 p.)
+Jakie zadania może wykonywać kierownictwo podczas przeglądu formalnego?
+a) Przyjęcie ogólnej odpowiedzialności za przegląd.
+b) Decydowanie o tym, co ma być przedmiotem przeglądu.
+c) Dbanie o sprawny przebieg spotkań związanych z przeglądem i występowanie w roli
+mediatora, jeśli zachodzi taka potrzeba.
+d) Protokołowanie informacji związanych z przeglądem, w tym informacji o podjętych
+decyzjach.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr A15 (1 p.)
+W systemie do przechowywania wina zastosowano układ sterowania, który mierzy temperaturę T
+w winiarce (wyrażoną w °C w zaokrągleniu do najbliższego pełnego stopnia) i powiadamia
+użytkownika o odchyleniach od optymalnej wartości wynoszącej 12 zgodnie z następującymi
+regułami:
+●
+●
+●
+
+jeśli T = 12, system wysyła komunikat „Temperatura jest optymalna”;
+jeśli T < 12, system wysyła komunikat „Temperatura jest zbyt niska!”;
+jeśli T > 12, system wysyła komunikat „Temperatura jest zbyt wysoka!”.
+
+Chcesz zweryfikować zachowanie układu sterowania metodą trójpunktowej analizy wartości
+brzegowych. Dane wejściowe do testu to temperatura w °C podawana przez urządzenie.
+Jaki jest MINIMALNY zbiór danych wejściowych do testów, który pozwala uzyskać 100%
+wymaganego pokrycia?
+a)
+b)
+c)
+d)
+
+11, 12, 13
+10, 12, 14
+10, 11, 12, 13, 14
+10, 11, 13, 14
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 34 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A16 (1 p.)
+Które z poniższych stwierdzeń dotyczących testowania gałęzi jest POPRAWNE?
+a) Jeśli program zawiera tylko gałęzie bezwarunkowe, stuprocentowe pokrycie gałęzi można
+uzyskać bez wykonywania żadnych przypadków testowych.
+b) Jeśli przypadki testowe sprawdzają wszystkie gałęzie bezwarunkowe w kodzie, pokrycie
+gałęzi wynosi 100%.
+c) Uzyskanie stuprocentowego pokrycia instrukcji kodu oznacza również uzyskanie
+stuprocentowego pokrycia gałęzi.
+d) Uzyskanie stuprocentowego pokrycia gałęzi oznacza, że sprawdzono wszystkie wyniki
+decyzji w każdej instrukcji decyzyjnej w kodzie.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr A17 (1 p.)
+Testujesz aplikację mobilną, która umożliwia klientom dostęp do kont bankowych i zarządzanie nimi.
+Uruchamiasz zestaw testowy, który przewiduje dokonanie oceny każdego ekranu i każdego pola na
+każdym ekranie w oparciu o ogólną listę najlepszych praktyk w dziedzinie tworzenia interfejsów
+użytkownika. Lista pochodzi z popularnej książki na ten temat i ma na celu zapewnienie
+maksymalnej atrakcyjności, łatwości obsługi oraz dostępności tego typu aplikacji. Która z poniższych
+opcji NAJLEPIEJ opisuje stosowaną przez ciebie technikę testowania?
+a)
+b)
+c)
+d)
+
+Testowanie czarnoskrzynkowe.
+Testowanie eksploracyjne.
+Testowanie w oparciu o listę kontrolną.
+Zgadywanie błędów.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr A18 (1 p.)
+Która z poniższych odpowiedzi NAJLEPIEJ opisuje wspólne pisanie historyjek użytkownika?
+a) Historyjki użytkownika są tworzone przez testerów i programistów, a następnie akceptowane
+przez przedstawicieli jednostek biznesowych.
+b) Historyjki użytkownika są tworzone wspólnie przez przedstawicieli jednostek biznesowych,
+programistów i testerów.
+c) Historyjki użytkownika są tworzone przez przedstawicieli jednostek biznesowych,
+a następnie weryfikowane przez programistów i testerów.
+d) Historyjki użytkownika są tworzone tak, aby były niezależne, negocjowalne, wartościowe,
+możliwe do oszacowania, zwięzłe i testowalne.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 35 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A19 (1 p.)
+Weźmy pod uwagę następujący fragment planu testów:
+Testowanie obejmie testowanie modułowe i testowanie integracji modułów. Zgodnie z wymogami
+obowiązujących przepisów należy wykazać osiągnięcie stuprocentowego pokrycia gałęzi
+w odniesieniu do każdego modułu sklasyfikowanego jako krytyczny.
+W której części planu testów powinien znajdować się ten fragment?
+a)
+b)
+c)
+d)
+
+Wymiana informacji.
+Rejestr ryzyk.
+Kontekst testowania.
+Podejście do testowania.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr A20 (1 p.)
+Twój zespół szacuje metodą pokera planistycznego pracochłonność testowania funkcjonalności,
+która musi zostać wprowadzona zgodnie z nowymi wymaganiami. W zespole obowiązuje zasada,
+że jeśli brakuje czasu na osiągnięcie pełnego porozumienia, a rozbieżności między wynikami są
+niewielkie, dopuszczalne jest przyjęcie wartości, która uzyskała największą liczbę głosów.
+Po dwóch rundach nie osiągnięto konsensusu, w związku z czym rozpoczęto trzecią rundę. Wyniki
+szacowania testów przedstawiono w poniższej tabeli.
+Oszacowania podane przez członków
+zespołu
+Runda 1
+
+21
+
+2
+
+5
+
+34
+
+13
+
+8
+
+2
+
+Runda 2
+
+13
+
+8
+
+8
+
+34
+
+13
+
+8
+
+5
+
+Runda 3
+
+13
+
+8
+
+13
+
+13
+
+13
+
+13
+
+8
+
+Które z poniższych stwierdzeń NAJTRAFNIEJ wskazuje, jaki powinien być następny krok?
+a) Właściciel produktu musi wkroczyć i podjąć ostateczną decyzję.
+b) Wartość 13 uzyskała najwięcej głosów, w związku z czym należy ją przyjąć jako ostateczne
+oszacowanie pracochłonności testów.
+c) Nie są wymagane żadne dalsze działania. Osiągnięto konsensus.
+d) Z powodu braku konsensusu należy usunąć nową funkcjonalność z bieżącego wydania.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 36 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A21 (1 p.)
+Które z poniższych stwierdzeń jest PRAWDZIWE w odniesieniu do piramidy testów?
+a) W modelu piramidy testów podkreśla się fakt, że na niższych poziomach testów powinna być
+wykonywana większa liczba testów.
+b) W modelu piramidy testów sugeruje się, że każdy test niskopoziomowy sprawdza większą
+część funkcjonalności.
+c) Model piramidy testów opisuje rozkład typu testów w SDLC.
+d) Piramida testów nie ma wpływu na budowę testów automatycznych.
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr A22 (1 p.)
+W trakcie analizy ryzyka zespół rozważał następujące ryzyko: „System zezwala na udzielenie
+klientowi zbyt wysokiego rabatu”. Członkowie zespołu oszacowali, że wpływ ryzyka jest bardzo duży.
+Co można na tej podstawie powiedzieć o prawdopodobieństwie wystąpienia ryzyka?
+a) Jest również bardzo duże. Duży wpływ ryzyka zawsze oznacza duże prawdopodobieństwo
+wystąpienia ryzyka.
+b) Jest bardzo małe. Duży wpływ ryzyka zawsze oznacza małe prawdopodobieństwo
+wystąpienia ryzyka.
+c) Nie można nic powiedzieć na temat prawdopodobieństwa wystąpienia ryzyka. Wpływ ryzyka
+i prawdopodobieństwo wystąpienia ryzyka są od siebie niezależne.
+d) Prawdopodobieństwo wystąpienia ryzyka nie jest istotne w przypadku tak dużego wpływu
+ryzyka, w związku z czym nie trzeba go określać.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 37 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A23 (1 p.)
+Na poniższej liście wymieniono ryzyka zidentyfikowane w odniesieniu do nowego oprogramowania,
+które ma zostać wytworzone.
+i.
+ii.
+iii.
+iv.
+v.
+
+Kierownictwo przesuwa dwóch doświadczonych testerów do innego projektu.
+System nie spełnia standardów w dziedzinie bezpieczeństwa funkcjonalnego.
+Czas odpowiedzi systemu przekracza wartość określoną w wymaganiach
+użytkownika.
+Interesariusze mają nieprecyzyjnie określone oczekiwania.
+Osoby niepełnosprawne mają problemy z korzystaniem z systemu.
+
+Które z powyższych ryzyk to ryzyka projektowe?
+a)
+b)
+c)
+d)
+
+i oraz iv.
+iv oraz v.
+i oraz iii.
+ii oraz v.
+
+Wybierz JEDNĄ odpowiedź.
+
+Pytanie nr A24 (1 p.)
+Które z poniższych stwierdzeń zawiera przykład na to, jak analiza ryzyka produktowego wpływa na
+staranność i zakres testowania?
+a) Kierownik testów codziennie monitoruje poziom wszystkich znanych ryzyk i przesyła raporty
+na ten temat, aby umożliwić interesariuszom podjęcie świadomej decyzji co do terminu
+przekazania systemu do eksploatacji.
+b) Jednym ze zidentyfikowanych ryzyk był „brak obsługi baz danych o otwartym kodzie”,
+w związku z czym zespół postanowił zintegrować system z taką bazą danych.
+c) W ramach analizy ryzyka przeprowadzanej metodą ilościową zespół oszacował łączny
+poziom wszystkich zidentyfikowanych ryzyk i wykazał go w raporcie jako łączne ryzyko
+rezydualne (resztkowe) przed rozpoczęciem testowania.
+d) Ocena ryzyka ujawniła bardzo wysoki poziom ryzyka związanego z wydajnością, w związku
+z czym podjęto decyzję o wykonaniu szczegółowego testowania wydajnościowego we
+wczesnej fazie cyklu wytwarzania oprogramowania.
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 38 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór A
+Egzamin przykładowy — pytania
+
+Pytanie nr A25 (1 p.)
+Wskaż DWIE z poniższych opcji, które odpowiadają metrykom powszechnie używanym w raportach
+na temat poziomu jakości przedmiotu testów.
+a) Liczba defektów wykrytych podczas testowania systemowego.
+b) Iloraz łącznych nakładów pracy na projektowanie testów przez liczbę zaprojektowanych
+przypadków testowych.
+c) Liczba wykonanych procedur testowych.
+d) Iloraz liczby wykrytych defektów przez wielkość produktu pracy.
+e) Czas niezbędny do usunięcia defektu.
+Wybierz DWIE odpowiedzi.
+
+Pytanie nr A26 (1 p.)
+Która z poniższych informacji zawartych w raporcie o postępie testów jest NAJMNIEJ przydatna
+z punktu widzenia przedstawicieli jednostek biznesowych?
+a)
+b)
+c)
+d)
+
+Przeszkody w testowaniu.
+Uzyskane pokrycie gałęzi.
+Postęp testów.
+Nowe ryzyka zaobserwowane w cyklu testowym.
+
+Wybierz JEDNĄ odpowiedź.
+
+wersja 1.6
+© International Software Testing Qualifications Board
+
+Strona 39 z 39
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+

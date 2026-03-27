@@ -1,0 +1,247 @@
+Wytyczne ISTQB® do akredytacji
+szkoleń Certyfikowany tester
+– poziom podstawowy (sylabus w. 4.0)
+wersja 0.3
+(wersja PL 0.3.0.0)
+
+International Software Testing Qualifications Board
+
+Informacje o prawach autorskich
+Niniejszy dokument można kopiować w całości lub sporządzać z niego fragmenty pod warunkiem
+podania źródła.
+Copyright © International Software Testing Qualifications Board (zwana dalej ISTQB®).
+Copyright © 2023 Grupa Robocza Poziomu Podstawowego oraz Grupa Robocza Agile.
+Autorzy przenoszą prawa autorskie na ISTQB®. Autorzy (jako obecni właściciele praw autorskich)
+i ISTQB® (jako przyszły właściciel praw autorskich) zgodzili się na następujące warunki użytkowania:
+1) Każda Rada Krajowa uznana przez ISTQB® oraz każdy dostawca egzaminów uznany przez ISTQB®
+będą wykorzystywać informacje zawarte w niniejszym dokumencie podczas pisania pytań
+egzaminacyjnych Poziomu podstawowego i tworzenia egzaminów Poziomu podstawowego.
+2) Każda uznana przez ISTQB® Rada Krajowa może przetłumaczyć niniejszy dokument.
+Niniejszy dokument został formalnie zatwierdzony przez Zgromadzenie Ogólne ISTQB® w dniu
+21 kwietnia 2023 roku.
+Tłumaczenie z języka angielskiego przygotował zespół: Adam Roman, Monika Petri-Starego, Lucjan
+Stapp (kierownik zespołu).
+
+Certyfikowany tester – poziom podstawowyCertified Tester
+Wytyczne dla akredytacji
+
+Historia zmian
+Wersja
+0.3
+0.2
+0.1
+
+Data
+21.04.2023
+02.01.2023
+15.09.2022
+
+Uwagi
+Wersja końcowa
+Wersja beta
+Wersja alfa oparta na dokumencie Accreditation Guidelines for CTFL 3.1.1
+
+wersja 0.3
+© International Software Testing Qualifications Board
+
+Strona 3 z 7
+
+21.04.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester – poziom podstawowyCertified Tester
+Wytyczne dla akredytacji
+
+Historia zmian wersji polskiej
+Wersja
+0.3.0.0
+
+Data
+21.04.2023
+
+Uwagi
+Tłumaczenie wersji 0.3 dokumentu
+
+wersja 0.3
+© International Software Testing Qualifications Board
+
+Strona 4 z 7
+
+21.04.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester – poziom podstawowyCertified Tester
+Wytyczne dla akredytacji
+
+Spis treści
+Informacje o prawach autorskich ............................................................................................................. 2
+Historia zmian .......................................................................................................................................... 3
+Historia zmian wersji polskiej................................................................................................................... 4
+Spis treści ................................................................................................................................................ 5
+0.
+Cel dokumentu ................................................................................................................................ 6
+1.
+Ogólne zasady ................................................................................................................................ 6
+2.
+Zasady oceny .................................................................................................................................. 7
+2.1
+Ocena przykładów .................................................................................................................. 7
+2.2
+Ocena ćwiczeń i odpowiedzi .................................................................................................. 7
+2.3
+Ocena notatek trenera ........................................................................................................... 7
+2.4
+Ocena trenera ........................................................................................................................ 7
+2.5
+Ocena dodatkowych materiałów ............................................................................................ 7
+
+wersja 0.3
+© International Software Testing Qualifications Board
+
+Strona 5 z 7
+
+21.04.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester – poziom podstawowyCertified Tester
+Wytyczne dla akredytacji
+
+0. Cel dokumentu
+Niniejszy dokument zawiera wytyczne dotyczące oceny szkoleń ISTQB® Foundation Level przez organy
+akredytacyjne (Rady Krajowe lub uznane przez ISTQB ® Rady Akredytacyjne). Zawiera wskazówki dla
+dostawców szkoleń, którzy chcą tworzyć akredytowane kursy.
+Szkolenie składa się z dwóch głównych części: materiałów szkoleniowych i trenera (zwanego również
+"nauczycielem" lub "instruktorem").
+Akredytacja może dotyczyć tylko materiałów szkoleniowych lub całego szkolenia. W przypadku
+ubiegania się o akredytację wyłącznie materiałów szkoleniowych, należy pominąć sekcję 2.4 Ocena
+trenera.
+
+1. Ogólne zasady
+Poniższe zasady mają zastosowanie do akredytacji materiałów kursu Poziomu podstawowego:
+1
+
+Identyfikowalność
+i kompletność
+
+2
+
+Cele nauczania
+
+3
+
+Czas
+
+4
+
+Zawartość
+
+5
+
+Słowa kluczowe
+
+6
+
+Przykłady
+
+7
+
+Ćwiczenia
+i rozwiązania
+
+8
+
+Kompletność
+przeglądu
+
+Materiały szkoleniowe, które mają być akredytowane, muszą w sposób
+możliwy do wykazania obejmować wszystkie mające zastosowanie cele
+nauczania. Wnioski o akredytację powinny zawierać matrycę
+identyfikowalności pokazującą pokrycie celów nauczania pod względem
+prezentacji oraz materiałów pomocniczych.
+Każdy cel nauczania na poziomie K3 wymaga zarowno prezentacji, jak
+i przeprowadzenia ćwiczenia (zob. dodatkowe reguły poniżej).
+Na każdy rozdział należy przeznaczyć co najmniej tyle czasu, ile jest
+wymagane w sylabusie. Wnioski o akredytację powinny zawierać matrycę
+czasową pokazującą czas przydzielony na rozdziały i sekcje sylabusa.
+Należy przedstawić materiał omówiony w każdym rozdziale i sekcji
+sylabusa poziomu podstawowego. Prezentacja, ćwiczenia, rozwiązania
+ćwiczeń i inne materiały szkoleniowe muszą być zgodne z materiałem
+zawartym w sylabusie Poziomu podstawowego wer. 4.0. (Uwaga:
+materiały szkoleniowe mogą obejmować dodatkowe cele nauczania,
+tematy i/lub dodatkowe słowa kluczowe. Organy akredytacyjne nie biorą
+ich pod uwagę w procesie akredytacji, chyba że są one sprzeczne lub
+obraźliwe w stosunku do programu ISTQB®, w którym to przypadku
+akredytacja nie zostanie udzielona).
+W przypadku każdego zdefiniowanego słowa kluczowego materiał
+szkoleniowy musi być zgodny z definicją tego terminu w wersji słownika
+ISTQB® Glossary, do której odwołuje się sylabus Poziomu podstawowego
+wer. 4.0 lub jego nowsza wersja.
+Każdy cel nauczania K2 i K3 musi być zilustrowany co najmniej jednym
+realistycznym przykładem projektu oprogramowania lub systemu.
+Dla każdego celu nauczania K3 należy przeprowadzić co najmniej jedno
+praktyczne, nietrywialne ćwiczenie zaczerpnięte z realistycznego projektu
+oprogramowania lub systemu (patrz poniżej). W przypadku zajęć na żywo,
+wszystkie ćwiczenia muszą być rozwiązywane przez słuchaczy na
+szkoleniu (tj. nie jako opcjonalna lub wymagana praca domowa),
+a rozwiązanie musi być sprawdzone podczas szkolenia przez instruktora.
+W przypadku zajęć e-learningowych lub korespondencyjnych rozwiązanie
+ćwiczenia musi być zawarte w materiałach szkoleniowych.
+Organy akredytacyjne nie mogą stosować metod próbkowania (tj. oceniać
+tylko niektórych sekcji szkolenia zamiast całego kursu). Wszystkie
+materiały dostarczone wraz z kursem muszą zostać ocenione.
+
+wersja 0.3
+© International Software Testing Qualifications Board
+
+Strona 6 z 7
+
+21.04.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester – poziom podstawowyCertified Tester
+Wytyczne dla akredytacji
+
+2. Zasady oceny
+2.1 Ocena przykładów
+Każdy cel nauczania K2 i K3 musi być zilustrowany podczas szkolenia co najmniej jednym przykładem.
+Przykłady muszą być odpowiednie dla nauczanego modułu i muszą opierać się na realistycznym
+oprogramowaniu lub projektach systemowych, tj. trenerzy muszą wykorzystywać projekty związane
+z oprogramowaniem. W idealnym przypadku przykłady pochodzą z rzeczywistych projektów.
+
+2.2 Ocena ćwiczeń i odpowiedzi
+Ćwiczenia muszą być odpowiednie dla nauczanego modułu i poziomu K omawianego celu nauczania
+i muszą opierać się na realistycznych projektach oprogramowania lub systemów, tj. trenerzy muszą
+korzystać z projektów związanych z oprogramowaniem. W idealnym przypadku ćwiczenia oparte są na
+rzeczywistych projektach. Każde ćwiczenie powinno również zawierać rozwiązanie.
+
+2.3 Ocena notatek trenera
+Jeśli slajdy nie są zrozumiałe w sposób oczywisty lub są bezpośrednią kopią sylabusa bez tekstu
+pomocniczego, powinny być dostępne notatki na temat tego, co trenerzy powinni powiedzieć w każdej
+sekcji. Te „notatki trenera" mogą być „notatkami prezentera" na slajdach lub być umieszczone
+w osobnym dokumencie.
+
+2.4 Ocena trenera
+Trenerzy muszą posiadać co najmniej poziom certyfikacji będący przedmiotem szkolenia. W przypadku,
+gdy trener posiada certyfikat poziomu podstawowego starszy niż w wersji 4.0, musi również posiadać
+certyfikat „Tester zwinny” (Agile Tester Foundation Level). Organy akredytacyjne mogą ustalić
+dodatkowe kryteria akredytacji trenerów (np. doświadczenie konsultingowe itp.). W takim przypadku
+dodatkowe kryteria zostaną podane do wiadomości publicznej przed wysłaniem wniosku o akredytację.
+Zwraca się uwagę organom akredytacyjnym, że w przypadku oceny trenera wymagane jest
+doświadczenie szkoleniowe i (praktyczne) doświadczenie w testowaniu oraz że prezentowanie treści
+na konferencjach nie obejmuje tych samych umiejętności, co wykładanie na kursie szkoleniowym.
+
+2.5 Ocena dodatkowych materiałów
+Jeśli trenerzy odnoszą się do dodatkowych materiałów (takich jak książki lub artykuły, do których nie
+ma odniesień w sylabusie Poziomu podstawowego), powinni dostarczyć te materiały organowi
+akredytacyjnemu i upewnić się, że materiały te nie są sprzeczne z sylabusem Poziomu podstawowego
+wer. 4.0 i innymi sylabusami ISTQB®.
+
+wersja 0.3
+© International Software Testing Qualifications Board
+
+Strona 7 z 7
+
+21.04.2023
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+

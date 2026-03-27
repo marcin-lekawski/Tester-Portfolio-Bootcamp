@@ -1,0 +1,2628 @@
+Egzamin przykładowy – odpowiedzi
+Zbiór D
+wersja 1.4
+(wersja PL 1.0.0.2)
+
+Sylabus ISTQB®
+Certyfikowany tester
+– poziom podstawowy
+zgodny z sylabusem w wersji 4.0
+
+International Software Testing Qualifications Board
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Spis treści
+Egzamin przykładowy – odpowiedzi ......................................................................................................1
+Informacja o prawach autorskich ...........................................................................................................4
+Podziękowania .......................................................................................................................................5
+Historia zmian ........................................................................................................................................6
+Historia zmian polskiej wersji .................................................................................................................6
+1.
+
+Wstęp ...........................................................................................................................................7
+
+Cel dokumentu .............................................................................................................................................. 7
+Instrukcje ....................................................................................................................................................... 7
+2.
+
+Klucz odpowiedzi ..........................................................................................................................8
+
+1 ........................................................................................................................................................... 9
+2 ......................................................................................................................................................... 10
+3 ......................................................................................................................................................... 11
+4 ......................................................................................................................................................... 12
+5 ......................................................................................................................................................... 13
+6 ......................................................................................................................................................... 14
+7 ......................................................................................................................................................... 15
+8 .......................................................................................................................................................... 16
+9 ......................................................................................................................................................... 17
+10 ....................................................................................................................................................... 18
+11 ....................................................................................................................................................... 19
+12 ....................................................................................................................................................... 20
+13 ....................................................................................................................................................... 21
+14 ....................................................................................................................................................... 22
+15 ....................................................................................................................................................... 23
+16 ....................................................................................................................................................... 24
+17 ....................................................................................................................................................... 25
+18 ....................................................................................................................................................... 26
+19 ....................................................................................................................................................... 27
+20 ....................................................................................................................................................... 28
+21 ....................................................................................................................................................... 29
+22 ....................................................................................................................................................... 29
+23 ....................................................................................................................................................... 30
+24 ....................................................................................................................................................... 31
+25 ....................................................................................................................................................... 32
+26 ....................................................................................................................................................... 33
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 2 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+27 ....................................................................................................................................................... 34
+28 ....................................................................................................................................................... 35
+29 ....................................................................................................................................................... 36
+30 ....................................................................................................................................................... 37
+31 ....................................................................................................................................................... 38
+32 ....................................................................................................................................................... 39
+33 ....................................................................................................................................................... 40
+34 ....................................................................................................................................................... 40
+35 ....................................................................................................................................................... 41
+36 ....................................................................................................................................................... 41
+37 ....................................................................................................................................................... 42
+38 ....................................................................................................................................................... 43
+39 ....................................................................................................................................................... 44
+40 ....................................................................................................................................................... 45
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 3 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Informacja o prawach autorskich
+Copyright © International Software Testing Qualifications Board (zwana dalej „ISTQB ®”).
+ISTQB® jest zastrzeżonym znakiem towarowym International Software Testing Qualifications Board.
+Wszelkie prawa zastrzeżone.
+Prawa autorskie wersji polskiej zastrzeżone dla © Stowarzyszenie Jakości Systemów Informatycznych (SJSI).
+Tłumaczenie z języka angielskiego wersji beta – KONTEKST A. Wolski spółka komandytowa.
+Przegląd końcowy przeprowadził zespół w składzie: Adam Roman, Monika Petri-Starego, Lucjan
+Stapp (kierownik zespołu).
+Aktualizacja do wersji 1.3 oraz 1.4 dokumentu: Monika Petri-Starego, Adam Roman.
+Autorzy niniejszym przenoszą prawa autorskie na ISTQB®. Autorzy (jako obecni posiadacze praw autorskich)
+oraz ISTQB® (jako przyszły posiadacz praw autorskich) wyrazili zgodę na następujące warunki użytkowania:
+Kopiowanie fragmentów niniejszego dokumentu w celach niekomercyjnych jest dozwolone pod warunkiem
+wskazania źródła.
+Akredytowani dostawcy szkoleń mogą wykorzystywać niniejszy egzamin przykładowy w swoich szkoleniach
+pod warunkiem wskazania autorów i ISTQB® jako źródła egzaminu i właścicieli praw autorskich do niego.
+Zastrzega się jednak, że ewentualne materiały reklamowe dotyczące szkolenia mogą być publikowane dopiero
+po uzyskaniu oficjalnej akredytacji materiałów szkoleniowych ze strony uznawanej przez ISTQB ® Rady
+Krajowej.
+Osoby fizyczne i grupy osób fizycznych mogą wykorzystywać niniejszy egzamin przykładowy w artykułach
+i książkach pod warunkiem wskazania autorów i ISTQB® jako źródła egzaminu i właścicieli praw autorskich do
+niego.
+Korzystanie z egzaminu przykładowego do innych celów bez wcześniejszej pisemnej zgody ISTQB ® jest
+zabronione.
+Każda uznawana przez ISTQB® Rada Krajowa może dokonywać przekładu niniejszego egzaminu
+przykładowego pod warunkiem powielenia powyższych uwag dotyczących praw autorskich w przetłumaczonej
+wersji dokumentu.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 4 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Odpowiedzialność za dokument
+Odpowiedzialność za niniejszy dokument ponosi Grupa robocza ISTQB ® ds. egzaminów.
+Obsługą dokumentu zajmuje się podstawowy zespół ISTQB®, w skład którego wchodzą przedstawiciele Grupy
+roboczej ds. sylabusa i Grupy roboczej ds. egzaminów.
+
+Podziękowania
+Niniejszy dokument został opracowany przez podstawowy zespół ISTQB ®: Stuart Reid i Adam Roman.
+Podstawowy zespół dziękuje zespołowi recenzentów Grupy roboczej ds. egzaminów, Grupy roboczej ds.
+sylabusa i Radom Krajowym za ich sugestie i wskazówki.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 5 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Historia zmian
+Wersja
+
+Data
+
+Uwagi
+
+1.4
+
+27.05.2024 r.
+
+Poprawki w pytaniach nr 3 oraz 19.
+
+1.3
+
+20.03.2024 r.
+
+Poprawki w pytaniu nr 16.
+
+1.2
+
+04.12.2023 r.
+
+Poprawki zgodnie z arkuszem pytań.
+
+1.1
+
+06.11.2023 r.
+
+Poprawki w pytaniu nr 8.
+
+1.0
+
+16.10.2023 r.
+
+Pierwsza wersja.
+
+Historia zmian polskiej wersji
+Wersja
+
+Data
+
+Uwagi
+
+1.0.0.2
+
+14.06.2024 r.
+
+Aktualizacja do wersji 1.4 dokumentu (poprawki uwzględnione w wersji
+1.0.0.1 PL).
+
+1.0.0.1
+
+12.06.2024 r.
+
+Aktualizacja do wersji 1.3 dokumentu. Poprawki w pytaniu nr 3 a), 8, 9 d),
+12 c), 16, 37 d).
+
+1.0.0.0
+
+01.12.2023 r.
+
+Publikacja wersji 1.0.0.0
+
+0.3
+
+15.11.2023 r.
+
+Przegląd i wprowadzanie zmian – Zespół SJSI
+
+0.2
+
+12.11.2023 r.
+
+Przegląd tłumaczenia – Zespół SJSI
+
+0.1
+
+31.10.2023 r.
+
+Tłumaczenie wersji beta: KONTEKST A.Wolski spółka komandytowa
+
+12.10.2023 r.
+
+Udostępnienie przez ISTQB® wersji końcowej
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 6 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+1. Wstęp
+Cel dokumentu
+Przykładowe pytania i odpowiedzi wraz z uzasadnieniami przedstawione w niniejszym egzaminie
+przykładowym zostały opracowane przez zespół ekspertów merytorycznych i doświadczonych autorów pytań
+w celu:
+●
+●
+
+udzielenia Radom Krajowym ISTQB® i komisjom egzaminacyjnym pomocy w wykonywaniu czynności
+związanych z opracowywaniem pytań;
+udostępnienia dostawcom szkoleń i kandydatom przykładowych pytań egzaminacyjnych.
+
+Pytania te nie mogą być wykorzystywane w przedstawionej formie w żadnym oficjalnym egzaminie.
+Rzeczywiste egzaminy mogą zawierać szeroką gamę pytań, a niniejszy egzamin przykładowy nie ma na celu
+przedstawienia wszystkich możliwych wariantów, jeśli chodzi o typ, styl czy długość pytań. Ponadto należy
+pamiętać, że niniejszy egzamin przykładowy może być trudniejszy lub łatwiejszy od egzaminu oficjalnego.
+
+Instrukcje
+Niniejszy dokument zawiera:
+●
+●
+●
+
+●
+
+tabelę z kluczem odpowiedzi, w tym następujące elementy związane z każdą poprawną odpowiedzią:
+- poziom wiedzy (poziom K), cel nauczania i wartość w punktach;
+tabelę z kluczem odpowiedzi dotyczącą pytań dodatkowych, w tym następujące elementy związane
+z każdą poprawną odpowiedzią:
+- poziom wiedzy (poziom K), cel nauczania i wartość w punktach;
+zestawy odpowiedzi, w tym następujące elementy związane z każdym pytaniem:
+- poprawna odpowiedź;
+- uzasadnienie każdej możliwej odpowiedzi;
+- poziom wiedzy (poziom K), cel nauczania i wartość w punktach;
+zestawy odpowiedzi dotyczące pytań dodatkowych, w tym następujące elementy związane z każdym
+pytaniem [dotyczy niektórych egzaminów przykładowych*]:
+- poprawna odpowiedź;
+- uzasadnienie każdej możliwej odpowiedzi;
+- poziom wiedzy (poziom K), cel nauczania i wartość w punktach.
+
+Pytania znajdują się w odrębnym dokumencie.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 7 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+2. Klucz odpowiedzi
+Nr pytania
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+Poprawna
+odpowiedź
+d
+c
+a
+b
+a
+d
+a
+b
+a
+a
+d
+b
+a
+b
+c
+c
+b
+b
+b
+b, e
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Cel
+nauczania
+FL-1.1.1
+FL-1.2.3
+FL-1.3.1
+FL-1.4.1
+FL-1.4.3
+FL-1.4.5
+FL-1.5.2
+FL-1.5.3
+FL-2.1.2
+FL-2.1.3
+FL-2.1.4
+FL-2.1.6
+FL-2.2.2
+FL-2.3.1
+FL-3.1.1
+FL-3.1.2
+FL-3.2.2
+FL-3.2.3
+FL-4.1.1
+FL-4.2.1
+
+Poziom
+wiedzy
+K2
+K1
+K2
+K2
+K2
+K2
+K2
+K1
+K2
+K1
+K1
+K2
+K2
+K2
+K2
+K1
+K2
+K1
+K2
+K3
+
+Punkty
+
+Nr pytania
+
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+
+Strona 8 z 45
+
+Poprawna
+odpowiedź
+c
+a
+b
+c
+a
+c
+d
+d
+a
+b, d
+a
+b
+c
+b
+b, e
+c
+d
+a
+b
+c
+
+Cel
+nauczania
+FL-4.2.2
+FL-4.2.3
+FL-4.2.4
+FL-4.3.1
+FL-4.3.3
+FL-4.4.1
+FL-4.4.2
+FL-4.5.1
+FL-4.5.3
+FL-5.1.3
+FL-5.1.4
+FL-5.1.5
+FL-5.1.7
+FL-5.2.1
+FL-5.2.2
+FL-5.3.2
+FL-5.4.1
+FL-5.5.1
+FL-6.1.1
+FL-6.2.1
+
+Poziom
+wiedzy
+K3
+K3
+K3
+K2
+K2
+K2
+K2
+K2
+K3
+K2
+K3
+K3
+K2
+K2
+K1
+K2
+K2
+K3
+K2
+K1
+
+Punkty
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+1
+
+d
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Znajdowanie defektów w przedmiocie testów i ich
+usuwanie nie jest typowym celem testów. Mimo że wykrywanie defektów należy do
+celów testowania, usuwanie defektów nie jest czynnością testową.
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-1.1.1
+
+K1
+
+1
+
+b) Odpowiedź niepoprawna. Utrzymywanie efektywnej komunikacji z programistami
+nie jest typowym celem testów. Mimo że jest przydatne do osiągnięcia innych celów
+testowania, takich jak dostarczanie interesariuszom informacji niezbędnych do
+podejmowania świadomych decyzji, nie jest głównym powodem przeprowadzania
+testów.
+c) Odpowiedź niepoprawna. Walidacja realizacji wymagań prawnych nie jest typowym
+celem testów, ponieważ walidacja polega na sprawdzaniu, czy system
+w środowisku operacyjnym zaspokaja potrzeby użytkowników i innych
+interesariuszy. Sprawdzanie realizacji wymogów prawnych to forma weryfikacji.
+d) Odpowiedź poprawna. Budowanie zaufania do jakości przedmiotu testów można
+osiągnąć poprzez wykonanie testów, które zostaną zaliczone.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 9 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+2
+
+c
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Błędne obliczanie premii to awaria systemu, a nie defekt.
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-1.2.3
+
+K2
+
+1
+
+b) Odpowiedź niepoprawna. Awarię systemu stanowi brak właściwej obsługi
+użytkowników niepełnosprawnych. Jego efektem jest kara, ale samej kary nie
+można traktować jako awarii (co więcej, jest to efekt poprawnego funkcjonowania
+systemu regulacyjnego).
+c) Odpowiedź poprawna. Błąd został popełniony przez programistę. Pomyłka ta
+wynika z pracy pod silną presją czasową, która stanowi podstawową przyczynę
+powstałego defektu.
+d) Odpowiedź niepoprawna. Zły projekt interfejsu użytkownika, w niewłaściwym
+zakresie odpowiadającego potrzebom niepełnosprawnych użytkowników, jest
+defektem w projekcie spowodowanym przez błąd projektanta. Dlatego projekt
+interfejsu użytkownika zawiera defekt w projekcie, a nie błąd projektanta.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 10 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+3
+
+a
+
+Uzasadnienie
+a) Odpowiedź poprawna. Zasada „testy ulegają zużyciu” odzwierciedla ideę, według
+której powtarzanie tych samych testów na niezmienionym kodzie z niewielkim
+prawdopodobieństwem pozwoli wykryć nowe defekty, w związku z czym istotne jest
+modyfikowanie testów. Na podstawie warunków testowych generowane są za
+każdym razem inne testy, nie powinno więc wystąpić zjawisko „zużycia”.
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-1.3.1
+
+K2
+
+1
+
+b) Odpowiedź niepoprawna. Zasada „przekonanie o braku defektów jest błędem”
+dotyczy kwestii zaspokojenia potrzeb użytkowników także w sytuacji wykonywania
+dużej liczby testów i braku wykrycia defektów (tj. należy również przeprowadzić
+walidację). Generowanie przypadków testowych i wykonywanie testów na
+podstawie warunków testowych nie stanowi bezpośredniego rozwiązania tego
+problemu.
+c) Odpowiedź niepoprawna. Zasada „wczesne testowanie oszczędza czas
+i pieniądze” dotyczy usuwania defektów na wczesnym etapie w celu uniknięcia ich
+wystąpienia w pochodnych produktach pracy, co pozwala obniżyć koszty
+i zmniejszyć prawdopodobieństwo awarii. Zwykle uwzględnia się tę zasadę
+poprzez jak najszybsze rozpoczęcie testów (statycznych i dynamicznych).
+Generowanie przypadków testowych i wykonywanie testów na podstawie
+warunków testowych nie wiąże się z tym zagadnieniem.
+d) Odpowiedź niepoprawna. Zasada „defekty mogą się kumulować” dotyczy miejsca
+występowania defektów w systemie, które zwykle zgodne jest z tzw. zasadą Pareto.
+Generowanie przypadków testowych i wykonywanie testów na podstawie
+warunków testowych nie wiąże się z tym zagadnieniem. Na ogół uwzględnia się je
+dzięki testowaniu opartemu na ryzyku.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 11 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+4
+
+b
+
+Uzasadnienie
+Rozpatrzmy poszczególne czynności i zadania testowe:
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-1.4.1
+
+K2
+
+1
+
+A. Analiza testów – w celu zidentyfikowania cech wymagających testowania podstawa
+testów jest analizowana i definiowane są warunki testowe, którym następnie
+przypisywane są priorytety wraz z powiązanymi ryzykami. Podczas analizy testów
+zwykle identyfikuje się defekty w podstawie testów i dokonuje oceny testowalności
+przedmiotu testów. (Zadanie 4)
+B. Projektowanie testów – używa się warunków testowych do tworzenia przypadków
+testowych i innych niezbędnych testaliów, np. wymagań dotyczących danych
+testowych i kart opisu testu na potrzeby testowania eksploracyjnego. (Zadanie 1)
+C. Implementacja testów – obejmuje tworzenie procedur testowych, do testów
+manualnych i automatycznych na podstawie przypadków testowych. Procedury
+mogą być łączone w zestawy testowe. Procedury testowe są szeregowane według
+priorytetów i porządkowane w ramach harmonogramu wykonywania testów.
+(Zadanie 3)
+D. Ukończenie testów – czynności wykonywane w momencie osiągnięcia kamieni
+milowych projektu takich jak przekazanie do eksploatacji, zakończenie iteracji lub
+ukończenie testów danego poziomu. Testalia, które mogą okazać się przydatne
+w przyszłości, są identyfikowane i archiwizowane bądź przekazywane
+odpowiednim zespołom. Środowisko testowe jest zamykane, a czynności testowe
+są analizowane w celu sformułowania wniosków i zidentyfikowania udoskonaleń.
+(Zadanie 2)
+Zatem POPRAWNE powiązanie to 1B, 2D, 3C, 4A, czyli POPRAWNĄ odpowiedzią jest
+odpowiedź b).
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 12 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+5
+
+a
+
+Uzasadnienie
+Zestawmy poszczególne testalia z listy z czynnościami testowymi, w ramach których
+są tworzone.
+i.
+
+Sumaryczny raport z testów
+z ukończeniem testów.
+
+jest
+
+produktem
+
+pracy
+
+ii.
+
+Dane zapisane w bazie danych i używane jako dane wejściowe oraz
+oczekiwane rezultaty testów – to produkt pracy związany z implementacją
+testów.
+
+iii.
+
+Lista elementów niezbędnych do zbudowania środowiska testowego jest
+produktem pracy związanym z projektowaniem testów.
+
+iv.
+
+Udokumentowane sekwencje przypadków testowych w kolejności
+wykonywania to procedury testowe - produkt związany z implementacją
+testów.
+
+v.
+
+Przypadki testowe – produkt pracy związany z projektowaniem testów.
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-1.4.3
+
+K2
+
+1
+
+związanym
+
+W ramach implementacji testów tworzone są procedury testowe (iv), skrypty testów
+automatycznych, zestawy testowe, dane testowe (ii), harmonogramy wykonywania
+testów oraz elementy środowiska testowego takie jak zaślepki, sterowniki, symulatory
+i wirtualizacja usług.
+Zatem produktami implementacji testów są elementy (ii) i (iv). POPRAWNĄ
+odpowiedzią jest więc odpowiedź a).
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 13 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+6
+
+d
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Osoba pełniąca rolę związaną z testowaniem odpowiada
+głównie za techniczne aspekty testowania oraz działania związane z analizą,
+projektowaniem, implementacją i wykonywaniem testów. Przeanalizowanie
+podstawy testów pod kątem występowania defektów i ocena testowalności
+przedmiotu testów to elementy analizy testów, więc prawdopodobnie wykonuje je
+osoba występująca w roli związanej z testowaniem.
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-1.4.5
+
+K2
+
+1
+
+b) Odpowiedź niepoprawna. Osoba pełniąca rolę związaną z testowaniem odpowiada
+głównie za techniczne aspekty testowania oraz działania związane z analizą,
+projektowaniem, implementacją i wykonywaniem testów. Definiowanie wymagań
+dotyczących środowiska testowego to zadanie wykonywane w ramach
+projektowania testów, więc prawdopodobnie wykonuje je osoba występująca w roli
+związanej z testowaniem.
+c) Odpowiedź niepoprawna. Osoba pełniąca rolę związaną z testowaniem odpowiada
+głównie za techniczne aspekty testowania oraz działania związane z analizą,
+projektowaniem, implementacją i wykonywaniem testów. Ocena testowalności
+przedmiotu testów to zadanie wykonywane w ramach analizy testów, więc
+prawdopodobnie wykonuje je osoba występująca w roli związanej z testowaniem.
+d) Odpowiedź poprawna. Rola osoby odpowiedzialnej za zarządzanie testami polega
+głównie na wykonywaniu czynności związanych z planowaniem testów,
+monitorowaniem testów i nadzorem na testami oraz ukończeniem testów. Zatem
+opracowanie sumarycznego raportu z testów, który jest głównym produktem
+związanym z ukończeniem testów, to zadanie wykonywane najprawdopodobniej
+przez osobę występującą w roli związanej z zarządzaniem testami.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 14 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+7
+
+a
+
+Uzasadnienie
+a) Odpowiedź poprawna. Podejście „cały zespół” usprawnia wymianę informacji
+i współpracę między członkami zespołu.
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-1.5.2
+
+K1
+
+1
+
+b) Odpowiedź niepoprawna. Podejście „cały zespół” podkreśla znaczenie wspólnej
+odpowiedzialności za jakość, jednak indywidualna odpowiedzialność spoczywa też
+w równym stopniu na każdym członku zespołu.
+c) Odpowiedź niepoprawna. Podejście „cały zespół” opisuje sposób współpracy
+w zespole, a jego celem jest dostarczenie produktów wyższej jakości.
+Niekoniecznie wiąże się z tym jednak szybsze wdrożenie produktów
+u użytkowników końcowych.
+d) Odpowiedź niepoprawna. Jeśli stosowane jest podejście „cały zespół”, testerzy
+współpracują z przedstawicielami jednostek biznesowych w celu stworzenia testów
+akceptacyjnych. Nie oznacza to, że nastąpi zmniejszenie stopnia współpracy
+z zewnętrznymi użytkownikami biznesowymi.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 15 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+8
+
+b
+
+Uzasadnienie
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+Rozpatrzmy poszczególne zalety i wady niezależności testowania:
+
+FL-1.5.3
+
+K2
+
+1
+
+i.
+Testerzy pracują w innej lokalizacji niż programiści: idealnie byłoby, gdybyśmy
+chcieli ścisłej współpracy między testerami i programistami, której nie zwiększa
+izolacja.. Dlatego ten element należy uznać za wadę.
+ii. Testerzy i programiści mają inne doświadczenia oraz techniczne punkty widzenia i
+popełniają inne błędy poznawcze. Dzięki temu testerzy mogą kwestionować założenia
+przyjęte przez interesariuszy w trakcie specyfikowania i implementacji systemu.
+Dlatego ten element należy uznać za zaletę.
+iii. Relacje pomiędzy testerami i programistami mają charakter konfrontacyjny – główną
+wadą niezależności testowania jest potencjalne odizolowanie niezależnych testerów od
+zespołu tworzącego oprogramowanie, co może prowadzić do braku współpracy,
+problemów z wymianą informacji, a nawet konfliktu z tym zespołem. Istnieje ryzyko, że
+niezależni testerzy zostaną potraktowani jako wąskie gardło i obarczeni winą za
+opóźnienia w przekazaniu produktu do eksploatacji. Dlatego ten element należy uznać
+za wadę.
+iv. Programiści nabierają przekonania, że za jakość odpowiedzialni są przede
+wszystkim testerzy – jedną z wad niezależności testowania jest odizolowanie testerów
+od zespołu programistycznego, co rodzi niebezpieczeństwo utraty przez programistów
+poczucia odpowiedzialności za jakość. Dlatego ten element należy uznać za wadę.
+v. Testerzy popełniają inne błędy poznawcze niż programiści – główną korzyścią
+wynikającą z niezależności testowania jest większe prawdopodobieństwo wykrycia
+przez niezależnych testerów innego rodzaju awarii i defektów niż te wykryte przez
+programistów ze względu na różne doświadczenia, techniczne punkty widzenia i błędy
+poznawcze. Dlatego ten element należy uznać za zaletę.
+Z listy wynika, że zalety wymieniono w punktach (ii) i (v), zatem POPRAWNĄ
+odpowiedzią jest odpowiedź b).
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 16 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+9
+
+a
+
+Uzasadnienie
+a)
+
+Odpowiedź poprawna. Poszczególnym poziomom testów odpowiadają konkretne
+i różne cele testów, ponieważ na każdym poziomie testowany jest inny rodzaj
+przedmiotu testów (np. pojedynczy moduł albo cały system). Pokrywające się cele
+testów prowadziłyby do niepożądanych powtórzeń.
+
+b)
+
+Odpowiedź niepoprawna. Analiza i projektowanie testów dla danego poziomu
+testów powinny rozpocząć się w odpowiedniej fazie wytwarzania, tak aby
+umożliwić wczesne rozpoczęcie testowania (np. analiza i projektowanie testów
+akceptacyjnych powinny rozpocząć się w trakcie analizy wymagań).
+Implementacja testów na ogół zaczyna się później, natomiast wykonywanie
+testów rozpoczyna się na odpowiednim poziomie testów.
+
+c)
+
+Odpowiedź niepoprawna. Projektowanie testów dla danego poziomu testów
+powinno rozpocząć się w odpowiadającej temu poziomowi fazie wytwarzania, tak
+aby umożliwić wczesne rozpoczęcie testowania. Jednak projektowanie testów
+(np. generowanie przypadków testowych) musi opierać się na uzgodnionej
+podstawie testów, a nie na wstępnej wersji roboczej, ponieważ w przeciwnym
+razie istnieje ryzyko niepotrzebnego poświęcenia znacznego nakładu pracy na
+tworzenie przypadków testowych dotyczących projektu, który później ulegnie
+zmianie.
+
+d)
+
+Odpowiedź niepoprawna. Kontrola jakości ma zastosowanie do wszystkich
+czynności wytwarzania, co oznacza, że każda czynność związana z tworzeniem
+oprogramowania ma odpowiadające jej działanie testowe. Ta sama symetria nie
+dotyczy jednak testów dynamicznych i statycznych. Istnieją pewne czynności
+testowania statycznego (np. analiza statyczna), dla których nie ma oczywistego
+odpowiednika testowania dynamicznego.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 17 z 45
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-2.1.2
+
+K1
+
+1
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+10
+
+a
+
+Uzasadnienie
+a) Odpowiedź poprawna. Wytwarzanie sterowane zachowaniem (BDD) to ogólnie
+znany przykład podejścia typu „najpierw test” do wytwarzania oprogramowania.
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-2.1.3
+
+K1
+
+1
+
+b) Odpowiedź niepoprawna. Wytwarzanie sterowane poziomem testów nie jest
+poprawnym przykładem podejścia typu „najpierw test” do wytwarzania
+oprogramowania.
+c) Odpowiedź niepoprawna. Wytwarzanie sterowane funkcjami nie jest poprawnym
+przykładem podejścia typu „najpierw test” do wytwarzania oprogramowania.
+d) Odpowiedź niepoprawna. Wytwarzanie sterowane wydajnością nie jest poprawnym
+przykładem podejścia typu „najpierw test” do wytwarzania oprogramowania.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 18 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+11
+
+d
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Metodyka DevOps zwykle pozwala zwiększyć
+widoczność niefunkcjonalnych charakterystyk jakościowych, np. wydajności
+i niezawodności.
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-2.1.4
+
+K2
+
+1
+
+b) Odpowiedź niepoprawna. Zautomatyzowane procesy używane w metodyce
+DevOps, np. ciągła integracja i ciągłe dostarczanie (CI, CD), ułatwiają tworzenie
+stabilnych środowisk testowych.
+c) Odpowiedź niepoprawna. Zautomatyzowane procesy używane w metodyce
+DevOps, np. ciągła integracja i ciągłe dostarczanie (CI/CD), zwykle pozwalają
+ograniczyć konieczność prowadzenia testów manualnych.
+d) Odpowiedź poprawna. Z zastosowaniem metodyki DevOps wiążą się pewne ryzyka
+i wyzwania, wśród których można wymienić konieczność zdefiniowania
+i skonfigurowania potoku dostarczania (ang. delivery pipeline), konieczność
+wprowadzenia i utrzymywania narzędzi do ciągłej integracji i ciągłego dostarczania
+(CI/CD) oraz konieczność ustanowienia i utrzymywania automatyzacji testów.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 19 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+12
+
+b
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Korzyściami z retrospektywy są między innymi
+zacieśnienie więzi w zespole i wspólne uczenie się dzięki omawianiu problemów, a
+także usprawnienie współpracy między programistami i testerami dzięki
+przeglądowi i doskonaleniu najlepszych praktyk. Wskazywanie osób, które
+zdaniem jednego z uczestników w zbyt małym zakresie brały udział w doskonaleniu
+jakości, tak jak wymaga tego podejście „cały zespół”, nie przyczyni się do
+zacieśnienia więzi i rozwoju współpracy w zespole.
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-2.1.6
+
+K2
+
+1
+
+b) Odpowiedź poprawna. Podczas retrospektywy grupa omawia aspekty projektu,
+które zostały zrealizowane pomyślnie i należy je zachować, a także wskazuje
+obszary, które można udoskonalić oraz sposoby wprowadzania udoskonaleń.
+c) Odpowiedź niepoprawna. Korzyści płynące z retrospektyw opierają się na
+zwiększonej skuteczności i wydajności poprzez usprawnienia procesów; nie są one
+okazją do wyładowania się i krytykowania kierownictwa i klientów. Ponadto wyniki
+są rejestrowane, zwykle w raporcie z ukończenia testów, więc wszystko, co zostało
+powiedziane podczas spotkania, może zostać odczytane przez innych
+interesariuszy.
+d) Odpowiedź niepoprawna. Retrospektywy to spotkania, które zwykle organizuje się
+na zakończenie iteracji. Członkowie zespołu mają wtedy okazję omówić problemy
+związane z jakością, które wystąpiły w bieżącej iteracji. Nie wykorzystuje się ich do
+tworzenia planów i podejmowania decyzji technicznych dotyczących następnej
+iteracji. Takie działania wykonuje się w trakcie spotkania dotyczącego planowania
+iteracji organizowanego na początku następnej iteracji.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 20 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+
+Poprawna
+odpowiedź
+
+13
+
+a
+
+Uzasadnienie
+a) Odpowiedź poprawna. Sprawdzenie, czy funkcja sortowania porządkuje elementy
+listy lub tabeli w kolejności rosnącej, bada poprawność funkcjonalną tej funkcji. Jest
+to jednym z celów testowania funkcjonalnego.
+
+Cel
+nauczania
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+
+FL-2.2.2
+
+K2
+
+1
+
+b) Odpowiedź niepoprawna. Ustalenie, czy funkcja sortowania spełnia wymaganie
+niefunkcjonalne dotyczące zakończenia działania w ciągu sekundy, odbywa się
+w ramach testowania wydajności funkcji. Jest to typowe testowanie
+niefunkcjonalne.
+c) Odpowiedź niepoprawna. Sprawdzenie łatwości zmiany kolejności w funkcji
+sortowania z rosnącej na malejącą odbywa się w ramach testowania
+modyfikowalności, co jest formą niefunkcjonalnego testowania utrzymywalności.
+Jest to zatem testowanie niefunkcjonalne.
+d) Odpowiedź niepoprawna. Sprawdzenie poprawności działania funkcji sortowania
+po przejściu z architektury 32-bitowej na 64-bitową odbywa się w ramach
+testowania zdolności adaptacyjnej, co jest formą testowania przenaszalności. Jest
+to zatem testowanie niefunkcjonalne.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 21 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+14
+
+Poprawna
+odpowiedź
+b
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Zakładając, że testerzy potrafiliby sprawdzić łatwość
+modyfikowania systemu wymiany walut, odbyłoby się to raczej w ramach
+testowania utrzymywalności, a nie testowania pielęgnacyjnego. Nie jest to więc
+zdarzenie wyzwalające testowanie pielęgnacyjne.
+
+Cel
+nauczania
+FL-2.3.1
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+b) Odpowiedź poprawna. Wprowadzenie modyfikacji systemu (np. poprawki lub
+udoskonalenia) jest przykładem zdarzenia wyzwalającego testowanie
+pielęgnacyjne. Usunięcie opcji zwrotu środków z systemu wymiany walut jest
+poprawką, więc zostanie przeprowadzone testowanie pielęgnacyjne.
+c) Odpowiedź niepoprawna. Zespół zwinny rozpoczął prace nad historyjką
+użytkownika, która dodaje w systemie nową funkcję obsługi lojalności klienta.
+Oznacza to, że zespół będzie testować tę nową funkcję, a potem przeprowadzi
+testowanie regresji. W tej sytuacji nie jest wymagane testowanie pielęgnacyjne.
+d) Odpowiedź niepoprawna. Zmiana konfiguracji systemu wymiany walut
+i wprowadzenie obsługi języka lokalnego i języka angielskiego w transakcjach
+walutowych nie jest modyfikacją systemu, zmianą w środowisku operacyjnym ani
+wycofaniem systemu, czyli nie należy do zdarzeń wywołujących testowanie
+pielęgnacyjne.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 22 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+15
+
+Poprawna
+odpowiedź
+c
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Większość produktów pracy można sprawdzić za
+pomocą pewnej formy testowania statycznego. Umowa musi być możliwa do
+zinterpretowania przez ludzi, zatem można ją poddać przeglądowi, czyli jednemu
+z typów testowania statycznego.
+
+Cel
+nauczania
+FL-3.1.1
+
+Poziom
+wiedzy
+K1
+
+Liczba
+punktów
+1
+
+b) Odpowiedź niepoprawna. Większość produktów pracy można sprawdzić za
+pomocą pewnej formy testowania statycznego. Plan testów musi być możliwy do
+zinterpretowania przez ludzi, zatem można go poddać przeglądowi, czyli jednemu
+z typów testowania statycznego.
+c) Odpowiedź poprawna. Większość produktów pracy można sprawdzić za pomocą
+pewnej formy testowania statycznego. Nie dotyczy to produktów pracy, które są
+zbyt trudne do zinterpretowania przez człowieka oraz produktów, których nie należy
+analizować za pomocą narzędzi. Zaszyfrowany kod jest zbyt złożony dla ludzi,
+a jeśli szyfrowanie jest na odpowiednim poziomie, większość narzędzi nie będzie
+w stanie go przeanalizować.
+d) Odpowiedź niepoprawna. Większość produktów pracy można sprawdzić za
+pomocą pewnej formy testowania statycznego. Karta opisu testu musi być możliwa
+do zinterpretowania przez ludzi, zatem można ją poddać przeglądowi, czyli
+jednemu z typów testowania statycznego.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 23 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+16
+
+Poprawna
+odpowiedź
+c
+
+Uzasadnienie
+Niektóre typy defektów, które można wykryć tylko za pomocą testów statycznych, to
+nieosiągalny kod, wzorce projektowe, które nie zostały zaimplementowane zgodnie z
+oczekiwaniami oraz defekty w niewykonalnych produktach pracy. Niektóre typy
+defektów, które można wykryć zarówno za pomocą testów statycznych, jak i
+dynamicznych, takie jak defekt programistyczny, który może zostać zaobserwowany
+przez przeglądającego podczas przeglądu kodu i który powoduje obserwowalną
+awarię podczas testów dynamicznych. Niektóre typy defektów, które można wykryć
+tylko za pomocą testów dynamicznych, to np. problemy z wydajnością lub pamięcią,
+które można zaobserwować tylko podczas wykonywania kodu lub systemu.
+
+Cel
+nauczania
+FL-3.1.2
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+W związku z tym POPRAWNĄ odpowiedzią jest odpowiedź c).
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 24 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+17
+
+Poprawna
+odpowiedź
+b
+
+Uzasadnienie
+Podane opisy można w następujący sposób powiązać z odpowiednimi czynnościami
+wykonywanymi w procesie przeglądu:
+
+Cel
+nauczania
+FL-3.2.2
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+1. Opis dotyczy działań wykonywanych w ramach czynności „przekazanie
+informacji i analiza”.
+2. Opis dotyczy działań wykonywanych w ramach czynności „usunięcie defektów
+i raportowanie”.
+3. Opis dotyczy
+indywidualny”.
+
+działań
+
+wykonywanych
+
+w
+
+ramach
+
+czynności
+
+„przegląd
+
+4. Opis dotyczy działań wykonywanych w ramach czynności „planowanie”.
+5. Opis dotyczy działań wykonywanych w ramach czynności „rozpoczęcie
+przeglądu”.
+Ogólny proces przeglądu opisany w standardzie ISO/IEC 20246 i przedstawiony
+w sylabusie obejmuje następujące czynności, wykonywane w kolejności logicznej:
+planowanie (4),
+rozpoczęcie przeglądu (5),
+przegląd indywidualny (3),
+przekazanie informacji i analiza (1),
+usunięcie defektów i raportowanie (2).
+Zatem POPRAWNA sekwencja działań to 4 – 5 – 3 – 1 - 2, dlatego POPRAWNĄ
+odpowiedzią jest odpowiedź b).
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 25 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+18
+
+Poprawna
+odpowiedź
+b
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Kierownik jest odpowiedzialny za określenie przedmiotu
+przeglądu i przydział zasobów, m.in. wyznaczenie pracowników oraz określenie
+ram czasowych przeglądu.
+
+Cel
+nauczania
+FL-3.2.3
+
+Poziom
+wiedzy
+K1
+
+Liczba
+punktów
+1
+
+b) Odpowiedź poprawna. Moderator (zwany także facylitatorem) jest odpowiedzialny
+za sprawny przebieg spotkań związanych z przeglądem. Zarządza czasem oraz
+zapewnia bezpieczne warunki, w których każdy uczestnik przeglądu może
+swobodnie wyrażać swoje zdanie.
+c) Odpowiedź niepoprawna.
+„przewodniczącego”.
+
+W
+
+procesie
+
+przeglądu
+
+nie
+
+występuje
+
+rola
+
+d) Odpowiedź niepoprawna. Lider przeglądu jest odpowiedzialny za ogólny nadzór
+nad procesem przeglądu, m.in. wybór uczestników przeglądu, zaplanowanie
+spotkań i zadbanie o skuteczne przeprowadzenie przeglądu.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 26 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+19
+
+Poprawna
+odpowiedź
+b
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Dokumentacja nie odwołuje się do struktury wewnętrznej
+przedmiotu testów, tylko do jego pożądanego zachowania. Dlatego
+białoskrzynkowe techniki testowania nie okażą się przydatne do projektowania
+przypadków testowych.
+
+Cel
+nauczania
+FL-4.1.1
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+b) Odpowiedź poprawna. Dokumentacja przedstawia wymaganie, które definiuje
+oczekiwane zachowanie przedmiotu testów. Dlatego najbardziej przydatnymi
+technikami będą w tej sytuacji czarnoskrzynkowe techniki testowania (np. analiza
+wartości brzegowych lub testowanie w oparciu o tablicę decyzyjną).
+c) Odpowiedź niepoprawna. Chociaż do projektowania przypadków testowych
+dotyczących tego udokumentowanego wymagania można użyć technik testowania
+opartych na doświadczeniu, to bardziej przydatne powinny okazać się
+czarnoskrzynkowe techniki testowania. W dokumentacji opisano szczegółową
+regułę biznesową, a ponadto sformułowania w rodzaju „przekracza 100 PLN”
+sugerują występowanie istotnych wartości brzegowych klas równoważności, które
+należy przetestować z wykorzystaniem czarnoskrzynkowych technik testowania
+takich jak analiza wartości brzegowych.
+d) Odpowiedź niepoprawna. Wśród typów technik testowania nie występują techniki
+oparte na ryzyku.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 27 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+20
+
+Poprawna
+odpowiedź
+b, e
+
+Uzasadnienie
+Nie zostały pokryte dwie klasy równoważności: „zniżka dla uczniów” i „zniżka dla
+emerytów”.
+
+Cel
+nauczania
+FL-4.2.1
+
+Poziom
+wiedzy
+K3
+
+Liczba
+punktów
+1
+
+a) Odpowiedź niepoprawna. RB – RU = 64, więc te dane wejściowe odpowiadają
+pokrytej już klasie „brak zniżki”.
+b) Odpowiedź poprawna. RB – RU = 65, więc te dane wejściowe odpowiadają
+niepokrytej na razie klasie („zniżka dla emerytów”).
+c) Odpowiedź niepoprawna. RB – RU = -65, więc te dane wejściowe odpowiadają
+pokrytej już klasie „komunikat o błędzie”.
+d) Odpowiedź niepoprawna. RB – RU = 18, więc te dane wejściowe odpowiadają
+pokrytej już klasie „brak zniżki”.
+e) Odpowiedź poprawna. RB – RU = 0, więc te dane wejściowe odpowiadają
+niepokrytej na razie klasie („zniżka dla uczniów”).
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 28 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+21
+
+Poprawna
+odpowiedź
+c
+
+Uzasadnienie
+Mamy trzy klasy równoważności: {…, –2,
+
+–1}, {0, 1, 2}, {3, 4, …}.
+
+Cel
+nauczania
+FL-4.2.2
+
+Poziom
+wiedzy
+K3
+
+Liczba
+punktów
+1
+
+FL-4.2.3
+
+K3
+
+1
+
+W przypadku dwupunktowej analizy wartości brzegowych należy pokryć wszystkie
+wartości brzegowe dla wszystkich klas równoważności. Wartościami brzegowymi są –
+1 (dla klasy „zbyt niska temperatura”), 0, 2 (dla klasy „temperatura OK”) i 3 (dla klasy
+„zbyt wysoka temperatura”). Zatem właściwy zestaw to -1, 0, 2, 3.
+Z tego powodu POPRAWNĄ odpowiedzią jest odpowiedź c).
+22
+
+a
+
+Przypadki testowe PT1, PT2, PT3 i PT4 pokrywają odpowiednio reguły R2, R3, R7 i R6
+w tablicy decyzyjnej.
+a) Odpowiedź poprawna. Warunki „66 lat”, „niezarejestrowany” i „brak
+doświadczenia” odpowiadają regule R4, która nie jest pokryta przez dotychczas
+zdefiniowane przypadki testowe. Zatem po dodaniu tego przypadku testowego
+pokrycie tablicy decyzyjnej się zwiększy.
+b) Odpowiedź niepoprawna. Warunki „55 lat”, „niezarejestrowana” i „2 lata
+doświadczenia” odpowiadają regule R2, która już została pokryta przez PT1.
+Pokrycie nie zwiększy się po dodaniu tego przypadku testowego.
+c) Odpowiedź niepoprawna. Warunki „19 lat”, „zarejestrowana” i „5 lat
+doświadczenia” odpowiadają regule R6, która już została pokryta przez PT4.
+Pokrycie nie zwiększy się po dodaniu tego przypadku testowego.
+d) d) Odpowiedź niepoprawna. Istniejące przypadki testowe pokrywają jedynie 4 z 7
+kolumn tablicy decyzyjnej. Pokrycie można zwiększyć po dodaniu przypadków
+testowych, które pokrywają nieuwzględnione dotychczas kolumny R1, R4 i R5.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 29 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+23
+
+Poprawna
+odpowiedź
+b
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Ta sekwencja pięciu zdarzeń pokrywa 4 różne poprawne
+przejścia (oba zdarzenia „Niedostępny” odpowiadają temu samemu przejściu
+między S1 i S3). Ten przypadek testowy pokrywa 4 z 7 poprawnych przejść.
+
+Cel
+nauczania
+FL-4.2.4
+
+Poziom
+wiedzy
+
+Liczba
+punktów
+1
+
+b) Odpowiedź poprawna. Ta sekwencja pięciu zdarzeń pokrywa 5 różnych
+poprawnych przejść (pierwsze zdarzenie „Dostępny” odpowiada przejściu między
+S1 i S2, a drugie zdarzenie „Dostępny” odpowiada przejściu między S3 i S2, więc
+pokryte są dwa różne przejścia). Ten przypadek testowy pokrywa 5 z 7 poprawnych
+przejść i pozwala uzyskać największe pokrycie poprawnych przejść.
+c) Odpowiedź niepoprawna. Ta sekwencja pięciu zdarzeń pokrywa 3 różne przejścia
+(oba zdarzenia „Dostępny” odpowiadają jednemu przejściu – z S1 do S2; oba
+zdarzenia „Zmień pokój” odpowiadają również jednemu przejściu – z S2 do S1).
+Ten przypadek testowy pokrywa 3 z 7 poprawnych przejść.
+d) Odpowiedź niepoprawna. Ta sekwencja pięciu zdarzeń nie reprezentuje
+wykonalnego przypadku testowego, ponieważ po zdarzeniu „Anuluj” system
+przechodzi do stanu „Koniec” i nie można wykonać kolejnych poprawnych przejść.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 30 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+24
+
+Poprawna
+odpowiedź
+c
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Linia kodu zawierająca defekt podczas wykonywania nie
+zawsze musi powodować awarię. Na przykład instrukcja x := y / z spowoduje
+awarię tylko wówczas, gdy z jest równe 0.
+
+Cel
+nauczania
+FL-4.3.1
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+b) Odpowiedź niepoprawna. Stuprocentowe pokrycie instrukcji nie gwarantuje
+stuprocentowego pokrycia gałęzi. Na przykład przypadek testowy, w którym x=0,
+dla kodu
+1. IF (x=0) THEN
+2. A;
+3. ENDIF
+pozwala uzyskać stuprocentowe pokrycie instrukcji, jednak nie pokrywa gałęzi od 1
+do 3.
+c) Odpowiedź poprawna. Stuprocentowe pokrycie instrukcji oznacza, że każda
+wykonywalna instrukcja została uruchomiona co najmniej jednokrotnie.
+d) Odpowiedź niepoprawna. Usunięty przypadek testowy może zapewniać pokrycie
+instrukcji, które nie są pokryte przez żaden z dwóch pozostałych przypadków
+testowych. W takiej sytuacji dwa pozostałe przypadki testowe nie pozwolą łącznie
+osiągnąć stuprocentowego pokrycia instrukcji.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 31 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+25
+
+Poprawna
+odpowiedź
+a
+
+Uzasadnienie
+a) Odpowiedź poprawna. Zasadniczą zaletą wszystkich technik białoskrzynkowych
+jest fakt, że podczas testowania uwzględniana jest cała implementacja
+oprogramowania, co ułatwia wykrywanie defektów nawet w przypadku, gdy
+specyfikacja oprogramowania jest niejednoznaczna, nieaktualna lub niekompletna.
+Oznacza to, że w testowaniu białoskrzynkowym można wykryć defekty takie jak
+dodatkowa, niepożądana funkcja wprowadzona w kodzie (przypadkowo lub
+rozmyślnie). Takich defektów nie da się wykryć w testowaniu czarnoskrzynkowym.
+
+Cel
+nauczania
+FL-4.3.3
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+b) Odpowiedź niepoprawna. Możliwość precyzyjnego zdefiniowania pokrycia nie jest
+właściwym powodem. Uzyskany poziom pokrycia ma znacznie większe znaczenie
+niż możliwość jego pomiaru.
+c) Odpowiedź niepoprawna. Jeśli w oprogramowaniu nie zaimplementowano jednego
+lub większej liczby wymagań, testowanie białoskrzynkowe raczej nie pozwoli
+wykryć takiego pominięcia i wynikających z niego defektów.
+d) Odpowiedź niepoprawna. Samo stwierdzenie jest prawdziwe, jednak nie stanowi
+poprawnej odpowiedzi na pytanie. Z możliwości użycia zarówno w testach
+statycznych, jak i dynamicznych nie wynika, że testowanie białoskrzynkowe ułatwia
+wykrywanie defektów w przypadku występowania niekompletnej specyfikacji.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 32 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+26
+
+Poprawna
+odpowiedź
+c
+
+Uzasadnienie
+Zgadywanie błędów to technika pozwalająca przewidywać wystąpienie błędów,
+defektów i awarii na podstawie wiedzy testera.
+
+Cel
+nauczania
+FL-4.4.1
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+a) Odpowiedź niepoprawna. To przykład przewidywania błędu programisty.
+b) Odpowiedź niepoprawna. To przykład przewidywania wystąpienia defektu.
+c) Odpowiedź poprawna. To przykład potencjalnej podstawowej przyczyny defektu.
+Nie jest ani błędem, ani defektem, ani awarią, a poza tym trudno ją przewidzieć
+testerowi.
+d) Odpowiedź niepoprawna. To przykład przewidywania wystąpienia awarii, być może
+opartego na doświadczeniu uzyskanym w poprzednio testowanych systemach
+w tej dziedzinie zastosowań.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 33 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+27
+
+Poprawna
+odpowiedź
+d
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. W tym podejściu przypadki testowe są zwykle tworzone
+podczas sesji testowania eksploracyjnego, w ramach których odbywa się również
+analiza, implementacja i wykonywanie testów.
+
+Cel
+nauczania
+FL-4.4.2
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+b) Odpowiedź niepoprawna. Testowanie eksploracyjne polega na równoczesnym
+projektowaniu, wykonywaniu i dokonywaniu oceny testów w czasie, gdy tester
+zapoznaje się z przedmiotem testów.
+c) Odpowiedź niepoprawna. Rezultaty testowania eksploracyjnego w znacznym
+stopniu zależą od doświadczenia testerów, więc jeśli nawet można potraktować je
+jak wskaźnik ryzyka i wykorzystać do oceny, czy liczba defektów zmniejszy się albo
+zwiększy np. w porównaniu z poprzednią sesją testowania eksploracyjnego, nie
+stanowią one wiarygodnego modelu przewidywania defektów pozwalającego
+określić liczbę defektów pozostałych w systemie.
+d) Odpowiedź poprawna. W trakcie testowania eksploracyjnego testerzy mogą
+korzystać ze wszystkich technik, które uznają za przydatne.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 34 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+28
+
+Poprawna
+odpowiedź
+d
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Poker planistyczny pozwala oszacować pracochłonność
+dla historyjki użytkownika, która już została napisana. Ale technika ta nie ułatwia
+ustalenia, co należy dostarczyć.
+
+Cel
+nauczania
+FL-4.5.1
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+b) Odpowiedź niepoprawna. Przeglądy nie są techniką stosowaną do wspólnego
+pisania historyjek użytkownika.
+c) Odpowiedź niepoprawna. Planowanie iteracji to praktyka związana z projektem.
+Służy do zaplanowania pracy, a nie do ustalenia, co ma zostać dostarczone.
+d) Odpowiedź poprawna. Rozmowa to okazja do wyjaśnienia, w jaki sposób będzie
+używane oprogramowanie. Często pozwala zdefiniować w ramach zespołu istotne
+kryteria akceptacji, a w rezultacie wypracować wspólną wizję tego, co należy
+dostarczyć.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 35 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+29
+
+Poprawna
+odpowiedź
+a
+
+Uzasadnienie
+a) Odpowiedź poprawna. Przypadek testowy jest związany z kryteriami akceptacji 2
+i 3, ponieważ sprawdzamy, czy uda się ustawić zakres cen (kryterium akceptacji 2)
+i czy wyniki aktualizują się dynamicznie po zmodyfikowaniu filtru (kryterium
+akceptacji 3).
+
+Cel
+nauczania
+FL-4.5.3
+
+Poziom
+wiedzy
+K3
+
+Liczba
+punktów
+1
+
+b) Odpowiedź niepoprawna. Ten przypadek testowy nie jest związany z żadnym
+kryterium akceptacji. Sprawdza, czy filtr dynamicznie ustawia domyślną cenę
+minimalną i maksymalną, a nie możliwość ustawienia tych wartości przez klienta.
+c) Odpowiedź niepoprawna. Ten przypadek testowy nie jest związany z żadnym
+kryterium akceptacji. Sprawdza funkcję przeliczania walut, która nie jest
+wspomniana w podanej historyjce użytkownika.
+d) Odpowiedź niepoprawna. Ten przypadek testowy nie jest związany z żadnym
+kryterium akceptacji. Sprawdza współdziałanie aplikacji z różnymi przeglądarkami,
+co nie zostało wspomniane w podanej historyjce użytkownika.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 36 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+30
+
+Poprawna
+odpowiedź
+b, d
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Zatwierdzenie budżetu to przykład kryterium wejścia. Nie
+miałoby sensu zatwierdzanie budżetu czynności, która już została wykonana.
+
+Cel
+nauczania
+FL-5.1.3
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+b) Odpowiedź poprawna. Przekroczenie budżetu można uznać za poprawne
+kryterium wyjścia.
+c) Odpowiedź niepoprawna. Dostępność zasobów jest przykładem kryterium wejścia
+dla projektu testowania.
+d) Odpowiedź poprawna. Stopień pokrycia to miara staranności testowania, jest więc
+jednym z typowych kryteriów wyjścia.
+e) Odpowiedź niepoprawna. To przykład kryterium wejścia sprawdzanego przed
+rozpoczęciem projektu.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 37 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+31
+
+Poprawna
+odpowiedź
+a
+
+Uzasadnienie
+W technice szacowania trójpunktowego ostateczne oszacowanie (E) oblicza się według
+wzoru:
+
+Cel
+nauczania
+FL-5.1.4
+
+Poziom
+wiedzy
+K3
+
+Liczba
+punktów
+1
+
+E = (a + 4*m + b) / 6,
+gdzie a oznacza najbardziej optymistyczne oszacowanie,
+prawdopodobne, natomiast b – najbardziej pesymistyczne.
+
+m
+
+–
+
+najbardziej
+
+W tym przypadku zatem oszacowanie czasu wykonania pojedynczego przypadku
+testowego wynosi:
+E = (1 h + 4*3 h + 8 h) / 6 = 3,5 h.
+Łączny czas niezbędny do wykonania 4 przypadków testowych wynosi więc:
+3,5 h * 4 = 14 h.
+Dlatego POPRAWNĄ odpowiedzią jest odpowiedź a).
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 38 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+32
+
+Poprawna
+odpowiedź
+b
+
+Uzasadnienie
+PT1 pozwala uzyskać największe pokrycie (4/7 – sprawdza wymagania Wym1, Wym3,
+Wym4 i Wym7), więc powinien zostać wykonany jako pierwszy.
+
+Cel
+nauczania
+FL-5.1.5
+
+Poziom
+wiedzy
+K3
+
+Liczba
+punktów
+1
+
+Do pokrycia pozostają wymagania Wym2, Wym5 i Wym6.
+Kolejnym przypadkiem, który zapewnia największe dodatkowe pokrycie pozostałych
+wymagań jest PT3 (pokrywa 2 z 3 wymagań – Wym5 i Wym6). Zatem PT3 powinien
+zostać wykonany jako drugi.
+Do pokrycia zostało już tylko wymaganie Wym2, które jest uwzględnione w PT4.
+Przypadek PT4 powinien być więc wykonany jako trzeci.
+Ostatnim wykonywanym przypadkiem będzie PT2.
+Dlatego POPRAWNĄ odpowiedzią jest odpowiedź b).
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 39 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+33
+
+Poprawna
+odpowiedź
+c
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Kwadranty testowe nie mają nic wspólnego z opisem
+relacji między poziomami testów.
+
+Cel
+nauczania
+FL-5.1.7
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+FL-5.2.1
+
+K1
+
+1
+
+b) Odpowiedź niepoprawna. Kwadranty testowe nie ułatwiają oceny pokrycia żadnego
+typu.
+c) Odpowiedź poprawna. Kwadranty testowe umożliwiają przedstawicielom
+kierownictwa i innym interesariuszom zrozumienie relacji między typami testów,
+podejmowanymi w ich ramach działaniami (wspieraniu zespołu albo krytyce
+produktu) oraz perspektywą, na której się koncentrują (biznesową lub
+technologiczną).
+d) Odpowiedź niepoprawna.
+psychologicznego.
+34
+
+b
+
+Kwadranty
+
+testowe
+
+nie
+
+stanowią
+
+modelu
+
+Oceny ryzyka można dokonać metodą ilościową, jakościową bądź mieszaną.
+W przypadku podejścia ilościowego poziom ryzyka oblicza się jako iloczyn
+prawdopodobieństwa ryzyka i wpływu ryzyka, zatem (poziom ryzyka) =
+(prawdopodobieństwo ryzyka) * (wpływ ryzyka).
+Stąd otrzymujemy: (wpływ ryzyka) = (poziom ryzyka) / (prawdopodobieństwo ryzyka).
+W naszym przypadku
+(wpływ ryzyka) = 1 000 PLN / 50% = 1 000 PLN / 0,5 = 2 000 PLN.
+Dlatego POPRAWNĄ odpowiedzią jest odpowiedź b.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 40 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+35
+
+Poprawna
+odpowiedź
+b, e
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Nieplanowane rozszerzanie zakresu projektu to przykład
+ryzyka projektowego związanego z problemami technicznymi.
+b) Odpowiedź poprawna. Niedopracowana architektura to przykład
+produktowego, ponieważ odnosi się do charakterystyki produktu.
+
+Cel
+nauczania
+FL-5.2.2
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+FL-5.3.2
+
+K2
+
+1
+
+ryzyka
+
+c) Odpowiedź niepoprawna. Cięcia finansowe to przykład ryzyka projektowego
+związanego z problemami organizacyjnymi.
+d) Odpowiedź niepoprawna. Niedostateczne wsparcie narzędziowe to przykład
+ryzyka projektowego związanego z problemami technicznymi.
+e) Odpowiedź poprawna. Zbyt długi czas odpowiedzi to przykład
+produktowego, ponieważ odnosi się do charakterystyki produktu.
+36
+
+c
+
+ryzyka
+
+a) Odpowiedź niepoprawna. Śledzenie postępu testów i identyfikowanie obszarów
+wymagających uwagi to przykład wsparcia ciągłego nadzoru nad testami. Jest to
+jeden z celów raportów z testów.
+b) Odpowiedź niepoprawna. Udostępnianie informacji o wykonywanych testach i ich
+wynikach oraz o wszelkich wykrytych problemach i defektach to przykład
+podsumowania czynności testowych wykonywanych na danym poziomie testów.
+Jest to jeden z celów raportów z testów.
+c) Odpowiedź poprawna. Udostępnianie informacji o poszczególnych defektach to cel
+raportów o defektach, a nie raportów z testów.
+d) Odpowiedź niepoprawna. Udostępnianie informacji o testach zaplanowanych na
+następny okres to jeden z celów raportów z testów.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 41 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+37
+
+Poprawna
+odpowiedź
+d
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Zarządzanie ryzykiem obejmuje analizę ryzyka i kontrolę
+ryzyka. Żadna z tych czynności nie obsługuje identyfikacji plików, które złożyły się
+na wydanie, ponieważ czynności te dotyczą ryzyka, a nie elementów konfiguracji.
+
+Cel
+nauczania
+FL-5.4.1
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+b) Odpowiedź niepoprawna. Monitorowanie testów wiąże się z gromadzeniem
+informacji na temat przebiegu testowania. Informacje te są wykorzystywane do
+oceny postępu testów oraz do pomiaru spełnienia kryteriów wyjścia lub wykonania
+związanych z nimi zadań testowych (takich jak osiągnięcie zakładanego pokrycia
+ryzyka produktowego, realizacja wymagań lub spełnienie innych kryteriów
+akceptacji). W ramach nadzoru nad testami informacje uzyskane w procesie
+monitorowania testów są wykorzystywane do określenia (w formie dyrektyw
+nadzoru) wskazówek i niezbędnych działań korygujących, które pozwolą uzyskać
+maksymalną skuteczność i efektywność testowania. Żadna z opisanych czynności
+nie dotyczy zarządzania elementami konfiguracji.
+c) Odpowiedź niepoprawna. Podejście „cały zespół” opiera się na umiejętności
+sprawnej pracy zespołowej testerów i działania na rzecz realizacji celów zespołu.
+Wiąże się zatem z zagadnieniami dotyczącymi pracy zespołowej, a nie elementami
+konfiguracji.
+d) Odpowiedź poprawna. Zarządzanie konfiguracją to uporządkowany proces
+umożliwiający identyfikowanie, nadzorowanie i śledzenie produktów pracy.
+W przypadku utworzenia nowej konfiguracji bazowej zmodyfikowane elementy
+konfiguracji są dokumentowane, aby umożliwić powrót do poprzedniej konfiguracji
+bazowej w celu odtworzenia wcześniejszych wyników testów.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 42 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+38
+
+Poprawna
+odpowiedź
+a
+
+Uzasadnienie
+a) Odpowiedź poprawna. Dzięki dodaniu takich informacji programista może użyć tych
+samych danych wejściowych, więc z większym prawdopodobieństwem będzie
+w stanie szybko odtworzyć awarię i zidentyfikować defekt.
+
+Cel
+nauczania
+FL-5.5.1
+
+Poziom
+wiedzy
+K3
+
+Liczba
+punktów
+1
+
+b) Odpowiedź niepoprawna. Dodanie wartości priorytetu nie ułatwi odtworzenia
+defektu.
+c) Odpowiedź niepoprawna. Część z tych informacji może okazać się istotna, jednak
+dodawanie zrzutów pamięci i obrazów stanu bazy danych po każdym kroku nie jest
+potrzebne. Większość tych artefaktów będzie zawierać informacje nieprzydatne dla
+programisty, a sam raport stanie się mniej czytelny. Ponadto programista poświęci
+bardzo wiele czasu na analizowanie informacji, co wydłuży proces usuwania awarii.
+d) Odpowiedź niepoprawna. Pytanie dotyczy łatwiejszego odtworzenia przez
+programistę defektu wykrytego w konkretnej konfiguracji środowiska.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 43 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+39
+
+Poprawna
+odpowiedź
+b
+
+Uzasadnienie
+Rozważmy poszczególne typy narzędzi z podanej listy:
+i.
+
+Narzędzia wspomagające współpracę – ułatwiają wymianę informacji. Wymiana
+informacji nie obejmuje ułatwień w wykonywaniu testów.
+
+ii.
+
+Narzędzia DevOps – wspomagają działanie potoku dostarczania (ang. delivery
+pipeline) DevOps, śledzenie przepływu pracy, zautomatyzowane procesy
+budowania oraz funkcjonowanie mechanizmów ciągłej integracji i ciągłego
+dostarczania. Potok dostarczania oraz mechanizmy ciągłej integracji i ciągłego
+dostarczania obejmują działania ułatwiające wykonywanie testów, np. testowanie
+modułowe w ramach ciągłej integracji.
+
+Cel
+nauczania
+FL-6.1.1
+
+Poziom
+wiedzy
+K2
+
+Liczba
+punktów
+1
+
+iii. Narzędzia do zarządzania testowaniem – zwiększają efektywność procesu
+testowego poprzez ułatwienie zarządzania cyklem wytwarzania oprogramowania,
+wymaganiami, testami, defektami i konfiguracją. Zarządzanie tymi elementami nie
+obejmuje ułatwień w wykonywaniu testów.
+iv. Narzędzia do testowania niefunkcjonalnego – umożliwiają testerom wykonywanie
+testów niefunkcjonalnych, które są trudne lub niemożliwe do wykonania manualnie.
+Testowanie niefunkcjonalne może uwzględniać zarówno testy statyczne, jak
+i dynamiczne, łącznie z ich wykonywaniem.
+v.
+
+Narzędzia do projektowania i implementacji testów – ułatwiają generowanie
+przypadków testowych, danych testowych i procedur testowych. Tworzenie takich
+testaliów nie obejmuje ułatwień w wykonywaniu testów.
+
+Zatem wykonywanie testów wspomagają narzędzia DevOps (ii) oraz narzędzia do
+testowania niefunkcjonalnego (iv), dlatego POPRAWNĄ odpowiedzią jest odpowiedź
+b).
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 44 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+Certyfikowany tester — poziom podstawowy
+Zbiór D
+Egzamin przykładowy — odpowiedzi
+
+Nr
+pytania
+40
+
+Poprawna
+odpowiedź
+c
+
+Uzasadnienie
+a) Odpowiedź niepoprawna. Wykrywanie dodatkowych defektów o wysokiej
+krytyczności należałoby uznać za korzyść, a nie ryzyko.
+
+Cel
+nauczania
+FL-6.2.1
+
+Poziom
+wiedzy
+K1
+
+Liczba
+punktów
+1
+
+b) Odpowiedź niepoprawna. Możliwość określenia miar, które są zbyt skomplikowane,
+aby pomiar mógł zostać dokonany przez ludzi, zwykle jest uważana za jedną
+z korzyści wynikających z automatyzacji testów.
+c) Odpowiedź poprawna. Jeśli mechanizm automatyzacji testów jest niekompatybilny
+z platformą programistyczną, nie będzie możliwa integracja środowiska testowego
+z platformą i na przykład przekazywanie danych wejściowych do przedmiotu testów
+oraz otrzymywanie wyników testów od przedmiotu testów.
+d) Odpowiedź niepoprawna. Znaczne skrócenie czasu wykonywania testów
+należałoby raczej uznać za jedną z korzyści wynikających z automatyzacji testów.
+
+wersja 1.4
+© International Software Testing Qualifications Board
+
+Strona 45 z 45
+
+14.06.2024 r.
+© Stowarzyszenie Jakości Systemów Informatycznych
+
+
