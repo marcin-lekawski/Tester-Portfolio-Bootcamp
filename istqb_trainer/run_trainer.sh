@@ -1,4 +1,4 @@
 #!/bin/bash
 # Skrypt uruchamiający projekt ISTQB Trainer
-source venv/bin/activate
-python main.py
+source "$(dirname "$0")/../venv/bin/activate"
+python3 main.py
