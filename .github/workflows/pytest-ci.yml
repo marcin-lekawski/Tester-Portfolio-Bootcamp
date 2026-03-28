@@ -13,6 +13,10 @@ jobs:
     # Pobieramy czysty, najnowszy i darmowy serwer bazujący na Linux Ubuntu
     runs-on: ubuntu-latest
 
+    # Zmienne środowiskowe, naprawiające błąd wersji bibliotek Node.js
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
     # 1. Pobranie najnowszego kodu Marcina z folderów
     - name: 📥 Klonowanie Twojego Repozytorium Kodowego (Checkout)
