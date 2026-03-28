@@ -63,3 +63,13 @@ Zidentyfikowane zgłoszenia błędu po wprowadzeniu Tablic 1.2:
 - **Wdrożona Architektura (Feature #008 Pełny TUI i Nano-Pager):**
   - Wykreowano dedykowany plik architektoniczny `terminal_ui.py` wstrzykujący głębokie modyfikacje kolorystyczne do Questionary. Skonstruowano chłodną niebiesko-zielonkawą paletę CSS.
   - Skonstruowano "Od Zera" modalny Pager (`nano_pager()`), symulujący Unixowego "Nano" lub "less". Łapie on surowe wciśnięcia klawiatury bez blokowania standardowego strumienia wejścia z buforem. Moduł od tego momentu sam się czyści przy używaniu Bazy Wiedzy lub Panelu Administratora, trzymając opcję wyjścia/edycji (`[Q]`, `[E]`, `[M]`) na samym dnie. Zakończono pełną rozbudowę systemu CRUD (możliwość edycji tagów K-level, oraz zawartości wariantów a, b, c i d dla pytań certyfikacyjnych).
+
+---
+
+## [Wydanie 1.5.0] - Implementacja Środowiska CI (Automatyzacja Pytest)
+- **Status:** Wdrożone
+- **Zmiany (Rozbudowa Inżynieryjna TDD):**
+  - Stworzono dedykowaną architekturę w folderze głównym: `tests/`
+  - Wdrożenie in-memory baz danych za pomocą systemowych `Fixtur` (`conftest.py`) i izolowanych plików tymczasowych (`tempfile`). Zastosowano technikę `monkeypatch` aby zminimalizować ryzyko skażenia docelowej, produkcyjnej bazy `istqb_knowledge.db` w trakcie testowania zmian (np. usunięcia przez pomyłkę historii gracza `exam_results`).
+  - [Automatyzacja Zapytań] Stworzono dedykowany zestaw testowy pod matematyczną kalkulację wyników oraz tworzenie samych struktur tabel w module SQL SQLite - `test_database.py` oraz `test_main.py`.
+  - [Zabezpieczenie przed błędem z Parserów #004] Przekuto bug pod silnik testowy w `test_parser.py` i dodano stałą asercję wyłapującą wielokrotne odpowiedzi typu "a, b". Uchroni to od tego samego problemu przy przesiadce na nowszy standard ISTQB V5 w przyszłości.
