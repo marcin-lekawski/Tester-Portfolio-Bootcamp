@@ -73,3 +73,13 @@ Zidentyfikowane zgłoszenia błędu po wprowadzeniu Tablic 1.2:
   - Wdrożenie in-memory baz danych za pomocą systemowych `Fixtur` (`conftest.py`) i izolowanych plików tymczasowych (`tempfile`). Zastosowano technikę `monkeypatch` aby zminimalizować ryzyko skażenia docelowej, produkcyjnej bazy `istqb_knowledge.db` w trakcie testowania zmian (np. usunięcia przez pomyłkę historii gracza `exam_results`).
   - [Automatyzacja Zapytań] Stworzono dedykowany zestaw testowy pod matematyczną kalkulację wyników oraz tworzenie samych struktur tabel w module SQL SQLite - `test_database.py` oraz `test_main.py`.
   - [Zabezpieczenie przed błędem z Parserów #004] Przekuto bug pod silnik testowy w `test_parser.py` i dodano stałą asercję wyłapującą wielokrotne odpowiedzi typu "a, b". Uchroni to od tego samego problemu przy przesiadce na nowszy standard ISTQB V5 w przyszłości.
+
+---
+
+## [Wydanie 1.5.1] - Hotfix Data Engineeringu (Czyszczenie Bazy Danych)
+- **Status:** Wdrożone
+- **Zidentyfikowane Problemy (Błędy Parsera #009):**
+  - Algorytm w `parser.py` wyłapujący rozdziały na podstawie wyrażeń ułamkowych łapał daty z historii edycji stopki PDFu jako realną wiedzę. Użytkownik widział w spisie pusty wpis "23.04.2023 r.".
+  - Kluczowe rozdziały teoretyczne (1.1, 1.3, 5.4, 6.1) posiadały uciętą strukturę danych uniemożliwiającą sensowną naukę.
+- **Naprawa i Zabezpieczenia (Python Iniection):**
+  - Napisano mały skrypt `hotfix_syllabus.py` realizujący celowane operacje SQL: `DELETE` po wildcardzie Dat oraz `UPDATE` ładujące poprawne encje merytoryczne z obszaru CTFL v4.0. Problem zgubionej Teorii został w 100% zarzegnany, a skrypt pozostawiono w repozytorium do ewentualnego resetu bazy.
