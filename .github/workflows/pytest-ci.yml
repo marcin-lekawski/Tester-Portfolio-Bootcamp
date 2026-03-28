@@ -1,0 +1,36 @@
+name: Trener ISTQB - Continuous Integration (QA Pipeline)
+
+# Pipelina uruchamia się DOKŁADNIE wtedy gdy ktokolwiek wyśle nowy kod (git push) na główną gałąź w GitHubie.
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+# Zadanie (Job) które wykona serwer z chmury Githuba
+jobs:
+  pytest_quality_assurance:
+    # Pobieramy czysty, najnowszy i darmowy serwer bazujący na Linux Ubuntu
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Pobranie najnowszego kodu Marcina z folderów
+    - name: 📥 Klonowanie Twojego Repozytorium Kodowego (Checkout)
+      uses: actions/checkout@v4
+
+    # 2. Przygotowanie instalatora języka Python
+    - name: 🐍 Ustawianie Pythona 3.12 (najnowocześniejsze środowisko AI)
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+
+    # 3. Instalacja naszych specyficznych bibliotek potrzebnych programowi by działał
+    - name: 📦 Instalacja Bibliotek (Rich, Questionary, Pytest) 
+      run: |
+        python -m pip install --upgrade pip
+        pip install rich questionary pytest pytest-mock
+
+    # 4. Magiczny Ogień! Każe linuxowi puścić sprawdzanie
+    - name: 🧪 Odpalenie zautomatyzowanych Zestawów Testowych Pytest (Test Execution)
+      run: |
+        pytest -v istqb_trainer/tests/
