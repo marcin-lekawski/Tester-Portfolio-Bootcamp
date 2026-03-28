@@ -5,7 +5,7 @@ Poniższy dokument rejestruje historię testów, zidentyfikowanych błędów ora
 
 ---
 
-## [Wydanie 1.0.0] - Środowisko MVP (Dzień 1)
+## [Wersja 0.0.1-alpha] - Środowisko MVP (Dzień 1)
 - **Status:** Wdrożone
 - **Zmiany:** 
   - Budowa bazowego Menu CLI (Python) za pomocą silników `rich` oraz `questionary`.
@@ -16,7 +16,7 @@ Poniższy dokument rejestruje historię testów, zidentyfikowanych błędów ora
 
 ---
 
-## [Wydanie 1.1.0] - Integracja z SQLite & Regex (Dzień 1->2)
+## [Wersja 0.0.2-alpha] - Integracja z SQLite & Regex (Dzień 1->2)
 - **Status:** Wdrożone
 - **Zmiany:**
   - Migracja słownika `DATA` do trwałej bazy relacyjnej `sqlite3`.
@@ -24,7 +24,7 @@ Poniższy dokument rejestruje historię testów, zidentyfikowanych błędów ora
 
 ---
 
-## [Wydanie 1.2.0] - Patch UX & Trackowania Błędów (Bieżące prace QA)
+## [Wersja 0.1.0-beta] - Patch UX & Trackowania Błędów (Bieżące prace QA)
 **SESJA TESTOWA BLACK-BOX (DATA: DZIEŃ 2)**
 Zidentyfikowane zgłoszenia błędu po wdrożeniu 1.1.0:
 
@@ -42,7 +42,7 @@ Zidentyfikowane zgłoszenia błędu po wdrożeniu 1.1.0:
 
 ---
 
-## [Wydanie 1.3.0] - Architektura Bazy Wiedzy i Bugfix Parsera #004 (Dzień 2)
+## [Wersja 0.2.0-beta] - Architektura Bazy Wiedzy i Bugfix Parsera #004 (Dzień 2)
 **SESJA TESTOWA BLACK-BOX / DEPLOYMENT**
 Zidentyfikowane zgłoszenia błędu po wprowadzeniu Tablic 1.2:
 
@@ -55,7 +55,7 @@ Zidentyfikowane zgłoszenia błędu po wprowadzeniu Tablic 1.2:
 
 ---
 
-## [Wydanie 1.4.0] - Refaktoryzacja Interfejsu (UX/UI) & Autorski TUI Pager (Dzień 5)
+## [Wersja 0.5.0-beta] - Refaktoryzacja Interfejsu (UX/UI) & Autorski TUI Pager (Dzień 2)
 - **Status:** Wdrożone
 - **Zidentyfikowane Problemy (Usability Bug #006 & #007):**
   - [Bug #006] Czytelnicy narzekali na rażącą "pomarańczkową dżunglę" wywoływaną przez defaultowe okna `questionary.text()`, która przy wielogodzinnym trybie nocnym uciska wzrok. Dodatkowo kursor wyboru to była tylko niečitěłna `>`.
@@ -66,7 +66,7 @@ Zidentyfikowane zgłoszenia błędu po wprowadzeniu Tablic 1.2:
 
 ---
 
-## [Wydanie 1.5.0] - Implementacja Środowiska CI (Automatyzacja Pytest)
+## [Wersja 0.9.0-beta] - Implementacja Środowiska CI (Automatyzacja Pytest)
 - **Status:** Wdrożone
 - **Zmiany (Rozbudowa Inżynieryjna TDD):**
   - Stworzono dedykowaną architekturę w folderze głównym: `tests/`
@@ -76,7 +76,7 @@ Zidentyfikowane zgłoszenia błędu po wprowadzeniu Tablic 1.2:
 
 ---
 
-## [Wydanie 1.5.1] - Hotfix Data Engineeringu (Czyszczenie Bazy Danych)
+## [Wersja 0.9.5-rc] - Hotfix Data Engineeringu (Czyszczenie Bazy Danych)
 - **Status:** Wdrożone
 - **Zidentyfikowane Problemy (Błędy Parsera #009):**
   - Algorytm w `parser.py` wyłapujący rozdziały na podstawie wyrażeń ułamkowych łapał daty z historii edycji stopki PDFu jako realną wiedzę. Użytkownik widział w spisie pusty wpis "23.04.2023 r.".

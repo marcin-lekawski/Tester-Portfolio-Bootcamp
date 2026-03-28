@@ -77,7 +77,7 @@ def save_result(mode, score, total):
     conn.close()
 
 def display_welcome():
-    console.print(Panel.fit("[bold cyan]🎓 ISTQB Foundation Level 4.0.1 - INTERAKTYWNY TRENER (V 1.4.0)[/bold cyan]\n"
+    console.print(Panel.fit("[bold cyan]🎓 ISTQB Foundation Level 4.0.1 - INTERAKTYWNY TRENER (Wersja 0.9.5-rc)[/bold cyan]\n"
                             "Wersja Hybryda - TUI Nano Pager & Custom CSS",
                             border_style="cyan"))
 
