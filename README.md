@@ -38,16 +38,19 @@ Do stworzenia tej aplikacji w najświeższych standardach pisania oprogramowania
 
 ---
 
-## ⌨️ Jak Uruchomić Trenera na Twojej Maszynie?
+## ⌨️ Jak Uruchomić Trenera? (Automatyczny Deployment)
 
-Skrypt obsługi wirtualnego środowiska `venv` postawi u Ciebie aplikację bezboleśnie.
-W środowisku uniksowym (MacOS, Linux, WSL) wpisz komendę z głównego folderu z pobranym kodem:
+Zapomnij o ręcznej rzeźbie i budowaniu wirtualnych środowisk. Jako Q&A i inżynier procesów, szanuję czas recenzentów i użytkowników. Przygotowałem zautomatyzowany skrypt All-In-One służący jako **One-Click Installer**.
+
+Skrypt samoistnie wykryje brak środowiska `venv`, postawi w izolacji Pythona, doczyta ciche zależności `pip` i poprosi zrobotyzowany Parser o stworzenie kompletnej natywnej bazy Sylabusa od zera dla Ciebie do folderu `data`.
+
+Aby zobaczyć ten system w akcji, otwórz terminal w głównym katalogu pobranego repozytorium i po prostu wykonaj poniższy plik wsadowy:
 
 ```bash
-./run_trainer.sh
+./istqb_trainer/run_trainer.sh
 ```
 
-*(Jeżeli to twoje pierwsze chwile z aplikacją, upewnij się wcześniej, że zaktualizowałeś pakiety lokalne poleceniem: `pip install rich questionary` bądź postawiłeś czysty `python -m venv venv` w rewirze dokumentu, a następnie wywołałeś Setupera SQL i parser przez `python istqb_trainer/database_setup.py`)*
+*(Jeśli potrzebujesz mu nadać prawa do wykonywania w Linuksie zrób to wpisując `chmod +x istqb_trainer/run_trainer.sh` przed aktywacją).*
 
 Przetestuj moje UI. Zerknij do kodu z komentarzami. Podejrzyj dziennik testów QA. 
-**Ta aplikacja nie udaje – ona jest twardym dowodem pasji i logicznego pomyślenia w dziedzinie IT.** Dziękuję za wizytę na moim profilu GitHub!
+**Ta aplikacja nie udaje – ona jest twardym dowodem pasji i analitycznego podejścia Inżyniera. Dziękuję za wizytę na moim profilu GitHub!**
