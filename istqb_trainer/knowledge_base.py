@@ -1,8 +1,8 @@
 import sqlite3
 import questionary
 from rich.console import Console
-from rich.panel import Panel
-from rich.prompt import Prompt
+
+import terminal_ui
 
 console = Console()
 
@@ -12,6 +12,7 @@ def get_db():
     return sqlite3.connect(db_path)
 
 def kb_menu():
+    style = terminal_ui.get_custom_style()
     while True:
         choice = questionary.select(
             "📚 BAZA WIEDZY (Czytanie)",
@@ -19,7 +20,8 @@ def kb_menu():
                 "1. Słownik Pojęć (Przegląd)",
                 "2. Sylabus ISTQB (Czytanie podrozdziałów)",
                 "3. 🚪 Wyjdź do Menu Głównego"
-            ]
+            ],
+            style=style
         ).ask()
 
         if not choice or choice.startswith("3"):
@@ -32,36 +34,47 @@ def kb_menu():
 def view_glossary():
     conn = get_db()
     c = conn.cursor()
+    style = terminal_ui.get_custom_style()
     while True:
         c.execute("SELECT id, term, definition FROM glossary ORDER BY term ASC")
         terms = c.fetchall()
         
         choices = [f"{t[1]}" for t in terms] + ["🚪 [Wróć]"]
-        term_choice = questionary.select("Wybierz pojęcie z Glosariusza (Wpisz literę na klawiaturze by szukać!):", choices=choices).ask()
+        term_choice = questionary.select(
+            "Wybierz pojęcie z Glosariusza:", 
+            choices=choices,
+            style=style
+        ).ask()
         
         if not term_choice or term_choice == "🚪 [Wróć]":
             break
         else:
             t = next(x for x in terms if x[1] == term_choice)
-            console.print(Panel(t[2], title=f"📗 {t[1]}", border_style="cyan"))
-            Prompt.ask("\n[dim]Naciśnij ENTER by wrócić do pojęć...[/dim]")
+            action = terminal_ui.nano_pager(f"Pojęcie: {t[1]}", t[2])
+            if action == 'menu':
+                break
     conn.close()
 
 def view_syllabus():
     conn = get_db()
     c = conn.cursor()
+    style = terminal_ui.get_custom_style()
     while True:
         c.execute("SELECT id, subchapter_number, k_level, content FROM syllabus_sections ORDER BY chapter_id, id ASC")
         secs = c.fetchall()
         
         choices = [f"{s[1]} ({s[2]})" for s in secs] + ["🚪 [Wróć]"]
-        s_choice = questionary.select("Wybierz Podrozdział Sylabusa:", choices=choices).ask()
+        s_choice = questionary.select(
+            "Wybierz Podrozdział Sylabusa:", 
+            choices=choices,
+            style=style
+        ).ask()
         
         if not s_choice or s_choice == "🚪 [Wróć]":
             break
         else:
             s_data = next(x for x in secs if f"{x[1]} ({x[2]})" == s_choice)
-            
-            console.print(Panel(s_data[3], title=f"📘 Teoria u Źródła: {s_data[1]} (Poziom {s_data[2]})", border_style="blue"))
-            Prompt.ask("\n[dim]Naciśnij ENTER by przewinąć / wrócić do podrozdziałów...[/dim]")
+            action = terminal_ui.nano_pager(f"Źródło Syllabus: {s_data[1]} (Poziom {s_data[2]})", s_data[3])
+            if action == 'menu':
+                break
     conn.close()

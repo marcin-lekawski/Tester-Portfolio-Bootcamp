@@ -12,6 +12,7 @@ from rich.table import Table
 try:
     import admin
     import knowledge_base
+    import terminal_ui
 except ImportError:
     pass # Obsługa błędu gdyby skrypt był uruchamiany dziwnie z wewnątrz
 
@@ -76,11 +77,11 @@ def save_result(mode, score, total):
     conn.close()
 
 def display_welcome():
-    console.print(Panel.fit("[bold cyan]🎓 ISTQB Foundation Level 4.0.1 - INTERAKTYWNY TRENER (V 1.3.1)[/bold cyan]\n"
-                            "Wersja Hybryda - Moduł Separacji Danych",
+    console.print(Panel.fit("[bold cyan]🎓 ISTQB Foundation Level 4.0.1 - INTERAKTYWNY TRENER (V 1.4.0)[/bold cyan]\n"
+                            "Wersja Hybryda - TUI Nano Pager & Custom CSS",
                             border_style="cyan"))
 
-def do_quiz_question(idx, total_qs, q_item):
+def do_quiz_question(idx, total_qs, q_item, style):
     console.print(Panel(q_item['q'], title=f"[bold cyan]Pytanie {idx}/{total_qs}[/bold cyan]", border_style="yellow"))
     
     is_multi = len(q_item["ans_letters"]) > 1
@@ -89,7 +90,8 @@ def do_quiz_question(idx, total_qs, q_item):
         console.print("[dim italic]To pytanie wymaga zanzaczenia kilku wariantów! Używaj SPACJI by zaznaczyć, ENTER by potwierdzić.[/dim italic]")
         answer = questionary.checkbox(
             "Zaznacz poprawne odpowiedzi:",
-            choices=q_item["choices"]
+            choices=q_item["choices"],
+            style=style
         ).ask()
         
         if not answer:
@@ -110,7 +112,8 @@ def do_quiz_question(idx, total_qs, q_item):
         options = q_item["choices"] + ["🚪 Zakończ quiz i podlicz"]
         answer = questionary.select(
             "Wybierz poprawną odpowiedź (lub wyjdź):",
-            choices=options
+            choices=options,
+            style=style
         ).ask()
 
         if answer is None or answer == "🚪 Zakończ quiz i podlicz":
@@ -124,7 +127,7 @@ def do_quiz_question(idx, total_qs, q_item):
             console.print(f"[bold red]❌ Źle![/bold red] Poprawna odpowiedź: {q_item['ans_raw']}\n")
             return 0
 
-def learn_mode(data):
+def learn_mode(data, style):
     if not data:
         console.print("[red]Brak danych. Odpal najpierw skrypty konfiguracyjne SQL![/red]")
         time.sleep(2)
@@ -132,7 +135,8 @@ def learn_mode(data):
 
     chap = questionary.select(
         "Wybierz rozdział do nauki by losować pytania:",
-        choices=[f"{k} - {v['title']}" for k,v in data.items() if v['questions']] + ["Wróć"]
+        choices=[f"{k} - {v['title']}" for k,v in data.items() if v['questions']] + ["Wróć"],
+        style=style
     ).ask()
 
     if chap is None or chap == "Wróć":
@@ -151,7 +155,7 @@ def learn_mode(data):
     questions_answered = 0
 
     for idx, q_item in enumerate(qs_sample):
-        res = do_quiz_question(idx+1, total_qs, q_item)
+        res = do_quiz_question(idx+1, total_qs, q_item, style)
         if res == -1:
             console.print("[yellow]Przerwano na życzenie użytkownika. Zapisuję obecny wynik![/yellow]")
             break
@@ -165,7 +169,7 @@ def learn_mode(data):
         
     time.sleep(2)
 
-def exam_mode(data):
+def exam_mode(data, style):
     if not data:
         console.print("[red]Brak danych. Odpal najpierw skrypty konfiguracyjne SQL![/red]")
         time.sleep(2)
@@ -194,14 +198,14 @@ def exam_mode(data):
         is_multi = len(q_item["ans_letters"]) > 1
         if is_multi:
             console.print("[dim]Pytanie wielokrotnego wyboru (Używaj Spacji)[/dim]")
-            answer = questionary.checkbox("Twój wybór:", choices=q_item["choices"]).ask()
+            answer = questionary.checkbox("Twój wybór:", choices=q_item["choices"], style=style).ask()
             if not answer: continue
             selected = [a.split(")")[0].strip().lower() for a in answer]
             selected.sort()
             correct = sorted(q_item["ans_letters"])
             if selected == correct: score += 1
         else:
-            ans = questionary.select("Twój wybór:", choices=q_item["choices"]).ask()
+            ans = questionary.select("Twój wybór:", choices=q_item["choices"], style=style).ask()
             if ans is None:
                 console.print("[red]Pominięto pytanie (odpowiedź pusta)![/red]")
                 time.sleep(1)
@@ -265,6 +269,7 @@ def show_stats():
     Prompt.ask("\n[bold dim]Naciśnij ENTER, by wrócić do Menu[/bold dim]")
 
 def main():
+    style = terminal_ui.get_custom_style()
     while True:
         os.system('clear')
         display_welcome()
@@ -282,15 +287,16 @@ def main():
                 "📊 Tryb: STATYSTYKI (Moje postępy)",
                 "⚙️ Tryb: PANEL ADMINISTRATORA (Edycja Bazy & CRUD)",
                 "🚪 Wyjdź"
-            ]
+            ],
+            style=style
         ).ask()
 
         if choice and choice.startswith("📚"):
             knowledge_base.kb_menu()
         elif choice and choice.startswith("📖"):
-            learn_mode(db_data)
+            learn_mode(db_data, style)
         elif choice and choice.startswith("🎓"):
-            exam_mode(db_data)
+            exam_mode(db_data, style)
         elif choice and choice.startswith("📊"):
             show_stats()
         elif choice and choice.startswith("⚙️"):

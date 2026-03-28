@@ -51,5 +51,15 @@ Zidentyfikowane zgłoszenia błędu po wprowadzeniu Tablic 1.2:
    - *Naprawa:* Re-inżynieria skryptu parsującego, zastosowanie głębokiego czytania sekcji "Uzasadnienie" i weryfikacja regex na dystansie 40 linijek od odnalezionej litery pod numerycznym indykatorze. Bezlitosny drop starych wpisów i re-indeksacja tabel w SQLite.
 
 5. **Feature-Request #005: Pełnowymiarowa Baza Wiedzy (Słownik i Sylabus)**
-   - *Opis:* Użytkownik chce mieć natychmiastowy dostęp do wiedzy i pojęć z wnętrza CLI, z powodu niedokładności parserów na dokumentach tekstowych.
    - *Wdrożenie:* Nowa, kolosalna komenda pobierająca do bazy danych 250 Kilobajtów surowej teorii i setek pojęć definicyjnych ISTQB. Stworzono dwa nowe zasoby: Słownik (`glossary`) i Podrozdziały `syllabus_sections` posiadające stopnie ważności e.g., (K2). Wykreowano dla administratora system CRUD i terminalowy menadżer wiedzy do ręcznej "wlocie" edycji i tworzenia nowych pytań!
+
+---
+
+## [Wydanie 1.4.0] - Refaktoryzacja Interfejsu (UX/UI) & Autorski TUI Pager (Dzień 5)
+- **Status:** Wdrożone
+- **Zidentyfikowane Problemy (Usability Bug #006 & #007):**
+  - [Bug #006] Czytelnicy narzekali na rażącą "pomarańczkową dżunglę" wywoływaną przez defaultowe okna `questionary.text()`, która przy wielogodzinnym trybie nocnym uciska wzrok. Dodatkowo kursor wyboru to była tylko niečitěłna `>`.
+  - [Bug #007] Drukowany długimi stakami (300+ linii) tekst Sylabusa z poziomu edytora brutalnie wyrzucał listę pytań CRUD pod tło ekranu, powodując całkowitą dezorientację na liście wyboru operacji na bazie Danych.
+- **Wdrożona Architektura (Feature #008 Pełny TUI i Nano-Pager):**
+  - Wykreowano dedykowany plik architektoniczny `terminal_ui.py` wstrzykujący głębokie modyfikacje kolorystyczne do Questionary. Skonstruowano chłodną niebiesko-zielonkawą paletę CSS.
+  - Skonstruowano "Od Zera" modalny Pager (`nano_pager()`), symulujący Unixowego "Nano" lub "less". Łapie on surowe wciśnięcia klawiatury bez blokowania standardowego strumienia wejścia z buforem. Moduł od tego momentu sam się czyści przy używaniu Bazy Wiedzy lub Panelu Administratora, trzymając opcję wyjścia/edycji (`[Q]`, `[E]`, `[M]`) na samym dnie. Zakończono pełną rozbudowę systemu CRUD (możliwość edycji tagów K-level, oraz zawartości wariantów a, b, c i d dla pytań certyfikacyjnych).
