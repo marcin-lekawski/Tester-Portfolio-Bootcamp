@@ -42,7 +42,7 @@ def edit_glossary(style):
         c.execute("SELECT id, term, definition FROM glossary ORDER BY term ASC")
         terms = c.fetchall()
         
-        choices = [f"{t[1]}" for t in terms] + ["➕ [Nowe Pojęcie]", "🚪 [Wróć]"]
+        choices = [f"{t[1]}" for t in terms] + ["➕ [Nowe Pojęcie]", "🗑️ [Hurtowe Usuwanie Pojęć]", "🚪 [Wróć]"]
         term_choice = questionary.select(
             "Wybierz pojęcie z Glosariusza:", 
             choices=choices,
@@ -58,6 +58,15 @@ def edit_glossary(style):
                 c.execute("INSERT INTO glossary (term, definition) VALUES (?, ?)", (nowe, df))
                 conn.commit()
                 console.print("[green]✅ Dodano do Słownika![/green]")
+        elif term_choice == "🗑️ [Hurtowe Usuwanie Pojęć]":
+            to_del = questionary.checkbox("Zaznacz spacją pojęcia do permanentnego usunięcia:", choices=[t[1] for t in terms], style=style).ask()
+            if to_del:
+                if questionary.confirm(f"Usunąć bezpowrotnie {len(to_del)} pojęć ze Słownika?").ask():
+                    for td in to_del:
+                        tid = next(x[0] for x in terms if x[1] == td)
+                        c.execute("DELETE FROM glossary WHERE id = ?", (tid,))
+                    conn.commit()
+                    console.print(f"[red]✅ Wymazano {len(to_del)} wpisów![/red]")
         else:
             t = next(x for x in terms if x[1] == term_choice)
             action = terminal_ui.nano_pager(f"Glosariusz: {t[1]}", t[2], allow_edit=True)
@@ -84,7 +93,7 @@ def edit_syllabus(style):
         c.execute("SELECT id, subchapter_number, k_level, content FROM syllabus_sections ORDER BY chapter_id, id ASC")
         secs = c.fetchall()
         
-        choices = [f"{s[1]} ({s[2]})" for s in secs] + ["➕ [Dodaj Nową Sekcję]", "🚪 [Wróć]"]
+        choices = [f"{s[1]} ({s[2]})" for s in secs] + ["➕ [Dodaj Nową Sekcję]", "🗑️ [Hurtowe Usuwanie Podrozdziałów]", "🚪 [Wróć]"]
         s_choice = questionary.select("Wybierz Podrozdział Sylabusa:", choices=choices, style=style).ask()
         
         if not s_choice or s_choice == "🚪 [Wróć]":
@@ -96,6 +105,15 @@ def edit_syllabus(style):
             if sub and ct:
                 c.execute("INSERT INTO syllabus_sections (chapter_id, subchapter_number, k_level, content) VALUES (1, ?, ?, ?)", (sub, kl, ct))
                 conn.commit()
+        elif s_choice == "🗑️ [Hurtowe Usuwanie Podrozdziałów]":
+            to_del = questionary.checkbox("Zaznacz spacją podrozdziały do skasowania:", choices=[f"{s[1]} ({s[2]})" for s in secs], style=style).ask()
+            if to_del:
+                if questionary.confirm(f"Wysadzić w powietrze {len(to_del)} sekcji z bazy?").ask():
+                    for td in to_del:
+                        sid = next(x[0] for x in secs if f"{x[1]} ({x[2]})" == td)
+                        c.execute("DELETE FROM syllabus_sections WHERE id = ?", (sid,))
+                    conn.commit()
+                    console.print(f"[red]Wymazano {len(to_del)} sekcji Sylabusa![/red]")
         else:
             s_data = next(x for x in secs if f"{x[1]} ({x[2]})" == s_choice)
             
@@ -129,7 +147,7 @@ def edit_questions(style):
         c.execute("SELECT id, source, question_text, correct_answer_letter FROM questions ORDER BY id ASC")
         qs = c.fetchall()
         
-        choices = [f"[ID:{q[0]}] {q[2][:50]}... (Odp: {q[3]})" for q in qs] + ["➕ [Dodaj Nowe Własne Pytanie]", "🚪 [Wróć]"]
+        choices = [f"[ID:{q[0]}] {q[2][:50]}... (Odp: {q[3]})" for q in qs] + ["➕ [Dodaj Nowe Własne Pytanie]", "🗑️ [Hurtowe Usuwanie Pytań]", "🚪 [Wróć]"]
         q_choice = questionary.select("Zarządzaj Pytaniami ISTQB:", choices=choices, style=style).ask()
         
         if not q_choice or q_choice == "🚪 [Wróć]":
@@ -145,6 +163,16 @@ def edit_questions(style):
                     ch_t = questionary.text(f"Podaj wariant {letter}):", style=style).ask()
                     c.execute("INSERT INTO choices (question_id, letter, choice_text) VALUES (?, ?, ?)", (new_id, letter, ch_t))
                 conn.commit()
+        elif q_choice == "🗑️ [Hurtowe Usuwanie Pytań]":
+            to_del = questionary.checkbox("Zaznacz spacją pytania do wymazania z pamięci:", choices=[f"[ID:{q[0]}] {q[2][:50]}... (Odp: {q[3]})" for q in qs], style=style).ask()
+            if to_del:
+                if questionary.confirm(f"Skasować na twardo {len(to_del)} pytań testowych wraz z ich wariantami?").ask():
+                    for td in to_del:
+                        qid = int(td.split("]")[0].replace("[ID:", ""))
+                        c.execute("DELETE FROM choices WHERE question_id = ?", (qid,))
+                        c.execute("DELETE FROM questions WHERE id = ?", (qid,))
+                    conn.commit()
+                    console.print(f"[red]Utylizacja {len(to_del)} pytań z Bazy zakończona![/red]")
         else:
             q_id = int(q_choice.split("]")[0].replace("[ID:", ""))
             q_data = next(x for x in qs if x[0] == q_id)
