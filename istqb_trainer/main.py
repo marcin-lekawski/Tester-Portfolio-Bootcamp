@@ -11,6 +11,7 @@ from rich.table import Table
 # Importujemy nowy moduł CRUD
 try:
     import admin
+    import knowledge_base
 except ImportError:
     pass # Obsługa błędu gdyby skrypt był uruchamiany dziwnie z wewnątrz
 
@@ -50,8 +51,6 @@ def get_db_data():
         
         for ch_key, ch_data in chapters.items():
             if ch_data["id"] == chap_id:
-                # Oczyszczenie liter poprawnej odpowiedzi (Bug #004 / Wielokrotny Wybór)
-                # np. "a, e" -> ['a', 'e']
                 correct_letters = [l.strip().lower() for l in ans_letter.split(",")]
                 
                 ch_data["questions"].append({
@@ -77,15 +76,13 @@ def save_result(mode, score, total):
     conn.close()
 
 def display_welcome():
-    console.print(Panel.fit("[bold cyan]🎓 ISTQB Foundation Level 4.0.1 - INTERAKTYWNY TRENER (V 1.3.0)[/bold cyan]\n"
-                            "Wersja Hybryda - MENTOR & BAZA WIEDZY",
+    console.print(Panel.fit("[bold cyan]🎓 ISTQB Foundation Level 4.0.1 - INTERAKTYWNY TRENER (V 1.3.1)[/bold cyan]\n"
+                            "Wersja Hybryda - Moduł Separacji Danych",
                             border_style="cyan"))
 
 def do_quiz_question(idx, total_qs, q_item):
-    """Pomocnicza funkcja obsługująca jedno pytanie (zwraca 1 za dobry, 0 za zły, lub -1 za wyjście)"""
     console.print(Panel(q_item['q'], title=f"[bold cyan]Pytanie {idx}/{total_qs}[/bold cyan]", border_style="yellow"))
     
-    # Checkbox dla pytań wielokrotnego wyboru!
     is_multi = len(q_item["ans_letters"]) > 1
     
     if is_multi:
@@ -96,9 +93,8 @@ def do_quiz_question(idx, total_qs, q_item):
         ).ask()
         
         if not answer:
-            return 0 # Pominięcie
+            return 0
             
-        # Zczytanie samych literek z tego co zaznaczyl
         selected_letters = [a.split(")")[0].strip().lower() for a in answer]
         selected_letters.sort()
         correct_sorted = sorted(q_item["ans_letters"])
@@ -111,7 +107,6 @@ def do_quiz_question(idx, total_qs, q_item):
             return 0
 
     else:
-        # Standardowy Pojedynczy wybór
         options = q_item["choices"] + ["🚪 Zakończ quiz i podlicz"]
         answer = questionary.select(
             "Wybierz poprawną odpowiedź (lub wyjdź):",
@@ -194,7 +189,6 @@ def exam_mode(data):
 
     for idx, q_item in enumerate(exam_qs):
         os.system('clear')
-        # Użycie funkcji pytającej z trybu nauki bez przycisku wychodzenia (dla wielokrotnego zadziala standardowo)
         console.print(Panel(q_item['q'], title=f"[bold red]Q {idx+1}/{len(exam_qs)}[/bold red]", border_style="red"))
         
         is_multi = len(q_item["ans_letters"]) > 1
@@ -282,22 +276,25 @@ def main():
         choice = questionary.select(
             "📍 Wybierz tryb działania:",
             choices=[
-                "📚 Tryb: BAZA WIEDZY i EDYTOR (Sylabus, Słownik, Pytania)",
-                "📖 Tryb: Interaktywna NAUKA (Szybkie Quizy by Rozdział)",
+                "📚 Tryb: BAZA WIEDZY (Czytanie Sylabusa i Słownika)",
+                "📖 Tryb: INTERAKTYWNA NAUKA (Szybkie Quizy by Rozdział)",
                 "🎓 Tryb: EGZAMIN (Seryjny mock egzaminacyjny v4.0.1)",
                 "📊 Tryb: STATYSTYKI (Moje postępy)",
+                "⚙️ Tryb: PANEL ADMINISTRATORA (Edycja Bazy & CRUD)",
                 "🚪 Wyjdź"
             ]
         ).ask()
 
         if choice and choice.startswith("📚"):
-            admin.admin_menu()
+            knowledge_base.kb_menu()
         elif choice and choice.startswith("📖"):
             learn_mode(db_data)
         elif choice and choice.startswith("🎓"):
             exam_mode(db_data)
         elif choice and choice.startswith("📊"):
             show_stats()
+        elif choice and choice.startswith("⚙️"):
+            admin.admin_menu()
         else:
             console.print("[bold cyan]Koniec treningu. Do zobaczenia jutro![/bold cyan]")
             break

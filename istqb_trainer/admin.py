@@ -13,11 +13,11 @@ def get_db():
 def admin_menu():
     while True:
         choice = questionary.select(
-            "⚙️ BAZA WIEDZY i EDYTOR (Panel Administratora)",
+            "⚙️ PANEL ADMINISTRATORA (Zarządzanie Danymi/CRUD)",
             choices=[
-                "1. Słownik Pojęć (Przegląd/Edycja)",
-                "2. Sylabus ISTQB (Czytanie/Edycja podrozdziałów)",
-                "3. Pytania Quizu (Zarządzanie/Edycja)",
+                "1. Słownik Pojęć (Edycja Definicji/Dodawanie)",
+                "2. Sylabus ISTQB (Edycja Treści/Dodawanie)",
+                "3. Pytania Quizu (Modyfikacja/Dodawanie/Kasacja)",
                 "4. 🚪 Wyjdź do Menu Głównego"
             ]
         ).ask()
