@@ -1,4 +1,4 @@
-# 🛡️ Quality Assurance Portfolio: ISTQB Interactive CLI Trainer
+# 🛡️ Quality Assurance Portfolio: ISTQB & SQL Interactive Trainers
 
 Witaj w moim repozytorium! Projekt, na który aktualnie patrzysz, został zbudowany od zera w ramach intensywnego, inżynieryjnego bootcampu QA. Celem repozytorium jest udowodnienie moich szerokich kompetencji na styku **Testowania Oprogramowania (QA)** oraz **Programowania w języku Python**.
 
@@ -54,3 +54,16 @@ Aby zobaczyć ten system w akcji, otwórz terminal w głównym katalogu pobraneg
 
 Przetestuj moje UI. Zerknij do kodu z komentarzami. Podejrzyj dziennik testów QA. 
 **Ta aplikacja nie udaje – ona jest twardym dowodem pasji i analitycznego podejścia Inżyniera. Dziękuję za wizytę na moim profilu GitHub!**
+
+---
+
+## 🐉 Moduł 2: Edukacyjny SQL Trainer (D&D Sandbox)
+
+Drugim potężnym narzędziem w tym repozytorium jest aplikacja terminalowa **SQL Trainer**. Jest to interaktywny symulator relacyjnych baz danych, zaprogramowany w estetyce gier RPG (Dungeons & Dragons), mający na celu łagodne i bezpieczne wprowadzanie w tajniki `SQL`.
+
+**Kluczowe innowacje trenera SQL:**
+- 🧙‍♂️ **Rozbudowane Uniwersum D&D**: Baza danych zaprojektowana jako fantastyczny świat z relacjonowanymi tabelkami takimi jak `Bohaterowie`, `Konie`, `Bestiariusz` czy `Kronika_Przygód`. Nauka SQL staje się przygodą.
+- 🛡️ **In-Memory DML Sandbox Evaluator**: Wysoce nowoczesny inżynieryjny filtr komend modyfikujących bazę (`INSERT`, `UPDATE`, `DELETE`). System pod spodem błyskawicznie klonuje w RAM (`:memory:`) natywną bazę danych. Komendy są wykonywane w izolacji od pliku źródłowego `D&D_sandbox.db` a modyfikacje analizowane przez masowe skanowanie tablic (Dual Table Audit). Efekt: 100% uodpornienia na błędy ucznia bez zawieszania aplikacji.
+- 📊 **UI bazujące na Textual**: Konsolowy, okienkowy interfejs symulujący środowiska IDE, z podświetlaniem składni i wsparciem na żywo.
+
+*(Obecnie zrealizowano migrację do systemu D&D na etapie rozdziałów R1-R5. Operacje DML, R6+ w trakcie).*

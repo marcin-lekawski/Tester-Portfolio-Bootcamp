@@ -27,25 +27,36 @@ class ISTQBParser:
         return None
 
     def get_answers_dict(self, answers_file):
-        """Map Q_NUM -> {ans: 'a', lo: 'FL-1.1.1'} by searching blocks. FIX FOR BUG #004"""
+        """Map Q_NUM -> {ans: 'a', lo: 'FL-1.1.1'} by searching blocks. FIX FOR BUG #004 / BIG DATA UPDATE"""
         ans_dict = {}
         with open(answers_file, 'r', encoding='utf-8') as f:
             lines = [l.strip() for l in f.read().splitlines() if l.strip()]
 
-        for i in range(len(lines)-1):
+        for i in range(len(lines)):
             if lines[i].isdigit() and 1 <= int(lines[i]) <= 40:
-                ans_str = lines[i+1].replace(" ", "")
-                if re.match(r"^[a-eA-E](?:,[a-eA-E])*$", ans_str):
-                    # Znalaziono cyfre + w kolejnej linijce literki: mamy komplet! Szukamy FL- na dystansie 40 linijek
+                # Szukaj litery odpowiedzi do 5 linii w dół (Ominięcie: "Poprawna", "odpowiedź")
+                ans_str = ""
+                ans_j = 0
+                for j in range(1, 6):
+                    if i + j < len(lines):
+                        cand = lines[i+j].replace(" ", "").lower()
+                        # Wyłap 'a', 'b', 'c', lub wielokrotne np. 'a,c'
+                        if re.match(r"^[a-e](?:,[a-e])*$", cand):
+                            ans_str = cand
+                            ans_j = i + j
+                            break
+                            
+                if ans_str:
                     lo = "FL-1.1.1" # Domyślny fallback
-                    for j in range(1, 40):
-                        if i+j < len(lines):
-                            if "FL-" in lines[i+j]:
-                                lo_match = re.search(r"FL-\d+\.\d+(\.\d+)?", lines[i+j])
+                    # Poszukaj FL- aż do następnego pytania (np max 60 linii w dół)
+                    for k in range(1, 60):
+                        if ans_j + k < len(lines):
+                            if "FL-" in lines[ans_j + k]:
+                                lo_match = re.search(r"FL-\d+\.\d+(\.\d+)?", lines[ans_j + k])
                                 if lo_match:
                                     lo = lo_match.group(0)
                                     break
-                    ans_dict[int(lines[i])] = {"ans": ans_str.lower(), "lo": lo}
+                    ans_dict[int(lines[i])] = {"ans": ans_str, "lo": lo}
         return ans_dict
 
     def parse_mock_exam(self, questions_file, answers_file, source_name):
@@ -193,6 +204,18 @@ class ISTQBParser:
         a_file_b = os.path.join(TEORIA_PATH, "CTFL_4.0_Pytania_przykladowe_odpowiedzi_zbior_B_w.1.6_w.1.0.0.5-PL.txt")
         if os.path.exists(q_file_b) and os.path.exists(a_file_b):
             self.parse_mock_exam(q_file_b, a_file_b, "Zbiór B")
+            
+        # Zbior C
+        q_file_c = os.path.join(TEORIA_PATH, "CTFL_4.0_Pytania_przykladowe_zbior_C_w.1.51.0.0.4-PL.txt")
+        a_file_c = os.path.join(TEORIA_PATH, "CTFL_4.0_Pytania_przykladowe_odpowiedzi_zbior_C_w.1.5_w.1.0.0.4-PL.txt")
+        if os.path.exists(q_file_c) and os.path.exists(a_file_c):
+            self.parse_mock_exam(q_file_c, a_file_c, "Zbiór C")
+            
+        # Zbior D
+        q_file_d = os.path.join(TEORIA_PATH, "CTFL_4.0_Pytania_przykladowe_zbior_Dw-1.4_1.0.0.3-PL.txt")
+        a_file_d = os.path.join(TEORIA_PATH, "CTFL_4.0_pytania_przykladowe_odpowiedzi_zbior_D_w.1.4_1.0.0.2-PL.txt")
+        if os.path.exists(q_file_d) and os.path.exists(a_file_d):
+            self.parse_mock_exam(q_file_d, a_file_d, "Zbiór D")
 
         self.conn.close()
 
